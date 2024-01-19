@@ -1,0 +1,583 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+  <title>Tinyofferz The offer That Will Help You Think Outside the Box</title>
+  <!--===============================
+  =            CSS Links            =
+  ================================-->
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/swiper-bundle.min.css">
+  <link rel="icon" href="./images/logo/favicon.svg">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/responsive.css">
+  <!--====  End of CSS Links  ====-->
+</head>
+
+<body>
+  <!--============================
+  =            Header            =
+  =============================-->
+  <header>
+    <div class="primary_header">
+      <div class="container">
+        <div class="prim_header_main">
+          <div class="prim_header_item">
+            <nav>
+              <ul class="menu">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="store.html" class="active">Store</a></li>
+                <li><a href="about.html">About us</a></li>
+                <li><a href="categories.html">Categories</a></li>
+                <li><a href="contact.html">contact</a></li>
+              </ul>
+              <button class="btn menu_btn">
+                <i class="ph-bold ph-list"></i>
+              </button>
+            </nav>
+          </div>
+          <div class="prim_header_item center">
+            <a href="index.html" class="logo">
+              <img src="images/logo/logo.svg" alt="">
+            </a>
+          </div>
+          <div class="prim_header_item end hide_992">
+            <a href="discount.html" class="btn">
+              <span>free delivery</span>
+              <i class="ph-duotone ph-truck"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="secondary_header">
+      <div class="container">
+        <div class="sec_header_main">
+          <form class="search">
+            <div class="search_wrapper">
+              <i class="ph-duotone ph-magnifying-glass"></i>
+              <input type="text" placeholder="Search stores & categories...">
+            </div>
+          </form>
+          <div class="social_icons header_socials hide_768">
+            <div class="icon facebook">
+              <figure>
+                <img src="images/socials/facebook.svg" alt="">
+              </figure>
+            </div>
+            <div class="icon twitter">
+              <i class="fa fa-twitter"></i>
+              <figure>
+                <img src="images/socials/twitter.svg" alt="">
+              </figure>
+            </div>
+            <div class="icon instagram">
+              <i class="fa fa-instagram"></i>
+              <figure>
+                <img src="images/socials/instagram.svg" alt="">
+              </figure>
+            </div>
+            <div class="icon google_plus">
+              <i class="fa fa-google-plus"></i>
+              <figure>
+                <img src="images/socials/google_plus.svg" alt="">
+              </figure>
+            </div>
+            <div class="icon linkedin">
+              <i class="fa fa-linkedin"></i>
+              <figure>
+                <img src="images/socials/linkedin.svg" alt="">
+              </figure>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+  <!--====  End of Header  ====-->
+  <!--===================================
+  =            Custom modal            =
+  ====================================-->
+  <div class="modal fade" id="cpn_modal">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="custom_modal_wrapper">
+          <div class="close_btn close" data-bs-dismiss="modal" aria-bs-label="Close">
+            <button>
+              <i class="ph-fill ph-x-circle"></i>
+            </button>
+          </div>
+          <div class="modal_head">
+            <figure class="modal_img">
+              <img src="images/stores/store_1.webp" alt="">
+            </figure>
+            <div class="verified">
+              <i class="ph-duotone ph-seal-check"></i>
+              <span>verified</span>
+            </div>
+          </div>
+          <div class="modal_body">
+            <h5>Extra 15% Off on Home Decor - Weekend Special!</h5>
+            <p><strong>SAVE10</strong> to get 10% off on your next purchase.</p>
+            <a href="#">visit store</a>
+          </div>
+          <div class="modal_footer hide_768">
+            <div class="modal_expiry">
+              <span class="expire_text">expire on</span>
+              <time datetime="2008-02-14">
+                <span class="date">14</span>
+                <span class="month">february</span>
+              </time>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!--====  End of Custom modal  ====-->
+  <!--==================================
+  =            Main Content            =
+  ===================================-->
+  <main>
+    <section class="single_store_panel">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <div class="sngle_str_pnl_container">
+              <figure>
+                <img src="images/stores/store_1.webp" alt="">
+              </figure>
+              <div class="sngle_str_pnl">
+                <h3 class="str_panel_title">bookstone coupon - jul 2022</h3>
+                <p class="str_penl_text">Pick up all the most recent discount codes and savings for Brookstone. Receive fast discounts at brookstone.com using working coupons for July 2022 and August 2022</p>
+              </div>
+              <a href="#" class="btn">
+                <span>visit store</span>
+                <i class="ph-duotone ph-arrow-square-out"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="single_store bg_color">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <div class="single_store_container">
+              <div class="sngle_str_sidebar">
+                <div class="sngle_str_side_item str_profile">
+                  <div class="rate_container">
+                    <div class="rating_emoji">
+                      <i class="emoji_single active ph-duotone ph-heart"></i>
+                      <i class="emoji_single ph-duotone ph-smiley-sad" id="sad"></i>
+                      <i class="emoji_single ph-duotone ph-smiley-blank" id="blank"></i>
+                      <i class="emoji_single ph-duotone ph-smiley-meh" id="meh"></i>
+                      <i class="emoji_single ph-duotone ph-smiley" id="smile"></i>
+                      <i class="emoji_single ph-duotone ph-smiley-wink" id="smileyWink"></i>
+                    </div>
+                    <div class="stars">
+                      <a href="#" id="blank">
+                        <i class="ph-duotone ph-star"></i>
+                      </a>
+                      <a href="#" id="sad">
+                        <i class="ph-duotone ph-star"></i>
+                      </a>
+                      <a href="#" id="meh">
+                        <i class="ph-duotone ph-star"></i>
+                      </a>
+                      <a href="#" id="smile">
+                        <i class="ph-duotone ph-star"></i>
+                      </a>
+                      <a href="#" id="smileyWink">
+                        <i class="ph-duotone ph-star"></i>
+                      </a>
+                    </div>
+                    <p class="rating_dis">Rated 5 Stars, 2 Votes</p>
+                  </div>
+                </div>
+                <div class="sngle_str_side_item">
+                  <h4 class="sngl_side_heading">About</h4>
+                  <p>When browsing through Offers on our site, you might come across a button like this one:</p>
+                </div>
+                <div class="sngle_str_side_item">
+                  <h4 class="sngl_side_heading">filters</h4>
+                  <div class="verified_filter">
+                    <p class="verified_filter_text" id="verified">verified only</p>
+                    <label for="verified" class="verified_btn"></label>
+                  </div>
+                  <div class="verified_filter">
+                    <p class="verified_filter_text" id="verified">All offers</p>
+                    <label for="verified" class="verified_btn"></label>
+                  </div>
+                  <div class="verified_filter">
+                    <p class="verified_filter_text" id="verified">Deal offers</p>
+                    <label for="verified" class="verified_btn"></label>
+                  </div>
+                  <div class="verified_filter">
+                    <p class="verified_filter_text" id="verified">Code offers</p>
+                    <label for="verified" class="verified_btn"></label>
+                  </div>
+                </div>
+                <div class="sngle_str_side_item">
+                  <h4 class="sngl_side_heading">popular categories</h4>
+                  <div class="sngle_tab">
+                    <a href="#" class="sngle_tab_item">Accessories</a>
+                    <a href="#" class="sngle_tab_item">Children's Fashion</a>
+                    <a href="#" class="sngle_tab_item">Jewellery &amp; Watches</a>
+                    <a href="#" class="sngle_tab_item">Men's Fashion</a>
+                    <a href="#" class="sngle_tab_item">Women's Fashion</a>
+                    <a href="#" class="sngle_tab_item">Shoes</a>
+                    <a href="#" class="sngle_tab_item">Lingerie</a>
+                  </div>
+                </div>
+              </div>
+              <div class="cpn_container">
+                <div class="ft_coupon">
+                  <div class="ft_cpn_content">
+                    <div class="ft_cpn_head">
+                      <figure class="ft_store_img">
+                        <img src="images/stores/store_1.webp" alt="">
+                      </figure>
+                      <h6 class="ft_cpn_title webkit_box">Flat 20% Off on Your Next Purchase - Limited Time Offer!</h6>
+                    </div>
+                    <div class="ft_cpn_body">
+                      <p class="ft_description webkit_box">Unlock substantial savings with a flat 20% off on your next purchase at Gadget Haven. Act fast—this limited-time offer won't last forever!</p>
+                      <div class="ft_cpn_detail">
+                        <div class="ft_cpn_detail_item expire">
+                          <i class="ph-duotone ph-clock-countdown"></i>
+                          <span>12/2/2023</span>
+                        </div>
+                        <div class="ft_cpn_detail_item users">
+                          <i class="ph-duotone ph-user-circle"></i>
+                          <span>20 users</span>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="ft_cpn_footer">
+                      <div class="verified">
+                        <i class="ph-duotone ph-seal-check"></i>
+                        <span>varified</span>
+                      </div>
+                      <a href="single_store.html" class="ft_get_code btn" data-bs-toggle="modal" data-bs-target="#cpn_modal">
+                        <span>get code</span>
+                        <i class="ph-duotone ph-arrow-right"></i>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+                <!-- Coupon Card 1 -->
+                <div class="ft_coupon">
+                  <div class="ft_cpn_content">
+                    <div class="ft_cpn_head">
+                      <figure class="ft_store_img">
+                        <img src="images/stores/store_1.webp" alt="Store Image">
+                      </figure>
+                      <h6 class="ft_cpn_title webkit_box">Flat $10 Off on Your First Order - Exclusive Deal!</h6>
+                    </div>
+                    <div class="ft_cpn_body">
+                      <p class="ft_description webkit_box">Don't miss out on this exclusive deal! Get a flat $10 off on your first order at Fashion Trends. Upgrade your wardrobe without breaking the bank!</p>
+                      <div class="ft_cpn_detail">
+                        <div class="ft_cpn_detail_item expire">
+                          <i class="ph-duotone ph-clock-countdown"></i>
+                          <span>12/15/2023</span>
+                        </div>
+                        <div class="ft_cpn_detail_item users">
+                          <i class="ph-duotone ph-user-circle"></i>
+                          <span>50 users</span>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="ft_cpn_footer">
+                      <div class="verified">
+                        <i class="ph-duotone ph-seal-check"></i>
+                        <span>varified</span>
+                      </div>
+                      <a href="single_store.html" class="ft_get_code btn" data-bs-toggle="modal" data-bs-target="#cpn_modal">
+                        <span>get code</span>
+                        <i class="ph-duotone ph-arrow-right"></i>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+                <!-- Coupon Card 2 -->
+                <div class="ft_coupon">
+                  <div class="ft_cpn_content">
+                    <div class="ft_cpn_head">
+                      <figure class="ft_store_img">
+                        <img src="images/stores/store_2.webp" alt="Store Image">
+                      </figure>
+                      <h6 class="ft_cpn_title webkit_box">Buy One, Get One Free on All Books - Limited Time!</h6>
+                    </div>
+                    <div class="ft_cpn_body">
+                      <p class="ft_description webkit_box">Explore the world of literature with our special offer! Buy one book and get another one for free at Bookworm Paradise. Limited time only, so grab your favorites now!</p>
+                      <div class="ft_cpn_detail">
+                        <div class="ft_cpn_detail_item expire">
+                          <i class="ph-duotone ph-clock-countdown"></i>
+                          <span>12/10/2023</span>
+                        </div>
+                        <div class="ft_cpn_detail_item users">
+                          <i class="ph-duotone ph-user-circle"></i>
+                          <span>30 users</span>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="ft_cpn_footer">
+                      <div class="verified">
+                        <i class="ph-duotone ph-seal-check"></i>
+                        <span>varified</span>
+                      </div>
+                      <a href="single_store.html" class="ft_get_code btn" data-bs-toggle="modal" data-bs-target="#cpn_modal">
+                        <span>get code</span>
+                        <i class="ph-duotone ph-arrow-right"></i>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+                <!-- Coupon Card 3 -->
+                <div class="ft_coupon">
+                  <div class="ft_cpn_content">
+                    <div class="ft_cpn_head">
+                      <figure class="ft_store_img">
+                        <img src="images/stores/store_3.webp" alt="Store Image">
+                      </figure>
+                      <h6 class="ft_cpn_title webkit_box">Extra 15% Off on Home Decor - Weekend Special!</h6>
+                    </div>
+                    <div class="ft_cpn_body">
+                      <p class="ft_description webkit_box">Give your home a makeover with our weekend special offer! Enjoy an extra 15% off on all home decor items at Interior Bliss. Upgrade your living space now!</p>
+                      <div class="ft_cpn_detail">
+                        <div class="ft_cpn_detail_item expire">
+                          <i class="ph-duotone ph-clock-countdown"></i>
+                          <span>12/5/2023</span>
+                        </div>
+                        <div class="ft_cpn_detail_item users">
+                          <i class="ph-duotone ph-user-circle"></i>
+                          <span>40 users</span>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="ft_cpn_footer">
+                      <div class="verified">
+                        <i class="ph-duotone ph-seal-check"></i>
+                        <span>varified</span>
+                      </div>
+                      <a href="single_store.html" class="ft_get_code btn" data-bs-toggle="modal" data-bs-target="#cpn_modal">
+                        <span>get code</span>
+                        <i class="ph-duotone ph-arrow-right"></i>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+  <!--====  End of Main Content  ====-->
+  <!--============================
+  =            Footer            =
+  =============================-->
+  <footer class="footer">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <div class="footer_container">
+            <div class="footer_wrpr">
+              <div class="footer_wrpr_item">
+                <div class="popular_posts">
+                  <div class="post_box">
+                    <i class="ph-duotone ph-storefront"></i>
+                    <div class="post_box_content">
+                      <h4 class="stats_number">Merchants</h4>
+                      <p>We've Partnered With Over 3576+ Merchants</p>
+                    </div>
+                  </div>
+                  <div class="post_box">
+                    <i class="ph-duotone ph-briefcase"></i>
+                    <div class="post_box_content">
+                      <h4 class="stats_number">Categories</h4>
+                      <p>We Have More Than 83+ Categories To Choose From</p>
+                    </div>
+                  </div>
+                  <div class="post_box">
+                    <i class="ph-duotone ph-users-three"></i>
+                    <div class="post_box_content">
+                      <h4 class="stats_number">Users</h4>
+                      <p>We're A Growing Family Of Over 342+ Users Daily</p>
+                    </div>
+                  </div>
+                  <div class="post_box">
+                    <i class="ph-duotone ph-ticket"></i>
+                    <div class="post_box_content">
+                      <h4 class="stats_number">coupon</h4>
+                      <p>We Offer A Wide Range Of Over 556164+ Coupons</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="footer_wrpr_item">
+                <div class="ftr_profile">
+                  <a href="#" class="logo">
+                    <img src="images/logo/logo.svg" alt="">
+                  </a>
+                  <p class="ftr_dis">Disclaimer: "We may earn a commission when you use one of our coupons/links to make a purchase."</p>
+                  <div class="social_icons">
+                    <div class="icon facebook">
+                      <figure>
+                        <img src="images/socials/facebook.svg" alt="">
+                      </figure>
+                    </div>
+                    <div class="icon twitter">
+                      <i class="fa fa-twitter"></i>
+                      <figure>
+                        <img src="images/socials/twitter.svg" alt="">
+                      </figure>
+                    </div>
+                    <div class="icon instagram">
+                      <i class="fa fa-instagram"></i>
+                      <figure>
+                        <img src="images/socials/instagram.svg" alt="">
+                      </figure>
+                    </div>
+                    <div class="icon google_plus">
+                      <i class="fa fa-google-plus"></i>
+                      <figure>
+                        <img src="images/socials/google_plus.svg" alt="">
+                      </figure>
+                    </div>
+                    <div class="icon linkedin">
+                      <i class="fa fa-linkedin"></i>
+                      <figure>
+                        <img src="images/socials/linkedin.svg" alt="">
+                      </figure>
+                    </div>
+                  </div>
+                </div>
+                <div class="ftr_links">
+                  <ul class="ftr_links_wrpr">
+                    <h2 class="ftr_heading">Quick Links</h2>
+                    <li>
+                      <a href="index.html">
+                        <i class="ph-duotone ph-caret-double-right"></i>
+                        <span>Home</span>
+                      </a>
+                    </li>
+                    <li>
+                      <a href="store.html">
+                        <i class="ph-duotone ph-caret-double-right"></i>
+                        <span>Store</span>
+                      </a>
+                    </li>
+                    <li>
+                      <a href="about-us.html">
+                        <i class="ph-duotone ph-caret-double-right"></i>
+                        <span>About Us</span>
+                      </a>
+                    </li>
+                    <li>
+                      <a href="categories.html">
+                        <i class="ph-duotone ph-caret-double-right"></i>
+                        <span>Categories</span>
+                      </a>
+                    </li>
+                    <li>
+                      <a href="contact.html">
+                        <i class="ph-duotone ph-caret-double-right"></i>
+                        <span>Contact</span>
+                      </a>
+                    </li>
+                  </ul>
+                  <ul class="ftr_links_wrpr">
+                    <h2 class="ftr_heading">Popular Stores</h2>
+                    <li>
+                      <a href="amazon.html">
+                        <i class="ph-duotone ph-caret-double-right"></i>
+                        <span>Amazon</span>
+                      </a>
+                    </li>
+                    <li>
+                      <a href="walmart.html">
+                        <i class="ph-duotone ph-caret-double-right"></i>
+                        <span>Walmart</span>
+                      </a>
+                    </li>
+                    <li>
+                      <a href="target.html">
+                        <i class="ph-duotone ph-caret-double-right"></i>
+                        <span>Target</span>
+                      </a>
+                    </li>
+                    <li>
+                      <a href="best-buy.html">
+                        <i class="ph-duotone ph-caret-double-right"></i>
+                        <span>Best Buy</span>
+                      </a>
+                    </li>
+                    <li>
+                      <a href="macy's.html">
+                        <i class="ph-duotone ph-caret-double-right"></i>
+                        <span>Macy's</span>
+                      </a>
+                    </li>
+                  </ul>
+                  <ul class="ftr_links_wrpr">
+                    <h2 class="ftr_heading">Popular Categories</h2>
+                    <li>
+                      <a href="electronics.html">
+                        <i class="ph-duotone ph-caret-double-right"></i>
+                        <span>Electronics</span>
+                      </a>
+                    </li>
+                    <li>
+                      <a href="clothing.html">
+                        <i class="ph-duotone ph-caret-double-right"></i>
+                        <span>Clothing</span>
+                      </a>
+                    </li>
+                    <li>
+                      <a href="home-furniture.html">
+                        <i class="ph-duotone ph-caret-double-right"></i>
+                        <span>Home & Furniture</span>
+                      </a>
+                    </li>
+                    <li>
+                      <a href="travel.html">
+                        <i class="ph-duotone ph-caret-double-right"></i>
+                        <span>Travel</span>
+                      </a>
+                    </li>
+                    <li>
+                      <a href="health-beauty.html">
+                        <i class="ph-duotone ph-caret-double-right"></i>
+                        <span>Health & Beauty</span>
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="footer_copyright">
+      <p>Copyright 2022 © All Rights Reserved. | Created &amp; Managed By Techonza.</p>
+    </div>
+  </footer>
+  <!--====  End of Footer  ====-->
+  <!--==============================
+  =            Js Links            =
+  ===============================-->
+  <script src="js/jquery.js"></script>
+  <script src="js/bootstrap.bundle.min.js"></script>
+  <script src="js/swiper.bundle.min.js"></script>
+  <script src="js/phosphor-icon.js"></script>
+  <script src="js/custom.js"></script>
+  <!--====  End of Js Links  ====-->
+</body>
+
+</html>

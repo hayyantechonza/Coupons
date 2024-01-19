@@ -1,0 +1,1101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Coupon Blog 1st</title>
+   <!-- Latest compiled and minified CSS -->
+   <link rel="stylesheet" href="css/bootstrap.css">
+   <!-- JQuery js CDN -->
+   <script src="jQuery/jquery.js"></script>
+   <!-- bootstrap js CDN -->
+   <script src="jQuery/bootstrap.js"></script>
+   <!-- stylesheet -->
+   <link rel="stylesheet" href="css/style.css">
+   <!-- responsive <-->
+   <link rel="stylesheet" href="css/responsive.css">
+   <!-- swipper -->
+   <link rel="stylesheet" href="css/swiper-bundle.min.css" />
+   <!-- fontawesome -->
+   <link rel="stylesheet" href="css/font-awesome.min.css">
+   <!-- icon -->
+   <link type="image/png" sizes="32x32" rel="icon" href="images/favicon.svg">
+</head>
+
+<body>
+   <!-- ////////////////////////   Header   ////////////////////// -->
+   <header>
+      <section class="header">
+         <div class="container">
+            <div class="row">
+               <div class="col-md-12">
+                  <div class="header_container">
+                     <a href="index.html" class="logo_container">
+                        <img src="images/logo.svg" alt="">
+                     </a>
+                     <div class="form_main">
+                        <form class="search_form">
+                           <svg xmlns="http://www.w3.org/2000/svg" width="44" height="44" viewBox="0 0 24 24" stroke-width="1.5" stroke="#2c3e50" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                              <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                              <circle cx="10" cy="10" r="7"></circle>
+                              <line x1="21" y1="21" x2="15" y2="15"></line>
+                           </svg>
+                           <input type="text" class="input" required="" placeholder="What do you want to buy today? Search retailer or website name">
+                           <button class="search_btn">search</button>
+                           <div class="search_result">
+                              <h3>Enter Keywords To Search</h3>
+                              <div class="search_result_ul">
+                                 <a href="single_store.html">
+                                    <div class="web_imagebox">
+                                       <img class="img-responsive" src="images/stores/store_1.webp">
+                                    </div>
+                                    <div class="li-detail">
+                                       <div class="store-name webkit_box">Abbott Lyon</div>
+                                       <div class="store-info">30 Offers</div>
+                                    </div>
+                                 </a>
+                                 <a href="single_store.html">
+                                    <div class="web_imagebox">
+                                       <img class="img-responsive" src="images/stores/store_2.webp">
+                                    </div>
+                                    <div class="li-detail">
+                                       <div class="store-name webkit_box">hp</div>
+                                       <div class="store-info">20 Offers</div>
+                                    </div>
+                                 </a>
+                                 <a href="single_store.html">
+                                    <div class="web_imagebox">
+                                       <img class="img-responsive" src="images/stores/store_3.webp">
+                                    </div>
+                                    <div class="li-detail">
+                                       <div class="store-name webkit_box">Nike</div>
+                                       <div class="store-info">15 Offers</div>
+                                    </div>
+                                 </a>
+                                 <a href="single_store.html">
+                                    <div class="web_imagebox">
+                                       <img class="img-responsive" src="images/stores/store_4.webp">
+                                    </div>
+                                    <div class="li-detail">
+                                       <div class="store-name webkit_box">Adidas</div>
+                                       <div class="store-info">25 Offers</div>
+                                    </div>
+                                 </a>
+                                 <a href="single_store.html">
+                                    <div class="web_imagebox">
+                                       <img class="img-responsive" src="images/stores/store_5.webp">
+                                    </div>
+                                    <div class="li-detail">
+                                       <div class="store-name webkit_box">Apple</div>
+                                       <div class="store-info">10 Offers</div>
+                                    </div>
+                                 </a>
+                                 <a href="single_store.html">
+                                    <div class="web_imagebox">
+                                       <img class="img-responsive" src="images/stores/store_6.webp">
+                                    </div>
+                                    <div class="li-detail">
+                                       <div class="store-name webkit_box">Amazon</div>
+                                       <div class="store-info">30 Offers</div>
+                                    </div>
+                                 </a>
+                                 <a href="single_store.html">
+                                    <div class="web_imagebox">
+                                       <img class="img-responsive" src="images/stores/store_7.webp">
+                                    </div>
+                                    <div class="li-detail">
+                                       <div class="store-name webkit_box">Sephora</div>
+                                       <div class="store-info">20 Offers</div>
+                                    </div>
+                                 </a>
+                                 <a href="single_store.html">
+                                    <div class="web_imagebox">
+                                       <img class="img-responsive" src="images/stores/store_8.webp">
+                                    </div>
+                                    <div class="li-detail">
+                                       <div class="store-name webkit_box">Target</div>
+                                       <div class="store-info">15 Offers</div>
+                                    </div>
+                                 </a>
+                                 <a href="single_store.html">
+                                    <div class="web_imagebox">
+                                       <img class="img-responsive" src="images/stores/store_9.webp">
+                                    </div>
+                                    <div class="li-detail">
+                                       <div class="store-name webkit_box">Macy's</div>
+                                       <div class="store-info">10 Offers</div>
+                                    </div>
+                                 </a>
+                              </div>
+                           </div>
+                        </form>
+                     </div>
+                     <div class="nav_link">
+                        <a href="discount.html" class="home_icon">
+                           <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true" class="w-6 h-6">
+                              <path stroke-linecap="round" stroke-linejoin="round" d="M8.25 18.75a1.5 1.5 0 0 1-3 0m3 0a1.5 1.5 0 0 0-3 0m3 0h6m-9 0H3.375a1.125 1.125 0 0 1-1.125-1.125V14.25m17.25 4.5a1.5 1.5 0 0 1-3 0m3 0a1.5 1.5 0 0 0-3 0m3 0h1.125c.621 0 1.129-.504 1.09-1.124a17.902 17.902 0 0 0-3.213-9.193 2.056 2.056 0 0 0-1.58-.86H14.25M16.5 18.75h-2.25m0-11.177v-.958c0-.568-.422-1.048-.987-1.106a48.554 48.554 0 0 0-10.026 0 1.106 1.106 0 0 0-.987 1.106v7.635m12-6.677v6.677m0 4.5v-4.5m0 0h-12" /></svg>
+                           <p class="home">free delivery</p>
+                        </a>
+                        <a href="discount.html" class="home_icon">
+                           <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                              <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                              <path d="M9 15l6 -6"></path>
+                              <circle cx="9.5" cy="9.5" r=".5" fill="currentColor"></circle>
+                              <circle cx="14.5" cy="14.5" r=".5" fill="currentColor"></circle>
+                              <path d="M12 12m-9 0a9 9 0 1 0 18 0a9 9 0 1 0 -18 0"></path>
+                           </svg>
+                           <p class="home">20% off</p>
+                        </a>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </section>
+      <section class="header_1">
+         <div class="container">
+            <div class="row">
+               <div class="col-md-12">
+                  <div class="header_1_container">
+                     <div class="menu_toggler"><i class="fa fa-bars"></i></div>
+                     <div class="navigation menu">
+                        <svg xmlns=" http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-plus" width="44" height="44" viewBox="0 0 24 24" stroke-width="1.5" stroke="#2c3e50" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                           <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                           <line x1="12" y1="5" x2="12" y2="19"></line>
+                           <line x1="5" y1="12" x2="19" y2="12"></line>
+                        </svg>
+                        <a href="index.html" class="nav_item active">
+                           home
+                        </a>
+                        <a href="store.html" class="nav_item">
+                           all stores
+                        </a>
+                        <a href="contact.html" class="nav_item">
+                           contact
+                        </a>
+                        <a href="about.html" class="nav_item">
+                           about
+                        </a>
+                        <a href="store.html" class="nav_item res_link">
+                           all stores
+                        </a>
+                        <a href="categories.html" class="nav_item res_link">
+                           categories
+                        </a>
+                        <a href="discount.html" class="nav_item res_link">
+                           free delivery
+                        </a>
+                        <a href="discount.html" class="nav_item res_link">
+                           20% offers
+                        </a>
+                     </div>
+                     <a href="categories.html" class="nav_item cat_btn">
+                        Browse Categories
+                     </a>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </section>
+   </header>
+   <!-- ////////////////////////   Banner   ////////////////////// -->
+   <section class="index2_banner">
+      <div class="container">
+         <div class="row">
+            <div class="col-md-12">
+               <h2 class="main_heading">Savingalley have some special Offers for You</h2>
+               <div class="bnr_container">
+                  <div class="bnr_item">
+                     <a href="#" class="lazy " data-src="images/banners/banner_1.webp"></a>
+                     <div class="bnr_item_content">
+                        <h3 class="bnr_dis_tags">35% off</h3>
+                        <a href="single_store.html" class="bnr_heading">Big Savings! Get 20% off your entire purchase</a><a href="single_store.html" class="str_link btn">bookstone coupon</a>
+                     </div>
+                  </div>
+                  <div class="bnr_item">
+                     <a href="#" class="lazy " data-src="images/banners/banner_2.webp"></a>
+                     <div class="bnr_item_content">
+                        <h3 class="bnr_dis_tags">50% off</h3>
+                        <a href="single_store.html" class="bnr_heading">Limited time offer: 20% off everything on our site</a><a href="single_store.html" class="str_link btn">bookstone coupon</a>
+                     </div>
+                  </div>
+                  <div class="bnr_item">
+                     <a href="#" class="lazy " data-src="images/banners/banner_3.webp"></a>
+                     <div class="bnr_item_content">
+                        <h3 class="bnr_dis_tags">55% off</h3>
+                        <a href="single_store.html" class="bnr_heading">Get 20% off all products with promo code SAVE20</a><a href="single_store.html" class="str_link btn">bookstone coupon</a>
+                     </div>
+                  </div>
+                  <div class="bnr_item">
+                     <a href="#" class="lazy " data-src="images/banners/banner_4.webp"></a>
+                     <div class="bnr_item_content">
+                        <h3 class="bnr_dis_tags">15% off</h3>
+                        <a href="single_store.html" class="bnr_heading">Save big today! Get 20% off your entire order</a><a href="single_store.html" class="str_link btn">bookstone coupon</a>
+                     </div>
+                  </div>
+                  <div class="bnr_item">
+                     <a href="#" class="lazy " data-src="images/banners/banner_5.webp"></a>
+                     <div class="bnr_item_content">
+                        <h3 class="bnr_dis_tags">65% off</h3>
+                        <a href="single_store.html" class="bnr_heading">Use code SAVE20 and get 20% off your entire purchase</a><a href="single_store.html" class="str_link btn">bookstone coupon</a>
+                     </div>
+                  </div>
+                  <div class="bnr_item">
+                     <a href="#" class="lazy " data-src="images/banners/banner_6.webp"></a>
+                     <div class="bnr_item_content">
+                        <h3 class="bnr_dis_tags">16% off</h3>
+                        <a href="single_store.html" class="bnr_heading">Don't miss out! 20% off all orders for a limited time</a><a href="single_store.html" class="str_link btn">bookstone coupon</a>
+                     </div>
+                  </div>
+                  <div class="bnr_item">
+                     <a href="#" class="lazy " data-src="images/banners/banner_7.webp"></a>
+                     <div class="bnr_item_content">
+                        <h3 class="bnr_dis_tags">25% off</h3>
+                        <a href="single_store.html" class="bnr_heading">Exclusive offer: Get 20% off your order today</a><a href="single_store.html" class="str_link btn">bookstone coupon</a>
+                     </div>
+                  </div>
+                  <div class="bnr_item">
+                     <a href="#" class="lazy " data-src="images/banners/banner_8.webp"></a>
+                     <div class="bnr_item_content">
+                        <h3 class="bnr_dis_tags">50% off</h3>
+                        <a href="single_store.html" class="bnr_heading">Get 20% off and free shipping on orders over $50</a><a href="single_store.html" class="str_link btn">bookstone coupon</a>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+   </section>
+   <!-- ////////////////////////   store   ////////////////////// -->
+   <section class="home_str bg_color">
+      <div class="container">
+         <div class="row">
+            <div class="col-md-12">
+               <h2 class="main_heading">popular stores</h2>
+               <div class="popular_store_container">
+                  <a href="single_store.html" class="pop_str">
+                     <div class="web_imagebox"><img src="images/stores/store_1.webp" alt="" class="lazy" style=""></div>
+                     <div class="pop_str_content">
+                        <p class="webkit_box">jd sports</p>
+                        <p class="webkit_box">50 offers</p>
+                     </div>
+                  </a>
+                  <a href="single_store.html" class="pop_str">
+                     <div class="web_imagebox"><img src="images/stores/store_2.webp" alt="" class="lazy" style=""></div>
+                     <div class="pop_str_content">
+                        <p class="webkit_box">Anns Cottage</p>
+                        <p class="webkit_box">20 offers</p>
+                     </div>
+                  </a>
+                  <a href="single_store.html" class="pop_str">
+                     <div class="web_imagebox"><img src="images/stores/store_3.webp" alt="" class="lazy"></div>
+                     <div class="pop_str_content">
+                        <p class="webkit_box">Nike</p>
+                        <p class="webkit_box">40 offers</p>
+                     </div>
+                  </a>
+                  <a href="single_store.html" class="pop_str">
+                     <div class="web_imagebox"><img src="images/stores/store_4.webp" alt="" class="lazy"></div>
+                     <div class="pop_str_content">
+                        <p class="webkit_box">Adidas</p>
+                        <p class="webkit_box">30 offers</p>
+                     </div>
+                  </a>
+                  <a href="single_store.html" class="pop_str">
+                     <div class="web_imagebox"><img src="images/stores/store_5.webp" alt="" class="lazy"></div>
+                     <div class="pop_str_content">
+                        <p class="webkit_box">Under Armour</p>
+                        <p class="webkit_box">15 offers</p>
+                     </div>
+                  </a>
+                  <a href="single_store.html" class="pop_str">
+                     <div class="web_imagebox"><img src="images/stores/store_6.webp" alt="" class="lazy"></div>
+                     <div class="pop_str_content">
+                        <p class="webkit_box">Reebok</p>
+                        <p class="webkit_box">25 offers</p>
+                     </div>
+                  </a>
+                  <a href="single_store.html" class="pop_str">
+                     <div class="web_imagebox"><img src="images/stores/store_7.webp" alt="" class="lazy"></div>
+                     <div class="pop_str_content">
+                        <p class="webkit_box">Puma</p>
+                        <p class="webkit_box">20 offers</p>
+                     </div>
+                  </a>
+                  <a href="single_store.html" class="pop_str">
+                     <div class="web_imagebox"><img src="images/stores/store_8.webp" alt="" class="lazy"></div>
+                     <div class="pop_str_content">
+                        <p class="webkit_box">New Balance</p>
+                        <p class="webkit_box">10 offers</p>
+                     </div>
+                  </a>
+                  <a href="single_store.html" class="pop_str">
+                     <div class="web_imagebox"><img src="images/stores/store_3.webp" alt="" class="lazy"></div>
+                     <div class="pop_str_content">
+                        <p class="webkit_box">Nike</p>
+                        <p class="webkit_box">40 offers</p>
+                     </div>
+                  </a>
+                  <a href="single_store.html" class="pop_str">
+                     <div class="web_imagebox"><img src="images/stores/store_4.webp" alt="" class="lazy"></div>
+                     <div class="pop_str_content">
+                        <p class="webkit_box">Adidas</p>
+                        <p class="webkit_box">30 offers</p>
+                     </div>
+                  </a>
+                  <a href="single_store.html" class="pop_str">
+                     <div class="web_imagebox"><img src="images/stores/store_5.webp" alt="" class="lazy"></div>
+                     <div class="pop_str_content">
+                        <p class="webkit_box">Under Armour</p>
+                        <p class="webkit_box">15 offers</p>
+                     </div>
+                  </a>
+                  <a href="single_store.html" class="pop_str">
+                     <div class="web_imagebox"><img src="images/stores/store_6.webp" alt="" class="lazy"></div>
+                     <div class="pop_str_content">
+                        <p class="webkit_box">Reebok</p>
+                        <p class="webkit_box">25 offers</p>
+                     </div>
+                  </a>
+                  <a href="single_store.html" class="pop_str">
+                     <div class="web_imagebox"><img src="images/stores/store_7.webp" alt="" class="lazy"></div>
+                     <div class="pop_str_content">
+                        <p class="webkit_box">Puma</p>
+                        <p class="webkit_box">20 offers</p>
+                     </div>
+                  </a>
+                  <a href="single_store.html" class="pop_str">
+                     <div class="web_imagebox"><img src="images/stores/store_8.webp" alt="" class="lazy"></div>
+                     <div class="pop_str_content">
+                        <p class="webkit_box">New Balance</p>
+                        <p class="webkit_box">10 offers</p>
+                     </div>
+                  </a>
+               </div>
+            </div>
+         </div>
+      </div>
+   </section>
+      <!-- ////////////////////////   Blogs   ////////////////////// -->
+   <section class="featured_blogs">
+      <div class="container">
+         <div class="row">
+            <div class="col-md-12">
+               <h4 class="main_heading">featured blogs</h4>
+               <div class="main_featured_blogs_container">
+                  <div class="featured_blogs_container">
+                     <div class="blog_item">
+                        <a href="#" class="blog_bg blend lazy" data-src="./images/blogs/blog_1.webp"></a>
+                        <div class="blog_content">
+                           <div class="blog_cat_tags bg_none"><a href="#" class="blog_cat_tag">travel</a><a href="#" class="blog_cat_tag">animal</a></div>
+                           <a href="single_blog.html" class="blog_title webkit_box">helpful tips for working from home as a freelancer</a>
+                           <div class="blog_post_dates blog_cat_tags bg_none">
+                              <p class="blog_post_date blog_cat_tag">26 August 2020</p>
+                              <p class="blog_post_date blog_cat_tag">18k Views</p>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="blog_item">
+                        <a href="#" class="blog_bg blend lazy" data-src="./images/blogs/blog_2.webp"></a>
+                        <div class="blog_content">
+                           <div class="blog_cat_tags bg_none"><a href="#" class="blog_cat_tag">travel</a><a href="#" class="blog_cat_tag">animal</a></div>
+                           <a href="single_blog.html" class="blog_title webkit_box">helpful tips for working from home as a freelancer</a>
+                           <div class="blog_post_dates blog_cat_tags bg_none">
+                              <p class="blog_post_date blog_cat_tag">26 August 2020</p>
+                              <p class="blog_post_date blog_cat_tag">18k Views</p>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="blog_item">
+                        <a href="#" class="blog_bg blend lazy" data-src="./images/blogs/blog_3.webp"></a>
+                        <div class="blog_content">
+                           <div class="blog_cat_tags bg_none"><a href="#" class="blog_cat_tag">travel</a><a href="#" class="blog_cat_tag">animal</a></div>
+                           <a href="single_blog.html" class="blog_title webkit_box">helpful tips for working from home as a freelancer</a>
+                           <div class="blog_post_dates blog_cat_tags bg_none">
+                              <p class="blog_post_date blog_cat_tag">26 August 2020</p>
+                              <p class="blog_post_date blog_cat_tag">18k Views</p>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="blog_item">
+                        <a href="#" class="blog_bg blend lazy" data-src="./images/blogs/blog_4.webp"></a>
+                        <div class="blog_content">
+                           <div class="blog_cat_tags bg_none"><a href="#" class="blog_cat_tag">travel</a><a href="#" class="blog_cat_tag">animal</a></div>
+                           <a href="single_blog.html" class="blog_title webkit_box">helpful tips for working from home as a freelancer</a>
+                           <div class="blog_post_dates blog_cat_tags bg_none">
+                              <p class="blog_post_date blog_cat_tag">26 August 2020</p>
+                              <p class="blog_post_date blog_cat_tag">18k Views</p>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="blog_item">
+                        <a href="#" class="blog_bg blend lazy" data-src="./images/blogs/blog_5.webp"></a>
+                        <div class="blog_content">
+                           <div class="blog_cat_tags bg_none"><a href="#" class="blog_cat_tag">travel</a><a href="#" class="blog_cat_tag">animal</a></div>
+                           <a href="single_blog.html" class="blog_title webkit_box">helpful tips for working from home as a freelancer</a>
+                           <div class="blog_post_dates blog_cat_tags bg_none">
+                              <p class="blog_post_date blog_cat_tag">26 August 2020</p>
+                              <p class="blog_post_date blog_cat_tag">18k Views</p>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="blog_item">
+                        <a href="#" class="blog_bg blend lazy" data-src="./images/blogs/blog_6.webp"></a>
+                        <div class="blog_content">
+                           <div class="blog_cat_tags bg_none"><a href="#" class="blog_cat_tag">travel</a><a href="#" class="blog_cat_tag">animal</a></div>
+                           <a href="single_blog.html" class="blog_title webkit_box">helpful tips for working from home as a freelancer</a>
+                           <div class="blog_post_dates blog_cat_tags bg_none">
+                              <p class="blog_post_date blog_cat_tag">26 August 2020</p>
+                              <p class="blog_post_date blog_cat_tag">18k Views</p>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="blog_item">
+                        <a href="#" class="blog_bg blend lazy" data-src="./images/blogs/blog_7.webp"></a>
+                        <div class="blog_content">
+                           <div class="blog_cat_tags bg_none"><a href="#" class="blog_cat_tag">travel</a><a href="#" class="blog_cat_tag">animal</a></div>
+                           <a href="single_blog.html" class="blog_title webkit_box">helpful tips for working from home as a freelancer</a>
+                           <div class="blog_post_dates blog_cat_tags bg_none">
+                              <p class="blog_post_date blog_cat_tag">26 August 2020</p>
+                              <p class="blog_post_date blog_cat_tag">18k Views</p>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="blog_item">
+                        <a href="#" class="blog_bg blend lazy" data-src="./images/blogs/blog_8.webp"></a>
+                        <div class="blog_content">
+                           <div class="blog_cat_tags bg_none"><a href="#" class="blog_cat_tag">travel</a><a href="#" class="blog_cat_tag">animal</a></div>
+                           <a href="single_blog.html" class="blog_title webkit_box">helpful tips for working from home as a freelancer</a>
+                           <div class="blog_post_dates blog_cat_tags bg_none">
+                              <p class="blog_post_date blog_cat_tag">26 August 2020</p>
+                              <p class="blog_post_date blog_cat_tag">18k Views</p>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="blog_item">
+                        <a href="#" class="blog_bg blend lazy" data-src="./images/blogs/blog_1.webp"></a>
+                        <div class="blog_content">
+                           <div class="blog_cat_tags bg_none"><a href="#" class="blog_cat_tag">travel</a><a href="#" class="blog_cat_tag">animal</a></div>
+                           <a href="single_blog.html" class="blog_title webkit_box">helpful tips for working from home as a freelancer</a>
+                           <div class="blog_post_dates blog_cat_tags bg_none">
+                              <p class="blog_post_date blog_cat_tag">26 August 2020</p>
+                              <p class="blog_post_date blog_cat_tag">18k Views</p>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="featured_blogs_sidebar">
+                     <div class="featured_blogs_side_item">
+                        <h4>popular blogs</h4>
+                        <div class="tag_cloud">
+                           <a href="#">Investment</a>
+                           <a href="#">Corporate</a>
+                           <a href="#">Blog</a>
+                           <a href="#">Business</a>
+                           <a href="#">Finance</a>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+   </section>
+   <!-- ////////////////////////   coupon   ////////////////////// -->
+   <section class="home_cpn">
+      <div class="container">
+         <div class="row">
+            <div class="col-md-12">
+               <h2 class="main_heading">featured offers</h2>
+               <div class="home_cpn_container">
+                  <div class="home_cpn_main">
+                     <div class="coupon">
+                        <div class="cpn_wrpr">
+                           <div class="home_cpn_img_wrpr">
+                              <div class="web_imagebox">
+                                 <img src="images/stores/store_8.webp" alt="">
+                              </div>
+                              <div class="home_cpn_content">
+                                 <h4 class="title webkit_box">40% off Selected Items at Abbott Lyon</h4>
+                                 <p class="webkit_box">20% off in all order Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla officiis at et nam ullam tempore laborum sapiente quisquam architecto distinctio.</p>
+                              </div>
+                           </div>
+                           <div class="cpn_btn_container">
+                              <a href="#" class="coupon_get_code">
+                                 <p class="code_num">***134DFd</p>
+                                 <div class="get_btn">get code</div>
+                              </a>
+                           </div>
+                        </div>
+                        <div class="coupon_footer">
+                           <p class="cpn_des"><b>Details:</b> Enter promo code at checkout to get 30% off at Missguided, Exclusions may apply,</p>
+                           <button class="cpn_more_details">
+                              more details
+                              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                                 <path stroke-linecap="round" stroke-linejoin="round" d="M19.5 8.25l-7.5 7.5-7.5-7.5" />
+                              </svg>
+                           </button>
+                        </div>
+                        <div class="cpn_details">
+                           <ul class="badges">
+                              <li>Verified</li>
+                              <li class="dot"></li>
+                              <li>5 used this deal</li>
+                              <li class="dot"></li>
+                              <li>
+                                 <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                                    <path stroke-linecap="round" stroke-linejoin="round" d="M12 6v6h4.5m4.5 0a9 9 0 11-18 0 9 9 0 0118 0z" />
+                                 </svg>
+                                 Expires Feb 26, 2017
+                              </li>
+                           </ul>
+                        </div>
+                     </div>
+                     <div class="coupon">
+                        <div class="cpn_wrpr">
+                           <div class="home_cpn_img_wrpr">
+                              <div class="web_imagebox">
+                                 <img src="images/stores/store_1.webp" alt="">
+                              </div>
+                              <div class="home_cpn_content">
+                                 <h4 class="title webkit_box">40% off Selected Items at Abbott Lyon</h4>
+                                 <p class="webkit_box">20% off in all order Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla officiis at et nam ullam tempore laborum sapiente quisquam architecto distinctio.</p>
+                              </div>
+                           </div>
+                           <div class="cpn_btn_container">
+                              <a href="#" class="coupon_get_code">
+                                 <p class="code_num">***134DFd</p>
+                                 <div class="get_btn">get code</div>
+                              </a>
+                           </div>
+                        </div>
+                        <div class="coupon_footer">
+                           <p class="cpn_des"><b>Details:</b> Enter promo code at checkout to get 30% off at Missguided, Exclusions may apply,</p>
+                           <button class="cpn_more_details">
+                              more details
+                              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                                 <path stroke-linecap="round" stroke-linejoin="round" d="M19.5 8.25l-7.5 7.5-7.5-7.5" />
+                              </svg>
+                           </button>
+                        </div>
+                        <div class="cpn_details">
+                           <ul class="badges">
+                              <li>Verified</li>
+                              <li class="dot"></li>
+                              <li>5 used this deal</li>
+                              <li class="dot"></li>
+                              <li>
+                                 <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                                    <path stroke-linecap="round" stroke-linejoin="round" d="M12 6v6h4.5m4.5 0a9 9 0 11-18 0 9 9 0 0118 0z" />
+                                 </svg>
+                                 Expires Feb 26, 2017
+                              </li>
+                           </ul>
+                        </div>
+                     </div>
+                     <div class="coupon">
+                        <div class="cpn_wrpr">
+                           <div class="home_cpn_img_wrpr">
+                              <div class="web_imagebox">
+                                 <img src="images/stores/store_5.webp" alt="">
+                              </div>
+                              <div class="home_cpn_content">
+                                 <h4 class="title webkit_box">40% off Selected Items at Abbott Lyon</h4>
+                                 <p class="webkit_box">20% off in all order Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla officiis at et nam ullam tempore laborum sapiente quisquam architecto distinctio.</p>
+                              </div>
+                           </div>
+                           <div class="cpn_btn_container">
+                              <a href="#" class="coupon_get_code">
+                                 <p class="code_num">***134DFd</p>
+                                 <div class="get_btn">get code</div>
+                              </a>
+                           </div>
+                        </div>
+                        <div class="coupon_footer">
+                           <p class="cpn_des"><b>Details:</b> Enter promo code at checkout to get 30% off at Missguided, Exclusions may apply,</p>
+                           <button class="cpn_more_details">
+                              more details
+                              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                                 <path stroke-linecap="round" stroke-linejoin="round" d="M19.5 8.25l-7.5 7.5-7.5-7.5" />
+                              </svg>
+                           </button>
+                        </div>
+                        <div class="cpn_details">
+                           <ul class="badges">
+                              <li>Verified</li>
+                              <li class="dot"></li>
+                              <li>5 used this deal</li>
+                              <li class="dot"></li>
+                              <li>
+                                 <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                                    <path stroke-linecap="round" stroke-linejoin="round" d="M12 6v6h4.5m4.5 0a9 9 0 11-18 0 9 9 0 0118 0z" />
+                                 </svg>
+                                 Expires Feb 26, 2017
+                              </li>
+                           </ul>
+                        </div>
+                     </div>
+                     <div class="coupon">
+                        <div class="cpn_wrpr">
+                           <div class="home_cpn_img_wrpr">
+                              <div class="web_imagebox">
+                                 <img src="images/stores/store_3.webp" alt="">
+                              </div>
+                              <div class="home_cpn_content">
+                                 <h4 class="title webkit_box">40% off Selected Items at Abbott Lyon</h4>
+                                 <p class="webkit_box">20% off in all order Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla officiis at et nam ullam tempore laborum sapiente quisquam architecto distinctio.</p>
+                              </div>
+                           </div>
+                           <div class="cpn_btn_container">
+                              <a href="#" class="coupon_get_code">
+                                 <p class="code_num">***134DFd</p>
+                                 <div class="get_btn">get code</div>
+                              </a>
+                           </div>
+                        </div>
+                        <div class="coupon_footer">
+                           <p class="cpn_des"><b>Details:</b> Enter promo code at checkout to get 30% off at Missguided, Exclusions may apply,</p>
+                           <button class="cpn_more_details">
+                              more details
+                              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                                 <path stroke-linecap="round" stroke-linejoin="round" d="M19.5 8.25l-7.5 7.5-7.5-7.5" />
+                              </svg>
+                           </button>
+                        </div>
+                        <div class="cpn_details">
+                           <ul class="badges">
+                              <li>Verified</li>
+                              <li class="dot"></li>
+                              <li>5 used this deal</li>
+                              <li class="dot"></li>
+                              <li>
+                                 <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                                    <path stroke-linecap="round" stroke-linejoin="round" d="M12 6v6h4.5m4.5 0a9 9 0 11-18 0 9 9 0 0118 0z" />
+                                 </svg>
+                                 Expires Feb 26, 2017
+                              </li>
+                           </ul>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="home_cpn_sidebar">
+                     <a href="store.html" class="coupon_sidebar_items">
+                        <div class="web_imagebox"><img src="images/stores/store_1.webp" alt=""></div>
+                        <div class="cpn_dropdown_content">
+                           <p class="cpn_str_name webkit_box">abott lyon</p>
+                           <p class="cpn_str_offer">offers (123)</p>
+                        </div>
+                     </a>
+                     <a href="store.html" class="coupon_sidebar_items">
+                        <div class="web_imagebox"><img src="images/stores/store_2.webp" alt=""></div>
+                        <div class="cpn_dropdown_content">
+                           <p class="cpn_str_name webkit_box">abott lyon</p>
+                           <p class="cpn_str_offer">offers (123)</p>
+                        </div>
+                     </a>
+                     <a href="store.html" class="coupon_sidebar_items">
+                        <div class="web_imagebox"><img src="images/stores/store_3.webp" alt=""></div>
+                        <div class="cpn_dropdown_content">
+                           <p class="cpn_str_name webkit_box">abott lyon</p>
+                           <p class="cpn_str_offer">offers (123)</p>
+                        </div>
+                     </a>
+                     <a href="store.html" class="coupon_sidebar_items">
+                        <div class="web_imagebox"><img src="images/stores/store_4.webp" alt=""></div>
+                        <div class="cpn_dropdown_content">
+                           <p class="cpn_str_name webkit_box">abott lyon</p>
+                           <p class="cpn_str_offer">offers (123)</p>
+                        </div>
+                     </a>
+                     <a href="store.html" class="coupon_sidebar_items">
+                        <div class="web_imagebox"><img src="images/stores/store_5.webp" alt=""></div>
+                        <div class="cpn_dropdown_content">
+                           <p class="cpn_str_name webkit_box">abott lyon</p>
+                           <p class="cpn_str_offer">offers (123)</p>
+                        </div>
+                     </a>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+   </section>
+   <!-- ////////////////////////   categories   ////////////////////// -->
+   <section class="cpn_cat bg_color">
+      <div class="container">
+         <div class="row">
+            <div class="col-md-12">
+               <h2 class="main_heading">categories</h2>
+               <div class="cpn_cat_container">
+                  <a href="single_categories.html" class="lazy blend cpn_cat_item" data-src="images/categories/categories_1.webp">
+                     <h4>fashion & design</h4>
+                     <button class="cpn_cat_btn">view all</button>
+                  </a>
+                  <a href="single_categories.html" class="lazy blend cpn_cat_item" data-src="images/categories/categories_2.webp">
+                     <h4>fashion & design</h4>
+                     <button class="cpn_cat_btn">view all</button>
+                  </a>
+                  <a href="single_categories.html" class="lazy blend cpn_cat_item" data-src="images/categories/categories_3.webp">
+                     <h4>fashion & design</h4>
+                     <button class="cpn_cat_btn">view all</button>
+                  </a>
+                  <a href="single_categories.html" class="lazy blend cpn_cat_item" data-src="images/categories/categories_4.webp">
+                     <h4>fashion & design</h4>
+                     <button class="cpn_cat_btn">view all</button>
+                  </a>
+                  <a href="single_categories.html" class="lazy blend cpn_cat_item" data-src="images/categories/categories_5.webp">
+                     <h4>fashion & design</h4>
+                     <button class="cpn_cat_btn">view all</button>
+                  </a>
+                  <a href="single_categories.html" class="lazy blend cpn_cat_item" data-src="images/categories/categories_6.webp">
+                     <h4>fashion & design</h4>
+                     <button class="cpn_cat_btn">view all</button>
+                  </a>
+                  <a href="single_categories.html" class="lazy blend cpn_cat_item" data-src="images/categories/categories_7.webp">
+                     <h4>fashion & design</h4>
+                     <button class="cpn_cat_btn">view all</button>
+                  </a>
+                  <a href="single_categories.html" class="lazy blend cpn_cat_item" data-src="images/categories/categories_8.webp">
+                     <h4>fashion & design</h4>
+                     <button class="cpn_cat_btn">view all</button>
+                  </a>
+                  <a href="single_categories.html" class="lazy blend cpn_cat_item" data-src="images/categories/categories_9.webp">
+                     <h4>fashion & design</h4>
+                     <button class="cpn_cat_btn">view all</button>
+                  </a>
+                  <a href="single_categories.html" class="lazy blend cpn_cat_item" data-src="images/categories/categories_1.webp">
+                     <h4>fashion & design</h4>
+                     <button class="cpn_cat_btn">view all</button>
+                  </a>
+               </div>
+            </div>
+         </div>
+      </div>
+   </section>
+
+   <section class="popular_blogs">
+      <div class="container">
+         <div class="row">
+            <div class="col-md-12">
+               <h4 class="main_heading">popular blogs</h4>
+               <div class="main_featured_blogs_container">
+                  <div class="featured_blogs_container">
+                     <div class="blog_item">
+                        <a href="#" class="blog_bg blend lazy" data-src="./images/blogs/blog_1.webp"></a>
+                        <div class="blog_content">
+                           <div class="blog_cat_tags bg_none"><a href="#" class="blog_cat_tag">travel</a><a href="#" class="blog_cat_tag">animal</a></div>
+                           <a href="single_blog.html" class="blog_title webkit_box">helpful tips for working from home as a freelancer</a>
+                           <div class="blog_post_dates blog_cat_tags bg_none">
+                              <p class="blog_post_date blog_cat_tag">26 August 2020</p>
+                              <p class="blog_post_date blog_cat_tag">18k Views</p>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="blog_item">
+                        <a href="#" class="blog_bg blend lazy" data-src="./images/blogs/blog_2.webp"></a>
+                        <div class="blog_content">
+                           <div class="blog_cat_tags bg_none"><a href="#" class="blog_cat_tag">travel</a><a href="#" class="blog_cat_tag">animal</a></div>
+                           <a href="single_blog.html" class="blog_title webkit_box">helpful tips for working from home as a freelancer</a>
+                           <div class="blog_post_dates blog_cat_tags bg_none">
+                              <p class="blog_post_date blog_cat_tag">26 August 2020</p>
+                              <p class="blog_post_date blog_cat_tag">18k Views</p>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="blog_item">
+                        <a href="#" class="blog_bg blend lazy" data-src="./images/blogs/blog_3.webp"></a>
+                        <div class="blog_content">
+                           <div class="blog_cat_tags bg_none"><a href="#" class="blog_cat_tag">travel</a><a href="#" class="blog_cat_tag">animal</a></div>
+                           <a href="single_blog.html" class="blog_title webkit_box">helpful tips for working from home as a freelancer</a>
+                           <div class="blog_post_dates blog_cat_tags bg_none">
+                              <p class="blog_post_date blog_cat_tag">26 August 2020</p>
+                              <p class="blog_post_date blog_cat_tag">18k Views</p>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="blog_item">
+                        <a href="#" class="blog_bg blend lazy" data-src="./images/blogs/blog_4.webp"></a>
+                        <div class="blog_content">
+                           <div class="blog_cat_tags bg_none"><a href="#" class="blog_cat_tag">travel</a><a href="#" class="blog_cat_tag">animal</a></div>
+                           <a href="single_blog.html" class="blog_title webkit_box">helpful tips for working from home as a freelancer</a>
+                           <div class="blog_post_dates blog_cat_tags bg_none">
+                              <p class="blog_post_date blog_cat_tag">26 August 2020</p>
+                              <p class="blog_post_date blog_cat_tag">18k Views</p>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="blog_item">
+                        <a href="#" class="blog_bg blend lazy" data-src="./images/blogs/blog_5.webp"></a>
+                        <div class="blog_content">
+                           <div class="blog_cat_tags bg_none"><a href="#" class="blog_cat_tag">travel</a><a href="#" class="blog_cat_tag">animal</a></div>
+                           <a href="single_blog.html" class="blog_title webkit_box">helpful tips for working from home as a freelancer</a>
+                           <div class="blog_post_dates blog_cat_tags bg_none">
+                              <p class="blog_post_date blog_cat_tag">26 August 2020</p>
+                              <p class="blog_post_date blog_cat_tag">18k Views</p>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="blog_item">
+                        <a href="#" class="blog_bg blend lazy" data-src="./images/blogs/blog_6.webp"></a>
+                        <div class="blog_content">
+                           <div class="blog_cat_tags bg_none"><a href="#" class="blog_cat_tag">travel</a><a href="#" class="blog_cat_tag">animal</a></div>
+                           <a href="single_blog.html" class="blog_title webkit_box">helpful tips for working from home as a freelancer</a>
+                           <div class="blog_post_dates blog_cat_tags bg_none">
+                              <p class="blog_post_date blog_cat_tag">26 August 2020</p>
+                              <p class="blog_post_date blog_cat_tag">18k Views</p>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="blog_item">
+                        <a href="#" class="blog_bg blend lazy" data-src="./images/blogs/blog_7.webp"></a>
+                        <div class="blog_content">
+                           <div class="blog_cat_tags bg_none"><a href="#" class="blog_cat_tag">travel</a><a href="#" class="blog_cat_tag">animal</a></div>
+                           <a href="single_blog.html" class="blog_title webkit_box">helpful tips for working from home as a freelancer</a>
+                           <div class="blog_post_dates blog_cat_tags bg_none">
+                              <p class="blog_post_date blog_cat_tag">26 August 2020</p>
+                              <p class="blog_post_date blog_cat_tag">18k Views</p>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="blog_item">
+                        <a href="#" class="blog_bg blend lazy" data-src="./images/blogs/blog_8.webp"></a>
+                        <div class="blog_content">
+                           <div class="blog_cat_tags bg_none"><a href="#" class="blog_cat_tag">travel</a><a href="#" class="blog_cat_tag">animal</a></div>
+                           <a href="single_blog.html" class="blog_title webkit_box">helpful tips for working from home as a freelancer</a>
+                           <div class="blog_post_dates blog_cat_tags bg_none">
+                              <p class="blog_post_date blog_cat_tag">26 August 2020</p>
+                              <p class="blog_post_date blog_cat_tag">18k Views</p>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="blog_item">
+                        <a href="#" class="blog_bg blend lazy" data-src="./images/blogs/blog_1.webp"></a>
+                        <div class="blog_content">
+                           <div class="blog_cat_tags bg_none"><a href="#" class="blog_cat_tag">travel</a><a href="#" class="blog_cat_tag">animal</a></div>
+                           <a href="single_blog.html" class="blog_title webkit_box">helpful tips for working from home as a freelancer</a>
+                           <div class="blog_post_dates blog_cat_tags bg_none">
+                              <p class="blog_post_date blog_cat_tag">26 August 2020</p>
+                              <p class="blog_post_date blog_cat_tag">18k Views</p>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+   </section>
+   <section class="home_about">
+      <div class="container">
+         <div class="row">
+            <div class="col-md-12">
+               <div class="home_abt_container">
+                  <div class="faq lazy" data-src="images/faq.svg">
+                     <h4 class="main_heading">Frequently Asked Question</h4>
+                     <div class="faq_item">
+                        <div class="faq_head">
+                           <i class="fa fa-minus"></i>
+                           <h4 class="question">How can I avail a deal from voucherdock.com?</h4>
+                        </div>
+                        <div class="faq_body">
+                           <p class="answer">
+                              To avail a deal or an offer customers need to simply click on the coupon and buy the product/service at the discounted price mentioned in the coupon.
+                           </p>
+                        </div>
+                     </div>
+                     <div class="faq_item">
+                        <div class="faq_head">
+                           <i class="fa fa-plus"></i>
+                           <h4 class="question">What is the difference between a deal and a coupon?</h4>
+                        </div>
+                        <div class="faq_body">
+                           <p class="answer">
+                              A coupon is a code which needs to be applied at the checkout page to avail the discount whereas a deal is a discounted price on a product or a range of products.
+                           </p>
+                        </div>
+                     </div>
+                     <div class="faq_item">
+                        <div class="faq_head">
+                           <i class="fa fa-plus"></i>
+                           <h4 class="question">How can I use a coupon code?</h4>
+                        </div>
+                        <div class="faq_body">
+                           <p class="answer">
+                              To avail the discount via a coupon code customers need to click on the view code option and copy the coupon code. From there they will be redirected to the website. At the checkout page customers need to paste the coupon code click on apply to avail the discount.
+                           </p>
+                        </div>
+                     </div>
+                     <div class="faq_item">
+                        <div class="faq_head">
+                           <i class="fa fa-plus"></i>
+                           <h4 class="question">Can customers use multiple coupons on a single order?</h4>
+                        </div>
+                        <div class="faq_body">
+                           <p class="answer">
+                              Most brands allow only one coupon per order/transaction but this can vary from brand to brand.
+                           </p>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="disclaimer">
+                     <h4 class="main_heading">disclaimer</h4>
+                     <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sed, inventore itaque atque ducimus perspiciatis ipsam, ad, maxime esse, expedita quas quae incidunt. Sit, ut! Cumque obcaecati veritatis temporibus vero, sed delectus qui consequuntur, dignissimos distinctio ipsam numquam. Corporis ipsum commodi quidem nemo qui est, deleniti illum sint, hic recusandae? Quae!</p>
+                     <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sed, inventore itaque atque ducimus perspiciatis ipsam, ad, maxime esse, expedita quas quae incidunt. Sit, ut! Cumque obcaecati veritatis temporibus vero, sed delectus qui consequuntur, dignissimos distinctio ipsam numquam. Corporis ipsum commodi quidem nemo qui est, deleniti illum sint, hic recusandae? Quae!</p>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+   </section>
+   <!-- ////////////////////////   Footer   ////////////////////// -->
+   <section class="footer">
+      <div class="container">
+         <div class="row">
+            <div class="col-md-12">
+               <div class="footer_container">
+                  <div class="footer_container_items">
+                     <a href="index.html" class="logo_container">
+                        <img src="images/logo.svg" alt="">
+                     </a>
+                     <p class="footer_disclaimer">Disclaimer: "We may earn a commission when you use one of our coupons/links to make a purchase."</p>
+                     <form class="subs">
+                        <input type="text" placeholder="Enter your Email Address.">
+                        <a href="#" class="subs_btn">
+                           <i class="fa fa-paper-plane"></i>
+                        </a>
+                     </form>
+                     <div class="social_icons">
+                        <div class="icon fb">
+                           <i class="fa fa-facebook-f"></i>
+                        </div>
+                        <div class="icon twt">
+                           <i class="fa fa-twitter"></i>
+                        </div>
+                        <div class="icon insta">
+                           <i class="fa fa-instagram"></i>
+                        </div>
+                        <div class="icon google_plus">
+                           <i class="fa fa-google-plus"></i>
+                        </div>
+                        <div class="icon linked_in">
+                           <i class="fa fa-linkedin"></i>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="footer_container_items">
+                     <h2 class="card_heading">More Discount</h2>
+                     <ul class="footer_menu">
+                        <li><a href="#">About me</a></li>
+                        <li><a href="#">Help & Support</a></li>
+                        <li><a href="#">Licensing Policy</a></li>
+                        <li><a href="#">Refund Policy</a></li>
+                        <li><a href="#">Hire me</a></li>
+                        <li><a href="#">Contact</a></li>
+                     </ul>
+                  </div>
+                  <div class="footer_container_items">
+                     <h2 class="card_heading">Popular Stores</h2>
+                     <div class="footer_tags footer_menu">
+                        <a href="category.html">beautiful</a>
+                        <a href="category.html">New York</a>
+                        <a href="category.html">droll</a>
+                        <a href="category.html">intimate</a>
+                        <a href="category.html">loving</a>
+                        <a href="category.html">travel</a>
+                        <a href="category.html">fighting </a>
+                     </div>
+                  </div>
+                  <div class="footer_container_items">
+                     <h2 class="card_heading">latest stores</h2>
+                     <a href="#" class="latest_p">
+                        <div class="web_imagebox"><img src="images/stores/store_3.webp" alt="" class="lazy" style=""></div>
+                        <div class="latest_p_content">
+                           <h4 class="webkit_box latest_blog_title">10 Marketing Trends That You Should Be Prepared For In 2022</h4>
+                           <div class="blog_post_dates blog_cat_tags bg_none">
+                              <p class="blog_post_date blog_cat_tag">26 August 2020</p>
+                              <p class="blog_post_date blog_cat_tag">18k Views</p>
+                           </div>
+                        </div>
+                     </a>
+                     <a href="#" class="latest_p">
+                        <div class="web_imagebox"><img src="images/stores/store_2.webp" alt="" class="lazy" style=""></div>
+                        <div class="latest_p_content">
+                           <h4 class="webkit_box latest_blog_title">10 Marketing Trends That You Should Be Prepared For In 2022</h4>
+                           <div class="blog_post_dates blog_cat_tags bg_none">
+                              <p class="blog_post_date blog_cat_tag">26 August 2020</p>
+                              <p class="blog_post_date blog_cat_tag">18k Views</p>
+                           </div>
+                        </div>
+                     </a>
+                  </div>
+               </div>
+               <div class="popular_posts">
+                  <div class="post_box">
+                     <svg xmlns="http://www.w3.org/2000/svg" width="44" height="44" viewBox="0 0 24 24" stroke-width="1.5" stroke="#2c3e50" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                        <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                        <line x1="3" y1="21" x2="21" y2="21"></line>
+                        <path d="M3 7v1a3 3 0 0 0 6 0v-1m0 1a3 3 0 0 0 6 0v-1m0 1a3 3 0 0 0 6 0v-1h-18l2 -4h14l2 4"></path>
+                        <line x1="5" y1="21" x2="5" y2="10.85"></line>
+                        <line x1="19" y1="21" x2="19" y2="10.85"></line>
+                        <path d="M9 21v-4a2 2 0 0 1 2 -2h2a2 2 0 0 1 2 2v4"></path>
+                     </svg>
+                     <div class="post_box_content">
+                        <h4 class="stats_number">Merchants</h4>
+                        <p>We've Partnered With Over 3576+ Merchants</p>
+                     </div>
+                  </div>
+                  <div class="post_box">
+                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" stroke-width="1.5" stroke="#2c3e50" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                        <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                        <rect x="3" y="7" width="18" height="13" rx="2"></rect>
+                        <path d="M8 7v-2a2 2 0 0 1 2 -2h4a2 2 0 0 1 2 2v2"></path>
+                        <line x1="12" y1="12" x2="12" y2="12.01"></line>
+                        <path d="M3 13a20 20 0 0 0 18 0"></path>
+                     </svg>
+                     <div class="post_box_content">
+                        <h4 class="stats_number">Categories</h4>
+                        <p>We Have More Than 83+ Categories To Choose From</p>
+                     </div>
+                  </div>
+                  <div class="post_box">
+                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" stroke-width="1.5" stroke="#2c3e50" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                        <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                        <circle cx="9" cy="7" r="4"></circle>
+                        <path d="M3 21v-2a4 4 0 0 1 4 -4h4a4 4 0 0 1 4 4v2"></path>
+                        <path d="M16 3.13a4 4 0 0 1 0 7.75"></path>
+                        <path d="M21 21v-2a4 4 0 0 0 -3 -3.85"></path>
+                     </svg>
+                     <div class="post_box_content">
+                        <h4 class="stats_number">Users</h4>
+                        <p>We're A Growing Family Of Over 342+ Users Daily</p>
+                     </div>
+                  </div>
+                  <div class="post_box">
+                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" stroke-width="1.5" stroke="#2c3e50" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                        <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                        <line x1="15" y1="5" x2="15" y2="7"></line>
+                        <line x1="15" y1="11" x2="15" y2="13"></line>
+                        <line x1="15" y1="17" x2="15" y2="19"></line>
+                        <path d="M5 5h14a2 2 0 0 1 2 2v3a2 2 0 0 0 0 4v3a2 2 0 0 1 -2 2h-14a2 2 0 0 1 -2 -2v-3a2 2 0 0 0 0 -4v-3a2 2 0 0 1 2 -2"></path>
+                     </svg>
+                     <div class="post_box_content">
+                        <h4 class="stats_number">coupon</h4>
+                        <p>We Offer A Wide Range Of Over 556164+ Coupons</p>
+                     </div>
+                  </div>
+               </div>
+               <div class="copy_right">
+                  <p class="text">Copyright © 2021 | www.promothecode.com - All rights are reserved.</p>
+               </div>
+            </div>
+         </div>
+      </div>
+   </section>
+</body>
+<!-- JQuery File -->
+<script src="JQuery/swiper-bundle.min.js"></script>
+<script type="text/javascript" src="JQuery/jquery.lazy.min.js"></script>
+<script src="jQuery/custom.js"></script>
+
+</html>

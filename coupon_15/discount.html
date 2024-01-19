@@ -1,0 +1,583 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>15th web Home Page</title>
+   <!-- Latest compiled and minified CSS -->
+   <link rel="stylesheet" href="css/bootstrap.css">
+   <!-- JQuery js CDN -->
+   <script src="jQuery/jquery.js"></script>
+   <!-- bootstrap js CDN -->
+   <script src="jQuery/bootstrap.js"></script>
+   <!-- stylesheet -->
+   <link rel="stylesheet" href="css/style.css">
+   <!-- responsive -->
+   <link rel="stylesheet" href="css/responsive.css">
+   <!-- font family -->
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+   <link href="https://fonts.googleapis.com/css2?family=Mukta:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+   <!-- swipper -->
+   <link rel="stylesheet" href="css/swiper-bundle.min.css" />
+   <!-- fontawesome -->
+   <link rel="stylesheet" href="css/font-awesome.min.css">
+   <!-- icon -->
+   <link type="image/png" sizes="96x96" rel="icon" href="images/favicon.ico">
+</head>
+
+<body>
+   <!--    Header    -->
+   <header>
+      <section class="header_1">
+         <div class="container">
+            <div class="row">
+               <div class="col-md-12">
+                  <div class="hdr_cont">
+                     <a href="index.html" class="logo_container">
+                        <div class="logo">
+                           <img src="images/logo.png" alt="">
+                        </div>
+                     </a>
+                     <form class="serch_bar">
+                        <div class="search">
+                           <input type="text" class="input" placeholder="What do you want to buy today? Search retailer or website name">
+                           <i class="fa fa-search"></i>
+                        </div>
+                        <div class="dropdown_search">
+                           <div class="dropdown_search_items">
+                              <h4 class="search_heading">Enter Keywords To Search</h4>
+                              <ul class="search-list">
+                                 <li class="search-item">
+                                    <a href="#">
+                                       <p class="text">ALA<br><span>(13 offers)</span></p>
+                                    </a>
+                                 </li>
+                                 <li class="search-item">
+                                    <a href="#">
+                                       <p class="text">ALA<br><span>(13 offers)</span></p>
+                                    </a>
+                                 </li>
+                              </ul>
+                           </div>
+                        </div>
+                     </form>
+                     <ul class="dsicount">
+                        <li>
+                           <a href="discount.html" class="dis_item">
+                              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+                                 <path d="M16 96C16 69.49 37.49 48 64 48C90.51 48 112 69.49 112 96C112 122.5 90.51 144 64 144C37.49 144 16 122.5 16 96zM480 64C497.7 64 512 78.33 512 96C512 113.7 497.7 128 480 128H192C174.3 128 160 113.7 160 96C160 78.33 174.3 64 192 64H480zM480 224C497.7 224 512 238.3 512 256C512 273.7 497.7 288 480 288H192C174.3 288 160 273.7 160 256C160 238.3 174.3 224 192 224H480zM480 384C497.7 384 512 398.3 512 416C512 433.7 497.7 448 480 448H192C174.3 448 160 433.7 160 416C160 398.3 174.3 384 192 384H480zM16 416C16 389.5 37.49 368 64 368C90.51 368 112 389.5 112 416C112 442.5 90.51 464 64 464C37.49 464 16 442.5 16 416zM112 256C112 282.5 90.51 304 64 304C37.49 304 16 282.5 16 256C16 229.5 37.49 208 64 208C90.51 208 112 229.5 112 256z"></path>
+                              </svg>
+                              <div class="dis_content">
+                                 <span>all</span>
+                                 <p>Categories</p>
+                              </div>
+                           </a>
+                        </li>
+                     </ul>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </section>
+      <section class="header_2">
+         <div class="container">
+            <div class="row">
+               <div class="col-md-12">
+                  <ul class="menu">
+                     <li><a href="index.html" class="menu_item active">home</a></li>
+                     <li><a href="about.html" class="menu_item">about</a></li>
+                     <li><a href="store.html" class="menu_item">store</a></li>
+                     <li><a href="categories.html" class="menu_item">categories</a></li>
+                     <li><a href="contact.html" class="menu_item">contact</a></li>
+                     <li><a href="discount.html" class="menu_item">free delivary</a></li>
+                     <li><a href="discount.html" class="menu_item">20% off offers</a></li>
+                  </ul>
+               </div>
+            </div>
+         </div>
+      </section>
+   </header>
+   <!-- breadcrumb -->
+   <section class="breadcrumb_container">
+      <div class="container">
+         <div class="row">
+            <div class="col-md-12">
+               <ul class="breadcrumbs">
+                  <li><a href="#"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512">
+                           <path d="M511.8 287.6L512.5 447.7C512.5 450.5 512.3 453.1 512 455.8V472C512 494.1 494.1 512 472 512H456C454.9 512 453.8 511.1 452.7 511.9C451.3 511.1 449.9 512 448.5 512H392C369.9 512 352 494.1 352 472V384C352 366.3 337.7 352 320 352H256C238.3 352 224 366.3 224 384V472C224 494.1 206.1 512 184 512H128.1C126.6 512 125.1 511.9 123.6 511.8C122.4 511.9 121.2 512 120 512H104C81.91 512 64 494.1 64 472V360C64 359.1 64.03 358.1 64.09 357.2V287.6H32.05C14.02 287.6 0 273.5 0 255.5C0 246.5 3.004 238.5 10.01 231.5L266.4 8.016C273.4 1.002 281.4 0 288.4 0C295.4 0 303.4 2.004 309.5 7.014L416 100.7V64C416 46.33 430.3 32 448 32H480C497.7 32 512 46.33 512 64V185L564.8 231.5C572.8 238.5 576.9 246.5 575.8 255.5C575.8 273.5 560.8 287.6 543.8 287.6L511.8 287.6z"></path>
+                        </svg></a></li>
+                  <li>●</li>
+                  <li><a href="#">all store</a></li>
+                  <li>●</li>
+                  <li class="active"><a href="#">single store</a></li>
+               </ul>
+            </div>
+         </div>
+      </div>
+   </section>
+   <!-- single store -->
+   <section class="single_store bg_color">
+      <div class="container">
+         <div class="row">
+            <div class="col-md-12">
+               <div class="single_store_container discount_page">
+                  <div class="single_store_sidebar">
+                     <div class="sngl_side_item">
+                        <h4 class="sngl_side_heading">related stores</h4>
+                        <div class="s_c_container">
+                           <a href="#" class="s_c_item">
+                              <div class="s_c_img">
+                                 <div class="web_imagebox">
+                                    <img src="images/str_logo.png">
+                                 </div>
+                              </div>
+                              <span class="s_c_title">allbeauty</span>
+                           </a>
+                           <a href="#" class="s_c_item">
+                              <div class="s_c_img">
+                                 <div class="web_imagebox">
+                                    <img src="images/str_logo.png">
+                                 </div>
+                              </div>
+                              <span class="s_c_title">allbeauty</span>
+                           </a>
+                           <a href="#" class="s_c_item">
+                              <div class="s_c_img">
+                                 <div class="web_imagebox">
+                                    <img src="images/str_logo.png">
+                                 </div>
+                              </div>
+                              <span class="s_c_title">allbeauty</span>
+                           </a>
+                           <a href="#" class="s_c_item">
+                              <div class="s_c_img">
+                                 <div class="web_imagebox">
+                                    <img src="images/str_logo.png">
+                                 </div>
+                              </div>
+                              <span class="s_c_title">allbeauty</span>
+                           </a>
+                        </div>
+                     </div>
+                     <div class="sngl_side_item">
+                        <h4 class="sngl_side_heading">popular stores</h4>
+                        <div class="str_sidebar_child side_str">
+                           <a href="#" class="side_str_item">
+                              <div class="side_str_img">
+                                 <div class="web_imagebox">
+                                    <img src="images/str_logo.png" alt="">
+                                 </div>
+                              </div>
+                              <div class="side_str_content">
+                                 <h4 class="side_str_name webkit_box">abbott lyon</h4>
+                                 <p class="side_str_offer">123 offers</p>
+                              </div>
+                           </a>
+                           <a href="#" class="side_str_item">
+                              <div class="side_str_img">
+                                 <div class="web_imagebox">
+                                    <img src="images/str_logo.png" alt="">
+                                 </div>
+                              </div>
+                              <div class="side_str_content">
+                                 <h4 class="side_str_name webkit_box">abbott lyon</h4>
+                                 <p class="side_str_offer">123 offers</p>
+                              </div>
+                           </a>
+                           <a href="#" class="side_str_item">
+                              <div class="side_str_img">
+                                 <div class="web_imagebox">
+                                    <img src="images/str_logo.png" alt="">
+                                 </div>
+                              </div>
+                              <div class="side_str_content">
+                                 <h4 class="side_str_name webkit_box">abbott lyon</h4>
+                                 <p class="side_str_offer">123 offers</p>
+                              </div>
+                           </a><a href="#" class="side_str_item">
+                              <div class="side_str_img">
+                                 <div class="web_imagebox">
+                                    <img src="images/str_logo.png" alt="">
+                                 </div>
+                              </div>
+                              <div class="side_str_content">
+                                 <h4 class="side_str_name webkit_box">abbott lyon</h4>
+                                 <p class="side_str_offer">123 offers</p>
+                              </div>
+                           </a><a href="#" class="side_str_item">
+                              <div class="side_str_img">
+                                 <div class="web_imagebox">
+                                    <img src="images/str_logo.png" alt="">
+                                 </div>
+                              </div>
+                              <div class="side_str_content">
+                                 <h4 class="side_str_name webkit_box">abbott lyon</h4>
+                                 <p class="side_str_offer">123 offers</p>
+                              </div>
+                           </a>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="single_store_main">
+                     <div class="sngle_str_head">
+                        <h4 class="str_main_title">20% Off Offers</h4>
+                        <div class="switchers">
+                           <a href="#" class="switchers_items active">All (1)</a>
+                           <a href="#" class="switchers_items">Code (0)</a>
+                           <a href="#" class="switchers_items">Deal (1)</a>
+                        </div>
+                     </div>
+                     <div class="cpn_main">
+                        <div class="str_cpn">
+                           <div class="str_cpn_head">
+                              <div class="str_discount">
+                                 40% <span>off</span>
+                              </div>
+                              <div class="web_imagebox">
+                                 <img src="images/str_logo.png" alt="">
+                              </div>
+                           </div>
+                           <div class="str_cpn_body">
+                              <h4 class="str_cpn_title">40% off Selected Items at Abbott Lyon</h4>
+                              <p class="str_cpn_des">Enter this discount code at checkout to save 40% on selected items at Abbott Lyon</p>
+                           </div>
+                           <div class="str_cpn_footer">
+                              <div class="str_cpn_footer_left">
+                                 <p class="expire uses"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+                                       <path d="M224 256c70.7 0 128-57.31 128-128s-57.3-128-128-128C153.3 0 96 57.31 96 128S153.3 256 224 256zM274.7 304H173.3C77.61 304 0 381.6 0 477.3c0 19.14 15.52 34.67 34.66 34.67h378.7C432.5 512 448 496.5 448 477.3C448 381.6 370.4 304 274.7 304z"></path>
+                                    </svg>
+                                    Updated: 09 Jun
+                                 </p>
+                                 <p class="str_verified">
+                                    <svg width="512px" height="512px" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
+                                       <path d="M17.47 250.9C88.82 328.1 158 397.6 224.5 485.5c72.3-143.8 146.3-288.1 268.4-444.37L460 26.06C356.9 135.4 276.8 238.9 207.2 361.9c-48.4-43.6-126.62-105.3-174.38-137z"></path>
+                                    </svg>
+                                    verified
+                                 </p>
+                              </div>
+                              <div class="str_cpn_footer_right">
+                                 <p class="expire">
+                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+                                       <path d="M256 0C397.4 0 512 114.6 512 256C512 397.4 397.4 512 256 512C201.7 512 151.2 495 109.7 466.1C95.2 455.1 91.64 436 101.8 421.5C111.9 407 131.8 403.5 146.3 413.6C177.4 435.3 215.2 448 256 448C362 448 448 362 448 256C448 149.1 362 64 256 64C202.1 64 155 85.46 120.2 120.2L151 151C166.1 166.1 155.4 192 134.1 192H24C10.75 192 0 181.3 0 168V57.94C0 36.56 25.85 25.85 40.97 40.97L74.98 74.98C121.3 28.69 185.3 0 255.1 0L256 0zM256 128C269.3 128 280 138.7 280 152V246.1L344.1 311C354.3 320.4 354.3 335.6 344.1 344.1C335.6 354.3 320.4 354.3 311 344.1L239 272.1C234.5 268.5 232 262.4 232 256V152C232 138.7 242.7 128 256 128V128z">
+                                       </path>
+                                    </svg>
+                                    Exp: 31, Dec 22
+                                 </p>
+                                 <a href="#" data-toggle="modal" data-target="#myModal" class="cpn_btn">
+                                    <p class="code">***321d</p>
+                                    <p class="get">get code</p>
+                                 </a>
+                              </div>
+                           </div>
+                        </div>
+                        <div class="str_cpn">
+                           <div class="str_cpn_head">
+                              <div class="str_discount">
+                                 40% <span>off</span>
+                              </div>
+                              <div class="web_imagebox">
+                                 <img src="images/str_logo.png" alt="">
+                              </div>
+                           </div>
+                           <div class="str_cpn_body">
+                              <h4 class="str_cpn_title">40% off Selected Items at Abbott Lyon</h4>
+                              <p class="str_cpn_des">Enter this discount code at checkout to save 40% on selected items at Abbott Lyon</p>
+                           </div>
+                           <div class="str_cpn_footer">
+                              <div class="str_cpn_footer_left">
+                                 <p class="expire uses"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+                                       <path d="M224 256c70.7 0 128-57.31 128-128s-57.3-128-128-128C153.3 0 96 57.31 96 128S153.3 256 224 256zM274.7 304H173.3C77.61 304 0 381.6 0 477.3c0 19.14 15.52 34.67 34.66 34.67h378.7C432.5 512 448 496.5 448 477.3C448 381.6 370.4 304 274.7 304z"></path>
+                                    </svg>
+                                    Updated: 09 Jun
+                                 </p>
+                                 <p class="str_verified">
+                                    <svg width="512px" height="512px" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
+                                       <path d="M17.47 250.9C88.82 328.1 158 397.6 224.5 485.5c72.3-143.8 146.3-288.1 268.4-444.37L460 26.06C356.9 135.4 276.8 238.9 207.2 361.9c-48.4-43.6-126.62-105.3-174.38-137z"></path>
+                                    </svg>
+                                    verified
+                                 </p>
+                              </div>
+                              <div class="str_cpn_footer_right">
+                                 <p class="expire">
+                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+                                       <path d="M256 0C397.4 0 512 114.6 512 256C512 397.4 397.4 512 256 512C201.7 512 151.2 495 109.7 466.1C95.2 455.1 91.64 436 101.8 421.5C111.9 407 131.8 403.5 146.3 413.6C177.4 435.3 215.2 448 256 448C362 448 448 362 448 256C448 149.1 362 64 256 64C202.1 64 155 85.46 120.2 120.2L151 151C166.1 166.1 155.4 192 134.1 192H24C10.75 192 0 181.3 0 168V57.94C0 36.56 25.85 25.85 40.97 40.97L74.98 74.98C121.3 28.69 185.3 0 255.1 0L256 0zM256 128C269.3 128 280 138.7 280 152V246.1L344.1 311C354.3 320.4 354.3 335.6 344.1 344.1C335.6 354.3 320.4 354.3 311 344.1L239 272.1C234.5 268.5 232 262.4 232 256V152C232 138.7 242.7 128 256 128V128z">
+                                       </path>
+                                    </svg>
+                                    Exp: 31, Dec 22
+                                 </p>
+                                 <a href="#" data-toggle="modal" data-target="#myModal" class="cpn_btn">
+                                    <p class="code">***321d</p>
+                                    <p class="get">get code</p>
+                                 </a>
+                              </div>
+                           </div>
+                        </div>
+                        <div class="str_cpn">
+                           <div class="str_cpn_head">
+                              <div class="str_discount">
+                                 40% <span>off</span>
+                              </div>
+                              <div class="web_imagebox">
+                                 <img src="images/str_logo.png" alt="">
+                              </div>
+                           </div>
+                           <div class="str_cpn_body">
+                              <h4 class="str_cpn_title">40% off Selected Items at Abbott Lyon</h4>
+                              <p class="str_cpn_des">Enter this discount code at checkout to save 40% on selected items at Abbott Lyon</p>
+                           </div>
+                           <div class="str_cpn_footer">
+                              <div class="str_cpn_footer_left">
+                                 <p class="expire uses"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+                                       <path d="M224 256c70.7 0 128-57.31 128-128s-57.3-128-128-128C153.3 0 96 57.31 96 128S153.3 256 224 256zM274.7 304H173.3C77.61 304 0 381.6 0 477.3c0 19.14 15.52 34.67 34.66 34.67h378.7C432.5 512 448 496.5 448 477.3C448 381.6 370.4 304 274.7 304z"></path>
+                                    </svg>
+                                    Updated: 09 Jun
+                                 </p>
+                                 <p class="str_verified">
+                                    <svg width="512px" height="512px" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
+                                       <path d="M17.47 250.9C88.82 328.1 158 397.6 224.5 485.5c72.3-143.8 146.3-288.1 268.4-444.37L460 26.06C356.9 135.4 276.8 238.9 207.2 361.9c-48.4-43.6-126.62-105.3-174.38-137z"></path>
+                                    </svg>
+                                    verified
+                                 </p>
+                              </div>
+                              <div class="str_cpn_footer_right">
+                                 <p class="expire">
+                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+                                       <path d="M256 0C397.4 0 512 114.6 512 256C512 397.4 397.4 512 256 512C201.7 512 151.2 495 109.7 466.1C95.2 455.1 91.64 436 101.8 421.5C111.9 407 131.8 403.5 146.3 413.6C177.4 435.3 215.2 448 256 448C362 448 448 362 448 256C448 149.1 362 64 256 64C202.1 64 155 85.46 120.2 120.2L151 151C166.1 166.1 155.4 192 134.1 192H24C10.75 192 0 181.3 0 168V57.94C0 36.56 25.85 25.85 40.97 40.97L74.98 74.98C121.3 28.69 185.3 0 255.1 0L256 0zM256 128C269.3 128 280 138.7 280 152V246.1L344.1 311C354.3 320.4 354.3 335.6 344.1 344.1C335.6 354.3 320.4 354.3 311 344.1L239 272.1C234.5 268.5 232 262.4 232 256V152C232 138.7 242.7 128 256 128V128z">
+                                       </path>
+                                    </svg>
+                                    Exp: 31, Dec 22
+                                 </p>
+                                 <a href="#" data-toggle="modal" data-target="#myModal" class="cpn_btn deal">
+                                    <p class="code">***321d</p>
+                                    <p class="get">get deal</p>
+                                 </a>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="expired_coupon_container">
+                        <h2 class="expired_coupon_heading">Expired offers abbott lyon</h2>
+                        <p>There Are No Active Offers For Now You Can Try Expired Offers, It May Work For You !!</p>
+                     </div>
+                     <div class="expire_cpn">
+                        <div class="str_cpn">
+                           <div class="str_cpn_head">
+                              <div class="str_discount">
+                                 40% <span>off</span>
+                              </div>
+                              <div class="web_imagebox">
+                                 <img src="images/str_logo.png" alt="">
+                              </div>
+                           </div>
+                           <div class="str_cpn_body">
+                              <h4 class="str_cpn_title">40% off Selected Items at Abbott Lyon</h4>
+                              <p class="str_cpn_des">Enter this discount code at checkout to save 40% on selected items at Abbott Lyon</p>
+                           </div>
+                           <div class="str_cpn_footer">
+                              <div class="str_cpn_footer_left">
+                                 <p class="expire uses"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+                                       <path d="M224 256c70.7 0 128-57.31 128-128s-57.3-128-128-128C153.3 0 96 57.31 96 128S153.3 256 224 256zM274.7 304H173.3C77.61 304 0 381.6 0 477.3c0 19.14 15.52 34.67 34.66 34.67h378.7C432.5 512 448 496.5 448 477.3C448 381.6 370.4 304 274.7 304z"></path>
+                                    </svg>
+                                    Updated: 09 Jun
+                                 </p>
+                                 <p class="str_verified">
+                                    <svg width="512px" height="512px" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
+                                       <path d="M17.47 250.9C88.82 328.1 158 397.6 224.5 485.5c72.3-143.8 146.3-288.1 268.4-444.37L460 26.06C356.9 135.4 276.8 238.9 207.2 361.9c-48.4-43.6-126.62-105.3-174.38-137z"></path>
+                                    </svg>
+                                    verified
+                                 </p>
+                              </div>
+                              <div class="str_cpn_footer_right">
+                                 <p class="expire">
+                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+                                       <path d="M256 0C397.4 0 512 114.6 512 256C512 397.4 397.4 512 256 512C201.7 512 151.2 495 109.7 466.1C95.2 455.1 91.64 436 101.8 421.5C111.9 407 131.8 403.5 146.3 413.6C177.4 435.3 215.2 448 256 448C362 448 448 362 448 256C448 149.1 362 64 256 64C202.1 64 155 85.46 120.2 120.2L151 151C166.1 166.1 155.4 192 134.1 192H24C10.75 192 0 181.3 0 168V57.94C0 36.56 25.85 25.85 40.97 40.97L74.98 74.98C121.3 28.69 185.3 0 255.1 0L256 0zM256 128C269.3 128 280 138.7 280 152V246.1L344.1 311C354.3 320.4 354.3 335.6 344.1 344.1C335.6 354.3 320.4 354.3 311 344.1L239 272.1C234.5 268.5 232 262.4 232 256V152C232 138.7 242.7 128 256 128V128z">
+                                       </path>
+                                    </svg>
+                                    Exp: 31, Dec 22
+                                 </p>
+                                 <a href="#" data-toggle="modal" data-target="#myModal" class="cpn_btn">
+                                    <p class="code">***321d</p>
+                                    <p class="get">get code</p>
+                                 </a>
+                              </div>
+                           </div>
+                        </div>
+                        <div class="str_cpn">
+                           <div class="str_cpn_head">
+                              <div class="str_discount">
+                                 40% <span>off</span>
+                              </div>
+                              <div class="web_imagebox">
+                                 <img src="images/str_logo.png" alt="">
+                              </div>
+                           </div>
+                           <div class="str_cpn_body">
+                              <h4 class="str_cpn_title">40% off Selected Items at Abbott Lyon</h4>
+                              <p class="str_cpn_des">Enter this discount code at checkout to save 40% on selected items at Abbott Lyon</p>
+                           </div>
+                           <div class="str_cpn_footer">
+                              <div class="str_cpn_footer_left">
+                                 <p class="expire uses"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+                                       <path d="M224 256c70.7 0 128-57.31 128-128s-57.3-128-128-128C153.3 0 96 57.31 96 128S153.3 256 224 256zM274.7 304H173.3C77.61 304 0 381.6 0 477.3c0 19.14 15.52 34.67 34.66 34.67h378.7C432.5 512 448 496.5 448 477.3C448 381.6 370.4 304 274.7 304z"></path>
+                                    </svg>
+                                    Updated: 09 Jun
+                                 </p>
+                                 <p class="str_verified">
+                                    <svg width="512px" height="512px" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
+                                       <path d="M17.47 250.9C88.82 328.1 158 397.6 224.5 485.5c72.3-143.8 146.3-288.1 268.4-444.37L460 26.06C356.9 135.4 276.8 238.9 207.2 361.9c-48.4-43.6-126.62-105.3-174.38-137z"></path>
+                                    </svg>
+                                    verified
+                                 </p>
+                              </div>
+                              <div class="str_cpn_footer_right">
+                                 <p class="expire">
+                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+                                       <path d="M256 0C397.4 0 512 114.6 512 256C512 397.4 397.4 512 256 512C201.7 512 151.2 495 109.7 466.1C95.2 455.1 91.64 436 101.8 421.5C111.9 407 131.8 403.5 146.3 413.6C177.4 435.3 215.2 448 256 448C362 448 448 362 448 256C448 149.1 362 64 256 64C202.1 64 155 85.46 120.2 120.2L151 151C166.1 166.1 155.4 192 134.1 192H24C10.75 192 0 181.3 0 168V57.94C0 36.56 25.85 25.85 40.97 40.97L74.98 74.98C121.3 28.69 185.3 0 255.1 0L256 0zM256 128C269.3 128 280 138.7 280 152V246.1L344.1 311C354.3 320.4 354.3 335.6 344.1 344.1C335.6 354.3 320.4 354.3 311 344.1L239 272.1C234.5 268.5 232 262.4 232 256V152C232 138.7 242.7 128 256 128V128z">
+                                       </path>
+                                    </svg>
+                                    Exp: 31, Dec 22
+                                 </p>
+                                 <a href="#" data-toggle="modal" data-target="#myModal" class="cpn_btn deal">
+                                    <p class="code">***321
+                                       d</p>
+                                    <p class="get">get deal</p>
+                                 </a>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+   </section>
+   <!-- footer -->
+   <section class="footer bg_img" data-bg="images/footer.svg">
+      <div class="container">
+         <div class="row">
+            <div class="col-md-12">
+               <div class="ftr_container">
+                  <div class="subs bg_img" data-bg="images/subs.svg">
+                     <div class="subs_content">
+                        <h2 class="subs_heading">Subscribe To Our Newsletter</h2>
+                        <p class="subs_about">Sign up for our weekly email newsletter with the best money saving coupons.</p>
+                     </div>
+                     <form class="sub_form">
+                        <div class="sub_form_wrapper">
+                           <input type="email" required="required" class="sub_input" placeholder="Enter You'r Email">
+                           <button class="sub_btn"><i class="fa fa-paper-plane"></i>Subscribe</button>
+                        </div>
+                     </form>
+                  </div>
+                  <hr>
+                  <div class="footer_container">
+                     <div class="footer_item">
+                        <div class="footer_logo logo_container">
+                           <img src="images/logo.png" alt="">
+                        </div>
+                        <p class="footer_dis"><span>Disclaimer</span>: "We May Earn A Commission When You Use One Of Our Coupons/Links To Make A Purchase."</p>
+                        <div class="social_icons">
+                           <div class="icon fb">
+                              <i class="fa fa-facebook-f"></i>
+                           </div>
+                           <div class="icon twt">
+                              <i class="fa fa-twitter"></i>
+                           </div>
+                           <div class="icon insta">
+                              <i class="fa fa-instagram"></i>
+                           </div>
+                           <div class="icon google_plus">
+                              <i class="fa fa-google-plus"></i>
+                           </div>
+                           <div class="icon linked_in">
+                              <i class="fa fa-linkedin"></i>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="footer_item">
+                        <h4 class="footer_title">About us</h4>
+                        <ul class="footer_links">
+                           <li><i class="fa fa-long-arrow-right"></i><a href="about.html">privicy policy</a></li>
+                           <li><i class="fa fa-long-arrow-right"></i><a href="about.html">terms &amp; condition</a></li>
+                           <li><i class="fa fa-long-arrow-right"></i><a href="about.html">about</a></li>
+                           <li><i class="fa fa-long-arrow-right"></i><a href="contact.html">contact</a></li>
+                        </ul>
+                     </div>
+                     <div class="footer_item">
+                        <h4 class="footer_title">popular store</h4>
+                        <ul class="footer_links">
+                           <li><i class="fa fa-long-arrow-right"></i><a href="single_store.html">addidas</a></li>
+                           <li><i class="fa fa-long-arrow-right"></i><a href="single_store.html">abbott lyon</a></li>
+                           <li><i class="fa fa-long-arrow-right"></i><a href="single_store.html">hp</a></li>
+                           <li><i class="fa fa-long-arrow-right"></i><a href="single_store.html">P&amp;Co</a></li>
+                           <li><i class="fa fa-long-arrow-right"></i><a href="single_store.html">wowchers</a></li>
+                        </ul>
+                     </div>
+                     <div class="footer_item">
+                        <h4 class="footer_title">popular store</h4>
+                        <ul class="footer_links">
+                           <li><i class="fa fa-long-arrow-right"></i><a href="single_store.html">addidas</a></li>
+                           <li><i class="fa fa-long-arrow-right"></i><a href="single_store.html">abbott lyon</a></li>
+                           <li><i class="fa fa-long-arrow-right"></i><a href="single_store.html">hp</a></li>
+                           <li><i class="fa fa-long-arrow-right"></i><a href="single_store.html">P&amp;Co</a></li>
+                           <li><i class="fa fa-long-arrow-right"></i><a href="single_store.html">wowchers</a></li>
+                        </ul>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+   </section>
+
+   <!-- modal -->
+
+
+   <div class="modal fade" id="myModal" role="dialog">
+      <div class="modal-dialog">
+         <!-- Modal content-->
+         <div class="modal-content">
+            <div class="modal_head bg_img bg_blend" data-bg="images/save.png">
+               <span class="close" data-dismiss="modal"><svg xmlns="http://www.w3.org/2000/svg" viewBox="-6 -6 24 24" width="24" fill="currentColor">
+                     <path d="M7.314 5.9l3.535-3.536A1 1 0 1 0 9.435.95L5.899 4.485 2.364.95A1 1 0 1 0 .95 2.364l3.535 3.535L.95 9.435a1 1 0 1 0 1.414 1.414l3.535-3.535 3.536 3.535a1 1 0 1 0 1.414-1.414L7.314 5.899z"></path>
+                  </svg></span>
+               <h4 class="str_cpn_title">40% off Selected Items at Abbott Lyon</h4>
+               <p class="str_cpn_des">Enter this discount code at checkout to save 40% on selected items at Abbott Lyon</p>
+               <div class="model_code">
+                  21AgfGUil
+                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+                     <path d="M396.8 51.2C425.1 22.92 470.9 22.92 499.2 51.2C506.3 58.27 506.3 69.73 499.2 76.8L216.5 359.5C221.3 372.1 224 385.7 224 400C224 461.9 173.9 512 112 512C50.14 512 0 461.9 0 400C0 338.1 50.14 287.1 112 287.1C126.3 287.1 139.9 290.7 152.5 295.5L191.1 255.1L152.5 216.5C139.9 221.3 126.3 224 112 224C50.14 224 0 173.9 0 112C0 50.14 50.14 0 112 0C173.9 0 224 50.14 224 112C224 126.3 221.3 139.9 216.5 152.5L255.1 191.1L396.8 51.2zM160 111.1C160 85.49 138.5 63.1 112 63.1C85.49 63.1 64 85.49 64 111.1C64 138.5 85.49 159.1 112 159.1C138.5 159.1 160 138.5 160 111.1zM112 448C138.5 448 160 426.5 160 400C160 373.5 138.5 352 112 352C85.49 352 64 373.5 64 400C64 426.5 85.49 448 112 448zM278.6 342.6L342.6 278.6L499.2 435.2C506.3 442.3 506.3 453.7 499.2 460.8C470.9 489.1 425.1 489.1 396.8 460.8L278.6 342.6z"></path>
+                  </svg>
+               </div>
+            </div>
+            <div class="modal_head_body">
+               <div class="web_imagebox">
+                  <img src="images/str_logo.png" alt="">
+               </div>
+               <h2 class="subs_heading">Subscribe To Our Newsletter</h2>
+               <p class="subs_about">Sign up for our weekly email newsletter with the best money saving coupons.</p>
+               <form class="sub_form">
+                  <div class="sub_form_wrapper">
+                     <input type="email" required="required" class="sub_input" placeholder="Enter You'r Email">
+                     <button class="sub_btn"><i class="fa fa-paper-plane"></i>Subscribe</button>
+                  </div>
+               </form>
+            </div>
+            <div class="modal_head_footer">
+               <a href="javascript:void(0);" class="modal_link">See All The Body Shop Promo Codes
+                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="-5 -5 24 24" width="18">
+                     <path d="M10.586 5.657l-3.95-3.95A1 1 0 0 1 8.05.293l5.657 5.657a.997.997 0 0 1 0 1.414L8.05 13.021a1 1 0 1 1-1.414-1.414l3.95-3.95H1a1 1 0 1 1 0-2h9.586z"></path>
+                  </svg>
+               </a>
+            </div>
+         </div>
+      </div>
+   </div>
+</body>
+<!-- JQuery File -->
+<script src="JQuery/swiper-bundle.min.js"></script>
+<script src="jQuery/custom.js"></script>
+
+</html>

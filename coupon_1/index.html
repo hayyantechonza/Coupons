@@ -1,0 +1,967 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Document</title>
+      <!-- Latest compiled and minified CSS -->
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+      <!-- JQuery CDN -->
+      <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+      <!-- Latest compiled and minified JavaScript -->
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+      <!-- fontawesome -->
+      <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+      <!-- google Fonts -->
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=Georama:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+      <!-- stylesheet -->
+      <link rel="stylesheet" href="CSS/style.css">
+      <!-- responsive -->
+      <link rel="stylesheet" href="CSS/responsive.css">
+      <!-- swiper -->
+      <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css"/>
+   </head>
+   <body>
+      <!-- Header -->
+      <section class="navigation">
+         <ul class="nav_list" id="nav_list">
+            <div class="links_nav">
+               <li class="active"><b></b><b></b><a href="index.html" class="list_items"><i class="far fa-home"></i> Home</a></li>
+               <li><b></b><b></b><a href="store.html" class="list_items"><i class="far fa-store"></i>Store</a>
+               </li>
+               <li><b></b><b></b><a href="categories.html" class="list_items"> <i class="fa fa-list" aria-hidden="true"></i> categories</a></li>
+               <li><b></b><b></b><a href="about_us.html" class="list_items"> <i class="fa fa-list" aria-hidden="true"></i> about us</a></li>
+            </div>
+            <li><b></b><b></b><a href="Contact.html" class="list_items"><i class="far fa-address-book"></i> Contact</a></li>
+         </ul>
+         <div class="container">
+            <div class="row">
+               <div class="col-md-12">
+                  <div class="navigation_bar">
+                     <div class="header">
+                        <a href="index.html" class="logo">
+                        <img src="images/logo.png" alt="">   
+                        </a>
+                        <form class="form_container">
+                           <input type="text" class="form_input_field" placeholder="Search Product">
+                           <button class="search_icon">
+                           <i class="fa fa-search"></i>
+                           search
+                           </button>
+                           <div class="serach_result_container">
+                              <h2 class="search_content">Stores From "ASD"</h2>
+                              <div class="serach_result_wrapper">
+                                 <a href="store_list.html" class="serach_result_item">
+                                    <h2 class="search_result_content webkit_box">Adiddas Adiddas Adiddas</h2>
+                                 </a>
+                                 <a href="store_list.html" class="serach_result_item">
+                                    <h2 class="search_result_content webkit_box">Adiddas</h2>
+                                 </a>
+                                 <a href="store_list.html" class="serach_result_item">
+                                    <h2 class="search_result_content webkit_box">Adiddas</h2>
+                                 </a>
+                                 <a href="store_list.html" class="serach_result_item">
+                                    <h2 class="search_result_content webkit_box">Adiddas</h2>
+                                 </a>
+                              </div>
+                           </div>
+                        </form>
+                        <div class="categories_container">
+                           <a href="free_del.html" class="categories_btn active hide_at_600"> 20% Off Delivery</a>
+                           <a href="free_del.html" class="categories_btn hide_at_600"> Free Delivery</a>
+                           <a href="#" id="menu_toggle" class="categories_btn menu_toggler show_at_600">
+                           <i class="fa fa-bars"></i>
+                           </a>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </section>
+      <!-- slider -->
+      <section class="main_banenr">
+         <div class="main_banner_container swiper mySwiper ">
+            <div class="swiper-wrapper">
+               <div class="swiper-slide">
+                  <div class="main_banner_item lazy" data-src="images/banner.jpg">
+                     <div class="container">
+                        <div class="slider_item slider_item_right">
+                           <h1 class="slider_heading">summer is coming</h1>
+                           <h1 class="slider_upto_off">upto 80% off</h1>
+                           <p class="slider_text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus, architecto, dolorem. Dolores, recusandae amet minus vitae non corporis modi architecto.</p>
+                           <a href="#" class="slider_link">View more</a>
+                           <p class="animate_swip">swipe<i class="fa fa-chevron-right"></i><i class="fa fa-chevron-right"></i></p>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+               <div class="swiper-slide">
+                  <div class="main_banner_item lazy" data-src="images/banner3.jpg">
+                     <div class="container">
+                        <div class="slider_item slider_item_left">
+                           <h1 class="slider_heading">summer is coming</h1>
+                           <h1 class="slider_upto_off">upto 80% off</h1>
+                           <p class="slider_text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus, architecto, dolorem. Dolores, recusandae amet minus vitae non corporis modi architecto.</p>
+                           <a href="#" class="slider_link">View more</a>
+                           <p class="animate_swip">swipe<i class="fa fa-chevron-right"></i><i class="fa fa-chevron-right"></i></p>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+               <div class="swiper-slide">
+                  <div class="main_banner_item lazy" data-src="images/banner1.jpg">
+                     <div class="container">
+                        <div class="slider_item slider_item_right">
+                           <h1 class="slider_heading">summer is coming</h1>
+                           <h1 class="slider_upto_off">upto 80% off</h1>
+                           <p class="slider_text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus, architecto, dolorem. Dolores, recusandae amet minus vitae non corporis modi architecto.</p>
+                           <a href="#" class="slider_link">View more</a>
+                           <p class="animate_swip">swipe<i class="fa fa-chevron-right"></i><i class="fa fa-chevron-right"></i></p>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+               <div class="swiper-slide">
+                  <div class="main_banner_item lazy" data-src="images/banner4.jpg">
+                     <div class="container">
+                        <div class="slider_item slider_item_left">
+                           <h1 class="slider_heading">summer is coming</h1>
+                           <h1 class="slider_upto_off">upto 80% off</h1>
+                           <p class="slider_text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus, architecto, dolorem. Dolores, recusandae amet minus vitae non corporis modi architecto.</p>
+                           <a href="#" class="slider_link">View more</a>
+                           <p class="animate_swip">swipe<i class="fa fa-chevron-right"></i><i class="fa fa-chevron-right"></i></p>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+               <div class="swiper-slide">
+                  <div class="main_banner_item lazy" data-src="images/banner5.jpg">
+                     <div class="container">
+                        <div class="slider_item slider_item_left">
+                           <h1 class="slider_heading">summer is coming</h1>
+                           <h1 class="slider_upto_off">upto 80% off</h1>
+                           <p class="slider_text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus, architecto, dolorem. Dolores, recusandae amet minus vitae non corporis modi architecto.</p>
+                           <a href="#" class="slider_link">View more</a>
+                           <p class="animate_swip">swipe<i class="fa fa-chevron-right"></i><i class="fa fa-chevron-right"></i></p>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <div class="swiper-button-prev arrows"></div>
+            <div class="swiper-button-next arrows"></div>
+         </div>
+      </section>
+      <!-- Top Stores -->
+      <section class="top_store">
+         <div class="container">
+            <div class="row">
+               <div class="col-md-12">
+                  <h2 class="heading">top stores</h2>
+                  <div class="store_container">
+                     <a href="store_list.html" class="stores">
+                        <div class="store_title">
+                           <h3 class="webkit_box">Adidas</h3>
+                           <p><i class="fas fa-user"></i><span>0 Uses</span></p>
+                        </div>
+                        <div class="store_img">
+                           <div class="web_imagebox">
+                              <img src="images/store-logo.png" alt="">
+                           </div>
+                        </div>
+                     </a>
+                     <a href="store_list.html" class="stores">
+                        <div class="store_title">
+                           <h3 class="webkit_box">Adidas</h3>
+                           <p><i class="fas fa-user"></i><span>0 Uses</span></p>
+                        </div>
+                        <div class="store_img">
+                           <div class="web_imagebox">
+                              <img src="images/store-logo.png" alt="">
+                           </div>
+                        </div>
+                     </a>
+                     <a href="store_list.html" class="stores">
+                        <div class="store_title">
+                           <h3 class="webkit_box">Adidas</h3>
+                           <p><i class="fas fa-user"></i><span>0 Uses</span></p>
+                        </div>
+                        <div class="store_img">
+                           <div class="web_imagebox">
+                              <img src="images/store-logo.png" alt="">
+                           </div>
+                        </div>
+                     </a>
+                     <a href="store_list.html" class="stores">
+                        <div class="store_title">
+                           <h3 class="webkit_box">Adidas</h3>
+                           <p><i class="fas fa-user"></i><span>0 Uses</span></p>
+                        </div>
+                        <div class="store_img">
+                           <div class="web_imagebox">
+                              <img src="images/store-logo.png" alt="">
+                           </div>
+                        </div>
+                     </a>
+                     <a href="store_list.html" class="stores">
+                        <div class="store_title">
+                           <h3 class="webkit_box">Adidas</h3>
+                           <p><i class="fas fa-user"></i><span>0 Uses</span></p>
+                        </div>
+                        <div class="store_img">
+                           <div class="web_imagebox">
+                              <img src="images/store-logo.png" alt="">
+                           </div>
+                        </div>
+                     </a>
+                     <a href="store_list.html" class="stores">
+                        <div class="store_title">
+                           <h3 class="webkit_box">Adidas</h3>
+                           <p><i class="fas fa-user"></i><span>0 Uses</span></p>
+                        </div>
+                        <div class="store_img">
+                           <div class="web_imagebox">
+                              <img src="images/store-logo.png" alt="">
+                           </div>
+                        </div>
+                     </a>
+                     <a href="store_list.html" class="stores">
+                        <div class="store_title">
+                           <h3 class="webkit_box">Adidas</h3>
+                           <p><i class="fas fa-user"></i><span>0 Uses</span></p>
+                        </div>
+                        <div class="store_img">
+                           <div class="web_imagebox">
+                              <img src="images/store-logo.png" alt="">
+                           </div>
+                        </div>
+                     </a>
+                     <a href="store_list.html" class="stores">
+                        <div class="store_title">
+                           <h3 class="webkit_box">Adidas</h3>
+                           <p><i class="fas fa-user"></i><span>0 Uses</span></p>
+                        </div>
+                        <div class="store_img">
+                           <div class="web_imagebox">
+                              <img src="images/store-logo.png" alt="">
+                           </div>
+                        </div>
+                     </a>
+                     <a href="store_list.html" class="stores">
+                        <div class="store_title">
+                           <h3 class="webkit_box">Adidas</h3>
+                           <p><i class="fas fa-user"></i><span>0 Uses</span></p>
+                        </div>
+                        <div class="store_img">
+                           <div class="web_imagebox">
+                              <img src="images/store-logo.png" alt="">
+                           </div>
+                        </div>
+                     </a>
+                     <a href="store_list.html" class="stores">
+                        <div class="store_title">
+                           <h3 class="webkit_box">Adidas</h3>
+                           <p><i class="fas fa-user"></i><span>0 Uses</span></p>
+                        </div>
+                        <div class="store_img">
+                           <div class="web_imagebox">
+                              <img src="images/store-logo.png" alt="">
+                           </div>
+                        </div>
+                     </a>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </section>
+      <!-- Featured Offers -->
+      <section class="featured_offers">
+         <div class="container">
+            <div class="row">
+               <div class="col-md-12">
+                  <h2 class="heading">Featured Offers</h2>
+                  <div class="featured_coupon_container">
+                     <div class="featured_main_coupon">
+                        <div class="featured_coupon_header">
+                           <div class="featured_coupon_img">
+                              <div class="web_imagebox">
+                                 <img src="images/store-logo.png" alt="">
+                              </div>
+                           </div>
+                           <div class="coupon_content">
+                              <h3 class="featured_coupon_body_title">Up To 50% Off + Extra 10% Off Sale</h3>
+                              <div class="read_more_container">
+                                 <p class="webkit_box">Lorem ipsum dolor, sit, amet consectetur adipisicing elit. Quam, vel! </p>
+                                 <a href="#" class="read_more">read more <i class="fa fa-chevron-right"></i></a>
+                              </div>
+                           </div>
+                           <div class="featured_coupon_tags">
+                              <div class="tag">
+                                 <i class="fas fa-user-check"></i>
+                                 <span>verified</span>
+                              </div>
+                              <div class="tag">
+                                 <i class="fa fa-audio-description"></i>
+                                 <span>ZOGGS</span>
+                              </div>
+                           </div>
+                        </div>
+                        <div class="featured_coupon_body">
+                           <div class="code_btn_container">
+                              <a href="#" class="read_more">view store <i class="fa fa-chevron-right"></i></a>
+                              <a href="#" class="coupon_btn_a" data-text="***1234" data-toggle="modal" data-target="#exampleModal">Get code</a>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="featured_main_coupon">
+                        <div class="featured_coupon_header">
+                           <div class="featured_coupon_img">
+                              <div class="web_imagebox">
+                                 <img src="images/store-logo.png" alt="">
+                              </div>
+                           </div>
+                           <div class="coupon_content">
+                              <h3 class="featured_coupon_body_title">Up To 50% Off + Extra 10% Off Sale</h3>
+                              <div class="read_more_container">
+                                 <p class="webkit_box">Lorem ipsum dolor, sit, amet consectetur adipisicing elit. Quam, vel! </p>
+                                 <a href="#" class="read_more">read more <i class="fa fa-chevron-right"></i></a>
+                              </div>
+                           </div>
+                           <div class="featured_coupon_tags">
+                              <div class="tag">
+                                 <i class="fas fa-user-check"></i>
+                                 <span>verified</span>
+                              </div>
+                              <div class="tag">
+                                 <i class="fa fa-audio-description"></i>
+                                 <span>ZOGGS</span>
+                              </div>
+                           </div>
+                        </div>
+                        <div class="featured_coupon_body deal">
+                           <div class="code_btn_container">
+                              <a href="#" class="read_more">view store <i class="fa fa-chevron-right"></i></a>
+                              <a href="#" class="coupon_btn_a" data-text="***1234" data-toggle="modal" data-target="#exampleModal">Get deal</a>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="featured_main_coupon">
+                        <div class="featured_coupon_header">
+                           <div class="featured_coupon_img">
+                              <div class="web_imagebox">
+                                 <img src="images/store-logo.png" alt="">
+                              </div>
+                           </div>
+                           <div class="coupon_content">
+                              <h3 class="featured_coupon_body_title">Up To 50% Off + Extra 10% Off Sale</h3>
+                              <div class="read_more_container">
+                                 <p class="webkit_box">Lorem ipsum dolor, sit, amet consectetur adipisicing elit. Quam, vel! </p>
+                                 <a href="#" class="read_more">read more <i class="fa fa-chevron-right"></i></a>
+                              </div>
+                           </div>
+                           <div class="featured_coupon_tags">
+                              <div class="tag">
+                                 <i class="fas fa-user-check"></i>
+                                 <span>verified</span>
+                              </div>
+                              <div class="tag">
+                                 <i class="fa fa-audio-description"></i>
+                                 <span>ZOGGS</span>
+                              </div>
+                           </div>
+                        </div>
+                        <div class="featured_coupon_body">
+                           <div class="code_btn_container">
+                              <a href="#" class="read_more">view store <i class="fa fa-chevron-right"></i></a>
+                              <a href="#" class="coupon_btn_a" data-text="***1234" data-toggle="modal" data-target="#exampleModal">Get code</a>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="featured_main_coupon">
+                        <div class="featured_coupon_header">
+                           <div class="featured_coupon_img">
+                              <div class="web_imagebox">
+                                 <img src="images/store-logo.png" alt="">
+                              </div>
+                           </div>
+                           <div class="coupon_content">
+                              <h3 class="featured_coupon_body_title">Up To 50% Off + Extra 10% Off Sale</h3>
+                              <div class="read_more_container">
+                                 <p class="webkit_box">Lorem ipsum dolor, sit, amet consectetur adipisicing elit. Quam, vel! </p>
+                                 <a href="#" class="read_more">read more <i class="fa fa-chevron-right"></i></a>
+                              </div>
+                           </div>
+                           <div class="featured_coupon_tags">
+                              <div class="tag">
+                                 <i class="fas fa-user-check"></i>
+                                 <span>verified</span>
+                              </div>
+                              <div class="tag">
+                                 <i class="fa fa-audio-description"></i>
+                                 <span>ZOGGS</span>
+                              </div>
+                           </div>
+                        </div>
+                        <div class="featured_coupon_body deal">
+                           <div class="code_btn_container">
+                              <a href="#" class="read_more">view store <i class="fa fa-chevron-right"></i></a>
+                              <a href="#" class="coupon_btn_a" data-text="***1234" data-toggle="modal" data-target="#exampleModal">Get deal</a>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="featured_main_coupon">
+                        <div class="featured_coupon_header">
+                           <div class="featured_coupon_img">
+                              <div class="web_imagebox">
+                                 <img src="images/store-logo.png" alt="">
+                              </div>
+                           </div>
+                           <div class="coupon_content">
+                              <h3 class="featured_coupon_body_title">Up To 50% Off + Extra 10% Off Sale</h3>
+                              <div class="read_more_container">
+                                 <p class="webkit_box">Lorem ipsum dolor, sit, amet consectetur adipisicing elit. Quam, vel! </p>
+                                 <a href="#" class="read_more">read more <i class="fa fa-chevron-right"></i></a>
+                              </div>
+                           </div>
+                           <div class="featured_coupon_tags">
+                              <div class="tag">
+                                 <i class="fas fa-user-check"></i>
+                                 <span>verified</span>
+                              </div>
+                              <div class="tag">
+                                 <i class="fa fa-audio-description"></i>
+                                 <span>ZOGGS</span>
+                              </div>
+                           </div>
+                        </div>
+                        <div class="featured_coupon_body">
+                           <div class="code_btn_container">
+                              <a href="#" class="read_more">view store <i class="fa fa-chevron-right"></i></a>
+                              <a href="#" class="coupon_btn_a" data-text="***1234" data-toggle="modal" data-target="#exampleModal">Get code</a>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="featured_main_coupon">
+                        <div class="featured_coupon_header">
+                           <div class="featured_coupon_img">
+                              <div class="web_imagebox">
+                                 <img src="images/store-logo.png" alt="">
+                              </div>
+                           </div>
+                           <div class="coupon_content">
+                              <h3 class="featured_coupon_body_title">Up To 50% Off + Extra 10% Off Sale</h3>
+                              <div class="read_more_container">
+                                 <p class="webkit_box">Lorem ipsum dolor, sit, amet consectetur adipisicing elit. Quam, vel! </p>
+                                 <a href="#" class="read_more">read more <i class="fa fa-chevron-right"></i></a>
+                              </div>
+                           </div>
+                           <div class="featured_coupon_tags">
+                              <div class="tag">
+                                 <i class="fas fa-user-check"></i>
+                                 <span>verified</span>
+                              </div>
+                              <div class="tag">
+                                 <i class="fa fa-audio-description"></i>
+                                 <span>ZOGGS</span>
+                              </div>
+                           </div>
+                        </div>
+                        <div class="featured_coupon_body deal">
+                           <div class="code_btn_container">
+                              <a href="#" class="read_more">view store <i class="fa fa-chevron-right"></i></a>
+                              <a href="#" class="coupon_btn_a" data-text="***1234" data-toggle="modal" data-target="#exampleModal">Get deal</a>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </section>
+      <!-- Popular Categories -->
+      <section class="popular_categories">
+         <div class="container">
+            <div class="row">
+               <div class="col-md-12">
+                  <h2 class="heading">Popular Categories</h2>
+                  <div class="p_c_sidebar">
+                     <a href="single_categories.html" class="p_c_sidebar_wrapper items">
+                        <div class="p_c_sidebar_bg"></div>
+                        <div class="p_c_sidebar_items">
+                           <div class="p_c_sidebar_items_img">
+                              <div class="web_imagebox">
+                                 <img src="images/Categories_title.png" alt="">
+                              </div>
+                           </div>
+                           <div class="p_c_sidebar_items_title">
+                              <h4 class="webkit_box"> Entertainment </h4>
+                           </div>
+                        </div>
+                     </a>
+                     <a href="single_categories.html" class="p_c_sidebar_wrapper items">
+                        <div class="p_c_sidebar_bg"></div>
+                        <div class="p_c_sidebar_items">
+                           <div class="p_c_sidebar_items_img">
+                              <div class="web_imagebox">
+                                 <img src="images/Categories_title.png" alt="">
+                              </div>
+                           </div>
+                           <div class="p_c_sidebar_items_title">
+                              <h4 class="webkit_box"> Entertainment </h4>
+                           </div>
+                        </div>
+                     </a>
+                     <a href="single_categories.html" class="p_c_sidebar_wrapper items">
+                        <div class="p_c_sidebar_bg"></div>
+                        <div class="p_c_sidebar_items">
+                           <div class="p_c_sidebar_items_img">
+                              <div class="web_imagebox">
+                                 <img src="images/Categories_title.png" alt="">
+                              </div>
+                           </div>
+                           <div class="p_c_sidebar_items_title">
+                              <h4 class="webkit_box"> Entertainment </h4>
+                           </div>
+                        </div>
+                     </a>
+                     <a href="single_categories.html" class="p_c_sidebar_wrapper items">
+                        <div class="p_c_sidebar_bg"></div>
+                        <div class="p_c_sidebar_items">
+                           <div class="p_c_sidebar_items_img">
+                              <div class="web_imagebox">
+                                 <img src="images/Categories_title.png" alt="">
+                              </div>
+                           </div>
+                           <div class="p_c_sidebar_items_title">
+                              <h4 class="webkit_box"> Entertainment </h4>
+                           </div>
+                        </div>
+                     </a>
+                     <a href="single_categories.html" class="p_c_sidebar_wrapper items">
+                        <div class="p_c_sidebar_bg"></div>
+                        <div class="p_c_sidebar_items">
+                           <div class="p_c_sidebar_items_img">
+                              <div class="web_imagebox">
+                                 <img src="images/Categories_title.png" alt="">
+                              </div>
+                           </div>
+                           <div class="p_c_sidebar_items_title">
+                              <h4 class="webkit_box"> Entertainment </h4>
+                           </div>
+                        </div>
+                     </a>
+                     <a href="single_categories.html" class="p_c_sidebar_wrapper items">
+                        <div class="p_c_sidebar_bg"></div>
+                        <div class="p_c_sidebar_items">
+                           <div class="p_c_sidebar_items_img">
+                              <div class="web_imagebox">
+                                 <img src="images/Categories_title.png" alt="">
+                              </div>
+                           </div>
+                           <div class="p_c_sidebar_items_title">
+                              <h4 class="webkit_box"> Entertainment </h4>
+                           </div>
+                        </div>
+                     </a>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </section>
+      <!-- Featured Offers -->
+      <section class="featured_offers">
+         <div class="container">
+            <div class="row">
+               <div class="col-md-12">
+                  <h2 class="heading">Featured Offers</h2>
+                  <div class="featured_coupon_container">
+                     <div class="featured_main_coupon">
+                        <div class="featured_coupon_header">
+                           <div class="featured_coupon_img">
+                              <div class="web_imagebox">
+                                 <img src="images/store-logo.png" alt="">
+                              </div>
+                           </div>
+                           <div class="coupon_content">
+                              <h3 class="featured_coupon_body_title">Up To 50% Off + Extra 10% Off Sale</h3>
+                              <div class="read_more_container">
+                                 <p class="webkit_box">Lorem ipsum dolor, sit, amet consectetur adipisicing elit. Quam, vel! </p>
+                                 <a href="#" class="read_more">read more <i class="fa fa-chevron-right"></i></a>
+                              </div>
+                           </div>
+                           <div class="featured_coupon_tags">
+                              <div class="tag">
+                                 <i class="fas fa-user-check"></i>
+                                 <span>verified</span>
+                              </div>
+                              <div class="tag">
+                                 <i class="fa fa-audio-description"></i>
+                                 <span>ZOGGS</span>
+                              </div>
+                           </div>
+                        </div>
+                        <div class="featured_coupon_body">
+                           <div class="code_btn_container">
+                              <a href="#" class="read_more">view store <i class="fa fa-chevron-right"></i></a>
+                              <a href="#" class="coupon_btn_a" data-text="***1234" data-toggle="modal" data-target="#exampleModal">Get code</a>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="featured_main_coupon">
+                        <div class="featured_coupon_header">
+                           <div class="featured_coupon_img">
+                              <div class="web_imagebox">
+                                 <img src="images/store-logo.png" alt="">
+                              </div>
+                           </div>
+                           <div class="coupon_content">
+                              <h3 class="featured_coupon_body_title">Up To 50% Off + Extra 10% Off Sale</h3>
+                              <div class="read_more_container">
+                                 <p class="webkit_box">Lorem ipsum dolor, sit, amet consectetur adipisicing elit. Quam, vel! </p>
+                                 <a href="#" class="read_more">read more <i class="fa fa-chevron-right"></i></a>
+                              </div>
+                           </div>
+                           <div class="featured_coupon_tags">
+                              <div class="tag">
+                                 <i class="fas fa-user-check"></i>
+                                 <span>verified</span>
+                              </div>
+                              <div class="tag">
+                                 <i class="fa fa-audio-description"></i>
+                                 <span>ZOGGS</span>
+                              </div>
+                           </div>
+                        </div>
+                        <div class="featured_coupon_body deal">
+                           <div class="code_btn_container">
+                              <a href="#" class="read_more">view store <i class="fa fa-chevron-right"></i></a>
+                              <a href="#" class="coupon_btn_a" data-text="***1234" data-toggle="modal" data-target="#exampleModal">Get deal</a>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="featured_main_coupon">
+                        <div class="featured_coupon_header">
+                           <div class="featured_coupon_img">
+                              <div class="web_imagebox">
+                                 <img src="images/store-logo.png" alt="">
+                              </div>
+                           </div>
+                           <div class="coupon_content">
+                              <h3 class="featured_coupon_body_title">Up To 50% Off + Extra 10% Off Sale</h3>
+                              <div class="read_more_container">
+                                 <p class="webkit_box">Lorem ipsum dolor, sit, amet consectetur adipisicing elit. Quam, vel! </p>
+                                 <a href="#" class="read_more">read more <i class="fa fa-chevron-right"></i></a>
+                              </div>
+                           </div>
+                           <div class="featured_coupon_tags">
+                              <div class="tag">
+                                 <i class="fas fa-user-check"></i>
+                                 <span>verified</span>
+                              </div>
+                              <div class="tag">
+                                 <i class="fa fa-audio-description"></i>
+                                 <span>ZOGGS</span>
+                              </div>
+                           </div>
+                        </div>
+                        <div class="featured_coupon_body">
+                           <div class="code_btn_container">
+                              <a href="#" class="read_more">view store <i class="fa fa-chevron-right"></i></a>
+                              <a href="#" class="coupon_btn_a" data-text="***1234" data-toggle="modal" data-target="#exampleModal">Get code</a>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="featured_main_coupon">
+                        <div class="featured_coupon_header">
+                           <div class="featured_coupon_img">
+                              <div class="web_imagebox">
+                                 <img src="images/store-logo.png" alt="">
+                              </div>
+                           </div>
+                           <div class="coupon_content">
+                              <h3 class="featured_coupon_body_title">Up To 50% Off + Extra 10% Off Sale</h3>
+                              <div class="read_more_container">
+                                 <p class="webkit_box">Lorem ipsum dolor, sit, amet consectetur adipisicing elit. Quam, vel! </p>
+                                 <a href="#" class="read_more">read more <i class="fa fa-chevron-right"></i></a>
+                              </div>
+                           </div>
+                           <div class="featured_coupon_tags">
+                              <div class="tag">
+                                 <i class="fas fa-user-check"></i>
+                                 <span>verified</span>
+                              </div>
+                              <div class="tag">
+                                 <i class="fa fa-audio-description"></i>
+                                 <span>ZOGGS</span>
+                              </div>
+                           </div>
+                        </div>
+                        <div class="featured_coupon_body deal">
+                           <div class="code_btn_container">
+                              <a href="#" class="read_more">view store <i class="fa fa-chevron-right"></i></a>
+                              <a href="#" class="coupon_btn_a" data-text="***1234" data-toggle="modal" data-target="#exampleModal">Get deal</a>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="featured_main_coupon">
+                        <div class="featured_coupon_header">
+                           <div class="featured_coupon_img">
+                              <div class="web_imagebox">
+                                 <img src="images/store-logo.png" alt="">
+                              </div>
+                           </div>
+                           <div class="coupon_content">
+                              <h3 class="featured_coupon_body_title">Up To 50% Off + Extra 10% Off Sale</h3>
+                              <div class="read_more_container">
+                                 <p class="webkit_box">Lorem ipsum dolor, sit, amet consectetur adipisicing elit. Quam, vel! </p>
+                                 <a href="#" class="read_more">read more <i class="fa fa-chevron-right"></i></a>
+                              </div>
+                           </div>
+                           <div class="featured_coupon_tags">
+                              <div class="tag">
+                                 <i class="fas fa-user-check"></i>
+                                 <span>verified</span>
+                              </div>
+                              <div class="tag">
+                                 <i class="fa fa-audio-description"></i>
+                                 <span>ZOGGS</span>
+                              </div>
+                           </div>
+                        </div>
+                        <div class="featured_coupon_body">
+                           <div class="code_btn_container">
+                              <a href="#" class="read_more">view store <i class="fa fa-chevron-right"></i></a>
+                              <a href="#" class="coupon_btn_a" data-text="***1234" data-toggle="modal" data-target="#exampleModal">Get code</a>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="featured_main_coupon">
+                        <div class="featured_coupon_header">
+                           <div class="featured_coupon_img">
+                              <div class="web_imagebox">
+                                 <img src="images/store-logo.png" alt="">
+                              </div>
+                           </div>
+                           <div class="coupon_content">
+                              <h3 class="featured_coupon_body_title">Up To 50% Off + Extra 10% Off Sale</h3>
+                              <div class="read_more_container">
+                                 <p class="webkit_box">Lorem ipsum dolor, sit, amet consectetur adipisicing elit. Quam, vel! </p>
+                                 <a href="#" class="read_more">read more <i class="fa fa-chevron-right"></i></a>
+                              </div>
+                           </div>
+                           <div class="featured_coupon_tags">
+                              <div class="tag">
+                                 <i class="fas fa-user-check"></i>
+                                 <span>verified</span>
+                              </div>
+                              <div class="tag">
+                                 <i class="fa fa-audio-description"></i>
+                                 <span>ZOGGS</span>
+                              </div>
+                           </div>
+                        </div>
+                        <div class="featured_coupon_body deal">
+                           <div class="code_btn_container">
+                              <a href="#" class="read_more">view store <i class="fa fa-chevron-right"></i></a>
+                              <a href="#" class="coupon_btn_a" data-text="***1234" data-toggle="modal" data-target="#exampleModal">Get deal</a>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </section>
+      <!-- F.A.Q -->
+      <section class="f_a_q">
+         <div class="container">
+            <div class="row">
+               <div class="col-md-12">
+                  <h2 class="heading">frequently asked question</h2>
+                  <div class="f_a_q_container">
+                     <div class="f_a_q_wrapper">
+                        <div class="question">
+                           <h4>What is the difference between a deal and a coupon? <i class="fa fa-caret-up"></i></h4>
+                           <p class="hide_text">Lorem ipsum, dolor sit amet consectetur, adipisicing elit. Quae labore aperiam mollitia, eaque ipsa. Nesciunt esse aspernatur tenetur maiores asperiores!</p>
+                        </div>
+                        <div class="question">
+                           <h4>What is the difference between a deal and a coupon? <i class="fa fa-caret-up"></i></h4>
+                           <p class="hide_text">Lorem ipsum, dolor sit amet consectetur, adipisicing elit. Quae labore aperiam mollitia, eaque ipsa. Nesciunt esse aspernatur tenetur maiores asperiores!</p>
+                        </div>
+                        <div class="question">
+                           <h4>What is the difference between a deal and a coupon? <i class="fa fa-caret-up"></i></h4>
+                           <p class="hide_text">Lorem ipsum, dolor sit amet consectetur, adipisicing elit. Quae labore aperiam mollitia, eaque ipsa. Nesciunt esse aspernatur tenetur maiores asperiores!</p>
+                        </div>
+                        <div class="question">
+                           <h4>What is the difference between a deal and a coupon? <i class="fa fa-caret-up"></i></h4>
+                           <p class="hide_text">Lorem ipsum, dolor sit amet consectetur, adipisicing elit. Quae labore aperiam mollitia, eaque ipsa. Nesciunt esse aspernatur tenetur maiores asperiores!</p>
+                        </div>
+                        <div class="question">
+                           <h4>What is the difference between a deal and a coupon? <i class="fa fa-caret-up"></i></h4>
+                           <p class="hide_text">Lorem ipsum, dolor sit amet consectetur, adipisicing elit. Quae labore aperiam mollitia, eaque ipsa. Nesciunt esse aspernatur tenetur maiores asperiores!</p>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </section>
+      <!-- footer -->
+      <section class="footer">
+         <div class="container">
+            <div class="row">
+               <div class="col-md-12">
+                  <div class="footer_header">
+                     <div class="footer_contact_icons">
+                        <div class="footer_icon">
+                           <i class="fas fa-phone-alt"></i>
+                        </div>
+                        <div class="footer_contact_text">
+                           <h2>Call us</h2>
+                           <p>9876543210 0</p>
+                        </div>
+                     </div>
+                     <div class="footer_contact_icons order">
+                        <div class="footer_icon">
+                           <i class="fas fa-map-marker-alt"></i>
+                        </div>
+                        <div class="footer_contact_text">
+                           <h2>Find us</h2>
+                           <p>1010 Avenue, sw 54321, chandigarh</p>
+                        </div>
+                     </div>
+                     <div class="footer_contact_icons">
+                        <div class="footer_icon">
+                           <i class="far fa-envelope-open"></i>
+                        </div>
+                        <div class="footer_contact_text">
+                           <h2>Mail us</h2>
+                           <p>mail@info.com</p>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="footer_body ">
+                     <div class="footer_logo grid_colume">
+                        <div class="f_logo">
+                           <img src="images/logo.png" alt="">
+                        </div>
+                        <div class="f_text">
+                           <p>Lorem ipsum dolor sit amet, consec tetur adipisicing elit, sed do eiusmod tempor incididuntut consec tetur adipisicing elit,Lorem ipsum dolor sit amet.</p>
+                           <h2>Follow us</h2>
+                        </div>
+                        <div class="social_icons">
+                           <div class="icon fb">
+                              <i class="fab fa-facebook-f"></i>
+                           </div>
+                           <div class="icon twt">
+                              <i class="fab fa-twitter"></i>
+                           </div>
+                           <div class="icon insta">
+                              <i class="fab fa-instagram"></i>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="footer_logo">
+                        <div class="f_text">
+                           <h2 class="footer_head_title">Useful Links</h2>
+                        </div>
+                        <div class="f_links">
+                           <ul>
+                              <li><a href="About_us.html">Home</a></li>
+                              <li><a href="About_us.html">services</a></li>
+                              <li><a href="About_us.html">Contact</a></li>
+                              <li><a href="About_us.html">Our Services</a></li>
+                              <li><a href="About_us.html">Contact us</a></li>
+                           </ul>
+                           <ul>
+                              <li><a href="About_us.html">Home</a></li>
+                              <li><a href="About_us.html">services</a></li>
+                              <li><a href="About_us.html">Contact</a></li>
+                              <li><a href="About_us.html">Our Services</a></li>
+                              <li><a href="About_us.html">Contact us</a></li>
+                           </ul>
+                        </div>
+                     </div>
+                     <div class="footer_logo">
+                        <div class="f_text">
+                           <h2 class="footer_head_title">Subscribe</h2>
+                        </div>
+                        <p class="subs_text">Don’t miss to subscribe to our new feeds, kindly fill the form below.</p>
+                        <form class="subscribe" action="">
+                           <input type="text" placeholder="Enter Your Email">
+                           <i class="fab fa-telegram-plane"></i>
+                        </form>
+                     </div>
+                  </div>
+                  <div class="footer_footer">
+                     <div class="footer_f">
+                        <div class="f_text">
+                           <p>Copyright &copy; 2018, All Right Reserved <a href="#">Techonza</a></p>
+                        </div>
+                        <ul>
+                           <li><a href="About_us.html">Home</a></li>
+                           <li><a href="About_us.html">Terms</a></li>
+                           <li><a href="About_us.html">Privacy</a></li>
+                           <li><a href="About_us.html">Policy</a></li>
+                           <li><a href="About_us.html">Contact</a></li>
+                        </ul>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </section>
+      <!-- Modal -->
+      <div class="modal fade in" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+         <div class="modal-dialog" role="document">
+            <div class="modal-content">
+               <div class="modal-header">
+                  <div class="modal_img_title">
+                     <div class="web_imagebox">
+                        <img src="images/store_list.png" alt="">
+                     </div>
+                  </div>
+                  <div class="modal_title">
+                     <a href="#" class="modal_title_heading">10% Off Sitewide <i class="fa fa-external-link"></i></a>
+                  </div>
+               </div>
+               <div class="modal-body">
+                  <div class="content_modal">
+                     <p>Click on this link to get new products from £8.99 at Smartphoto.</p>
+                     <div class="copy_code">
+                        <p>6354123</p>
+                        <button class="code_copy">
+                        Copy
+                        </button>
+                     </div>
+                  </div>
+                  <div class="bages">
+                     <div class="bage">
+                        <i class="far fa-clock"></i>
+                        <p>Updated on : 17 Jan 2022</p>
+                     </div>
+                     <div class="bage">
+                        <i class="far fa-clock"></i>
+                        <p>No expire</p>
+                     </div>
+                  </div>
+               </div>
+               <div class="modal-footer">
+                  <p>Want more Sainsbury's Offers? Visit Sainsbury's</p>
+                  <button class="modal_btn">visit site
+                  <i class="fa fa-external-link"></i></button>
+               </div>
+            </div>
+         </div>
+      </div>
+   </body>
+   <!-- JQuery File -->
+   <script src="JQuery/jquery.lazy.min.js"></script>
+   <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+   <script src="https://unpkg.com/@popperjs/core@2/dist/umd/popper.min.js"></script>
+   <script src="https://unpkg.com/tippy.js@6/dist/tippy-bundle.umd.js"></script>
+   <script src="JQuery/JQuery.js"></script>
+</html>

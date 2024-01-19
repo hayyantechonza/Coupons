@@ -1,0 +1,755 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Document</title>
+      <!-- Latest compiled and minified CSS -->
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous"> 
+      <!-- JQuery CDN -->
+  	   <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+      <!-- Latest compiled and minified JavaScript -->
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+     
+      <!-- fontawesome -->
+      <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+      <!-- google Fonts -->
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+      <!-- stylesheet -->
+      <link rel="stylesheet" href="CSS/style.css">
+      <!-- responsive -->
+      <link rel="stylesheet" href="CSS/responsive.css">
+   </head>
+   <body>
+      <!-- Header -->
+      <header>
+         <div class="container">
+            <div class="row">
+               <div class="col-md-12">
+                  <nav>
+                     <div class="logo-container">
+                        <a href="#"><img src="images/logo.png" alt="logo" class="logo"></a>
+                        <div class="menu-icon">
+                           <input class="menu-icon__cheeckbox" type="checkbox" />
+                           <div>
+                              <span></span>
+                              <span></span>
+                           </div>
+                        </div>
+                     </div>
+                     <form action="">
+                        <input type="text" name="" placeholder="Search">
+                        <i class="fa fa-search"></i>
+	                     <div class="search_suggestion">
+	                     	<p class="search">Store From "S"</p>
+	                     	<div class="suggestion">
+	                     		<a href="#" class="suggestion_store">
+	                     			<div class="store_img">
+	                     				<div class="web_imagebox">
+	                     					<img src="images/card1.jpg" alt="">
+	                     				</div>
+	                     			</div>
+	                     			<div class="suggestion_content">
+	                     				<p>Store Name</p>
+	                     				<span>Offers</span>
+	                     			</div>
+	                     		</a>
+	                     		<a href="#" class="suggestion_store">
+	                     			<div class="store_img">
+	                     				<div class="web_imagebox">
+	                     					<img src="images/card1.jpg" alt="">
+	                     				</div>
+	                     			</div>
+	                     			<div class="suggestion_content">
+	                     				<p>Store Name</p>
+	                     				<span>Offers</span>
+	                     			</div>
+	                     		</a>
+	                     		<a href="#" class="suggestion_store">
+	                     			<div class="store_img">
+	                     				<div class="web_imagebox">
+	                     					<img src="images/card1.jpg" alt="">
+	                     				</div>
+	                     			</div>
+	                     			<div class="suggestion_content">
+	                     				<p>Store Name</p>
+	                     				<span>Offers</span>
+	                     			</div>
+	                     		</a>
+	                     		<a href="#" class="suggestion_store">
+	                     			<div class="store_img">
+	                     				<div class="web_imagebox">
+	                     					<img src="images/card1.jpg" alt="">
+	                     				</div>
+	                     			</div>
+	                     			<div class="suggestion_content">
+	                     				<p>Store Name</p>
+	                     				<span>Offers</span>
+	                     			</div>
+	                     		</a>
+	                     		<a href="#" class="suggestion_store">
+	                     			<div class="store_img">
+	                     				<div class="web_imagebox">
+	                     					<img src="images/card1.jpg" alt="">
+	                     				</div>
+	                     			</div>
+	                     			<div class="suggestion_content">
+	                     				<p>Store Name</p>
+	                     				<span>Offers</span>
+	                     			</div>
+	                     		</a>
+	                     		<a href="#" class="suggestion_store">
+	                     			<div class="store_img">
+	                     				<div class="web_imagebox">
+	                     					<img src="images/card1.jpg" alt="">
+	                     				</div>
+	                     			</div>
+	                     			<div class="suggestion_content">
+	                     				<p>Store Name</p>
+	                     				<span>Offers</span>
+	                     			</div>
+	                     		</a>
+	                     	</div>
+	                     </div>
+                     </form>
+                  </nav>
+                  <ul class="menu">
+                     <li class="active"><a href="index.html"><img src="images/Home.png" alt=""> Home</a></li>
+                     <li><a href="store.html"><img src="images/store.png" alt=""> Stores</a></li>
+                     <li><a href="contact.html"><img src="images/Contact Us.png" alt=""> Contact Us</a></li>
+                     <li class="coupon active">
+                        <a href="#">
+                        <img src="images/Categories.png" alt=""> Categories 
+                        <i class="fas fa-caret-down"></i>
+                        </a>
+                     </li>
+                  </ul>
+                  <div class="categories-dd">
+                     <div class="categories-dd-header">
+                        <h3>Categories</h3>
+                        <i class="fa fa-times"></i>
+                     </div>
+                     <div class="categories-dd-body">
+                        <ol class="categories-dd-list">
+                           <li>
+                              <div class="web_imagebox">
+                                 <img src="images/store.png" alt="">
+                              </div>
+                              <a href="#">Home</a>
+                           </li>
+                           <li>
+                              <div class="web_imagebox">
+                                 <img src="images/store.png" alt="">
+                              </div>
+                              <a href="#">Home</a>
+                           </li>
+                           <li>
+                              <div class="web_imagebox">
+                                 <img src="images/store.png" alt="">
+                              </div>
+                              <a href="#">Home</a>
+                           </li>
+                           <li>
+                              <div class="web_imagebox">
+                                 <img src="images/store.png" alt="">
+                              </div>
+                              <a href="#">Home</a>
+                           </li>
+                           <li>
+                              <div class="web_imagebox">
+                                 <img src="images/store.png" alt="">
+                              </div>
+                              <a href="#">Home</a>
+                           </li>
+                           <li>
+                              <div class="web_imagebox">
+                                 <img src="images/store.png" alt="">
+                              </div>
+                              <a href="#">Home</a>
+                           </li>
+                           <li>
+                              <div class="web_imagebox">
+                                 <img src="images/store.png" alt="">
+                              </div>
+                              <a href="#">Home</a>
+                           </li>
+                           <li>
+                              <div class="web_imagebox">
+                                 <img src="images/store.png" alt="">
+                              </div>
+                              <a href="#">Home</a>
+                           </li>
+                           <li>
+                              <div class="web_imagebox">
+                                 <img src="images/store.png" alt="">
+                              </div>
+                              <a href="#">Home</a>
+                           </li>
+                           <li>
+                              <div class="web_imagebox">
+                                 <img src="images/store.png" alt="">
+                              </div>
+                              <a href="#">Home</a>
+                           </li>
+                           <li>
+                              <div class="web_imagebox">
+                                 <img src="images/store.png" alt="">
+                              </div>
+                              <a href="#">Home</a>
+                           </li>
+                        </ol>
+                     </div>
+                     <div class="categories-dd-footer">
+                        <a href="Categories-list.html">View All <i class="fa fa-caret-right"></i></a>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </header>
+      <!-- popular-stores -->
+      <div class="top-stores">
+         <div class="container">
+            <div class="row">
+               <div class="col-md-12">
+                  <div class="topStores">
+                     <h3>Top Stores</h3>
+                     <div class="line"></div>
+                  </div>
+                  <div class="card-main">
+                     <a href="#" class="card">
+                        <div class="card-img">
+                           <div class="web_imagebox">
+                              <img src="images/card1.jpg" alt="">
+                           </div>
+                        </div>
+                        <div class="content">
+                           <span>Rebellious Fashion</span>
+                           <p>11 offers</p>
+                        </div>
+                     </a>
+                     <a href="#" class="card">
+                        <div class="card-img">
+                           <div class="web_imagebox">
+                              <img src="images/card1.jpg" alt="">
+                           </div>
+                        </div>
+                        <div class="content">
+                           <span>Rebellious Fashion</span>
+                           <p>11 offers</p>
+                        </div>
+                     </a>
+                     <a href="#" class="card">
+                        <div class="card-img">
+                           <div class="web_imagebox">
+                              <img src="images/card1.jpg" alt="">
+                           </div>
+                        </div>
+                        <div class="content">
+                           <span>Rebellious Fashion</span>
+                           <p>11 offers</p>
+                        </div>
+                     </a>
+                     <a href="#" class="card">
+                        <div class="card-img">
+                           <div class="web_imagebox">
+                              <img src="images/card1.jpg" alt="">
+                           </div>
+                        </div>
+                        <div class="content">
+                           <span>Rebellious Fashion</span>
+                           <p>11 offers</p>
+                        </div>
+                     </a>
+                     <a href="#" class="card">
+                        <div class="card-img">
+                           <div class="web_imagebox">
+                              <img src="images/card1.jpg" alt="">
+                           </div>
+                        </div>
+                        <div class="content">
+                           <span>Rebellious Fashion</span>
+                           <p>11 offers</p>
+                        </div>
+                     </a>
+                     <a href="#" class="card">
+                        <div class="card-img">
+                           <div class="web_imagebox">
+                              <img src="images/card1.jpg" alt="">
+                           </div>
+                        </div>
+                        <div class="content">
+                           <span>Rebellious Fashion</span>
+                           <p>11 offers</p>
+                        </div>
+                     </a>
+                     <a href="#" class="card">
+                        <div class="card-img">
+                           <div class="web_imagebox">
+                              <img src="images/card1.jpg" alt="">
+                           </div>
+                        </div>
+                        <div class="content">
+                           <span>Rebellious Fashion</span>
+                           <p>11 offers</p>
+                        </div>
+                     </a>
+                     <a href="#" class="card">
+                        <div class="card-img">
+                           <div class="web_imagebox">
+                              <img src="images/card1.jpg" alt="">
+                           </div>
+                        </div>
+                        <div class="content">
+                           <span>Rebellious Fashion</span>
+                           <p>11 offers</p>
+                        </div>
+                     </a>
+                     <a href="#" class="card">
+                        <div class="card-img">
+                           <div class="web_imagebox">
+                              <img src="images/card1.jpg" alt="">
+                           </div>
+                        </div>
+                        <div class="content">
+                           <span>Rebellious Fashion</span>
+                           <p>11 offers</p>
+                        </div>
+                     </a>
+                     <a href="#" class="card">
+                        <div class="card-img">
+                           <div class="web_imagebox">
+                              <img src="images/card1.jpg" alt="">
+                           </div>
+                        </div>
+                        <div class="content">
+                           <span>Rebellious Fashion</span>
+                           <p>11 offers</p>
+                        </div>
+                     </a>
+                     <a href="#" class="card">
+                        <div class="card-img">
+                           <div class="web_imagebox">
+                              <img src="images/card1.jpg" alt="">
+                           </div>
+                        </div>
+                        <div class="content">
+                           <span>Rebellious Fashion</span>
+                           <p>11 offers</p>
+                        </div>
+                     </a>
+                     <a href="#" class="card">
+                        <div class="card-img">
+                           <div class="web_imagebox">
+                              <img src="images/card1.jpg" alt="">
+                           </div>
+                        </div>
+                        <div class="content">
+                           <span>Rebellious Fashion</span>
+                           <p>11 offers</p>
+                        </div>
+                     </a>
+                     <a href="#" class="card">
+                        <div class="card-img">
+                           <div class="web_imagebox">
+                              <img src="images/card1.jpg" alt="">
+                           </div>
+                        </div>
+                        <div class="content">
+                           <span>Rebellious Fashion</span>
+                           <p>11 offers</p>
+                        </div>
+                     </a>
+                     <a href="#" class="card viewMore">
+                     <i>View More <span class="fas fa-arrow-right"></span></i>
+                     </a>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+      <!-- Featured Offers -->
+      <div class="featured-offers">
+         <div class="container">
+            <div class="row">
+               <div class="col-md-12">
+                  <div class="featuredOffers">
+                     <h3>Featured Offers</h3>
+                     <div class="line"></div>
+                  </div>
+                  <div class="card-main">
+                     <div class="card">
+                        <a href="#">
+                           <div class="card-img"></div>
+                        </a>
+                        <div class="card-content">
+                           <p class="user-used"><i class="fa fa-user"></i> 2 people used </p>
+                           <div class="web_imagebox">
+                              <a href="#"><img src="images/Card1.jpg" alt=""></a>
+                           </div>
+                           <a  href="#" class="product-heading">Up to £120 off Vacuum Cleaners at Shark</a>
+                           <p class="read-more">Click on this link to save up % Off Sitewide AT Coco & Eve</p>
+                           <p class="expires"><i class="far fa-clock"></i> Expires: 31, Dec 21</p>
+                           <div class="code">
+                              <a href="#">Get Code</a>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="card">
+                        <a href="#">
+                           <div class="card-img"></div>
+                        </a>
+                        <div class="card-content">
+                           <p class="user-used"><i class="fa fa-user"></i> 2 people used </p>
+                           <div class="web_imagebox">
+                              <a href="#"><img src="images/Card1.jpg" alt=""></a>
+                           </div>
+                           <a href="#" class="product-heading">Up to £120 off Vacuum Cleaners at Shark</a>
+                           <p class="read-more">Click on this link to save up % Off Sitewide AT Coco & Eve</p>
+                           <p class="expires"><i class="far fa-clock"></i> Expires: 31, Dec 21</p>
+                           <div class="code">
+                              <a href="#">Get Code</a>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="card">
+                        <a href="#">
+                           <div class="card-img"></div>
+                        </a>
+                        <div class="card-content">
+                           <p class="user-used"><i class="fa fa-user"></i> 2 people used </p>
+                           <div class="web_imagebox">
+                              <a href="#"><img src="images/Card1.jpg" alt=""></a>
+                           </div>
+                           <h3 class="product-heading"><a href="#">Up to £120 off Vacuum Cleaners at Shark</a></h3>
+                           <p class="read-more">Click on this link to save up % Off Sitewide AT Coco & Eve</p>
+                           <p class="expires"><i class="far fa-clock"></i> Expires: 31, Dec 21</p>
+                           <div class="code">
+                              <a href="#">Get Code</a>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="card">
+                        <a href="#">
+                           <div class="card-img"></div>
+                        </a>
+                        <div class="card-content">
+                           <p class="user-used"><i class="fa fa-user"></i> 2 people used </p>
+                           <div class="web_imagebox">
+                              <a href="#"><img src="images/Card1.jpg" alt=""></a>
+                           </div>
+                           <h3 class="product-heading"><a href="#">Up to £120 off Vacuum Cleaners at Shark</a></h3>
+                           <p class="read-more">Click on this link to save up % Off Sitewide AT Coco & Eve</p>
+                           <p class="expires"><i class="far fa-clock"></i> Expires: 31, Dec 21</p>
+                           <div class="code">
+                              <a href="#">Get Code</a>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+      <!-- Popular Categories -->
+      <div class="popular-categories">
+         <div class="container">
+            <div class="row">
+               <div class="col-md-12">
+                  <div class="popularCategories">
+                     <h3>Popular Categories</h3>
+                     <div class="line"></div>
+                  </div>
+                  <div class="card-main">
+                     <a href="#" class="card">
+                        <div class="card-img">
+                           <div class="web_imagebox">
+                              <img src="images/Popular-card1.png" alt="">
+                           </div>
+                        </div>
+                        <div class="card-content">
+                           <span class="card-text">fishing  Offers</span>
+                        </div>
+                     </a>
+                     <a href="#" class="card">
+                        <div class="card-img">
+                           <div class="web_imagebox">
+                              <img src="images/Popular-card2.png" alt="">
+                           </div>
+                        </div>
+                        <div class="card-content">
+                           <span class="card-text">fishing  Offers</span>
+                        </div>
+                     </a>
+                     <a href="#" class="card">
+                        <div class="card-img">
+                           <div class="web_imagebox">
+                              <img src="images/Popular-card3.png" alt="">
+                           </div>
+                        </div>
+                        <div class="card-content">
+                           <span class="card-text">fishing  Offers</span>
+                        </div>
+                     </a>
+                     <a href="#" class="card">
+                        <div class="card-img">
+                           <div class="web_imagebox">
+                              <img src="images/Popular-card4.png" alt="">
+                           </div>
+                        </div>
+                        <div class="card-content">
+                           <span class="card-text">fishing  Offers</span>
+                        </div>
+                     </a>
+                     <a href="#" class="card">
+                        <div class="card-img">
+                           <div class="web_imagebox">
+                              <img src="images/Popular-card5.png" alt="">
+                           </div>
+                        </div>
+                        <div class="card-content">
+                           <span class="card-text">fishing  Offers</span>
+                        </div>
+                     </a>
+                     <a href="#" class="card">
+                        <div class="card-img">
+                           <div class="web_imagebox">
+                              <img src="images/Popular-card6.png" alt="">
+                           </div>
+                        </div>
+                        <div class="card-content">
+                           <span class="card-text">fishing  Offers</span>
+                        </div>
+                     </a>
+                     <a href="#" class="card">
+                        <div class="card-img">
+                           <div class="web_imagebox">
+                              <img src="images/Popular-card7.png" alt="">
+                           </div>
+                        </div>
+                        <div class="card-content">
+                           <span class="card-text">fishing  Offers</span>
+                        </div>
+                     </a>
+                     <a href="#" class="card">
+                        <div class="card-img">
+                           <div class="web_imagebox">
+                              <img src="images/Popular-card8.png" alt="">
+                           </div>
+                        </div>
+                        <div class="card-content">
+                           <span class="card-text">fishing  Offers</span>
+                        </div>
+                     </a>
+                     <a href="#" class="card">
+                        <div class="card-img">
+                           <div class="web_imagebox">
+                              <img src="images/Popular-card9.png" alt="">
+                           </div>
+                        </div>
+                        <div class="card-content">
+                           <span class="card-text">fishing  Offers</span>
+                        </div>
+                     </a>
+                     <a href="#" class="card">
+                        <div class="card-img">
+                           <div class="web_imagebox">
+                              <img src="images/Popular-card1.png" alt="">
+                           </div>
+                        </div>
+                        <div class="card-content">
+                           <span class="card-text">fishing  Offers</span>
+                        </div>
+                     </a>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+      <!-- latestOffers -->
+      <div class="featured-offers">
+         <div class="container">
+            <div class="row">
+               <div class="col-md-12">
+                  <div class="featuredOffers">
+                     <h3>Latest Offers</h3>
+                     <div class="line"></div>
+                  </div>
+                  <div class="card-main">
+                     <div class="card">
+                        <a href="#">
+                           <div class="card-img"></div>
+                        </a>
+                        <div class="card-content">
+                           <p class="user-used"><i class="fa fa-user"></i> 2 people used </p>
+                           <div class="web_imagebox">
+                              <a href="#"><img src="images/Card1.jpg" alt=""></a>
+                           </div>
+                           <h3 class="product-heading"><a href="#">Up to £120 off Vacuum Cleaners at Shark</a></h3>
+                           <p class="read-more">Click on this link to save up % Off Sitewide AT Coco & Eve</p>
+                           <p class="expires"><i class="far fa-clock"></i> Expires: 31, Dec 21</p>
+                           <div class="code">
+                              <a href="#">Get Code</a>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="card">
+                        <a href="#">
+                           <div class="card-img"></div>
+                        </a>
+                        <div class="card-content">
+                           <p class="user-used"><i class="fa fa-user"></i> 2 people used </p>
+                           <div class="web_imagebox">
+                              <a href="#"><img src="images/Card1.jpg" alt=""></a>
+                           </div>
+                           <h3 class="product-heading"><a href="#">Up to £120 off Vacuum Cleaners at Shark</a></h3>
+                           <p class="read-more">Click on this link to save up % Off Sitewide AT Coco & Eve</p>
+                           <p class="expires"><i class="far fa-clock"></i> Expires: 31, Dec 21</p>
+                           <div class="code">
+                              <a href="#">Get Code</a>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="card">
+                        <a href="#">
+                           <div class="card-img"></div>
+                        </a>
+                        <div class="card-content">
+                           <p class="user-used"><i class="fa fa-user"></i> 2 people used </p>
+                           <div class="web_imagebox">
+                              <a href="#"><img src="images/Card1.jpg" alt=""></a>
+                           </div>
+                           <h3 class="product-heading"><a href="#">Up to £120 off Vacuum Cleaners at Shark</a></h3>
+                           <p class="read-more">Click on this link to save up % Off Sitewide AT Coco & Eve</p>
+                           <p class="expires"><i class="far fa-clock"></i> Expires: 31, Dec 21</p>
+                           <div class="code">
+                              <a href="#">Get Code</a>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="card">
+                        <a href="#">
+                           <div class="card-img"></div>
+                        </a>
+                        <div class="card-content">
+                           <p class="user-used"><i class="fa fa-user"></i> 2 people used </p>
+                           <div class="web_imagebox">
+                              <a href="#"><img src="images/Card1.jpg" alt=""></a>
+                           </div>
+                           <h3 class="product-heading"><a href="#">Up to £120 off Vacuum Cleaners at Shark</a></h3>
+                           <p class="read-more">Click on this link to save up % Off Sitewide AT Coco & Eve</p>
+                           <p class="expires"><i class="far fa-clock"></i> Expires: 31, Dec 21</p>
+                           <div class="code">
+                              <a href="#">Get Code</a>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+      <!-- disclaimer -->
+      <div class="disclaimer">
+         <div class="container">
+            <div class="row">
+               <div class="col-md-12">
+                  <div class="content-box">
+                     <div class="disclaimer-content">
+                        <div class="disclaimerSavingLite">
+                           <h3>Disclaimer</h3>
+                           <div class="line"></div>
+                        </div>
+                        <p>Disclaimer is necessary for our Marketing & Advertising Policies, But make sure that 
+                           your ailment with all the appropriates Government Regulations. Disclaimer are required for 
+                           everyone who can make money form these kind of ads using affiliate links. The only purpose is 
+                           to help our consumers who can understood the publisher earn money from that links.
+                        </p>
+                     </div>
+                     <div class="savingLite">
+                        <div class="disclaimerSavingLite">
+                           <h3>How to save with Savified</h3>
+                           <div class="line"></div>
+                        </div>
+                        <p>Save money today with promo and discount codes from your favourite places. From restaurants 
+                           and shopping to electronics and fashion, we’ve got you covered. Whether you’re hunting for the 
+                           holidays - Cyber Monday and Black Friday among them - or just browsing, we’ve got a huge range of
+                           discounts on offer, including free delivery codes to save on your shipping costs.
+                        </p>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+      <!-- Footer -->
+      <footer>
+         <div class="container">
+            <div class="row">
+               <div class="col-md-12">
+                  <div class="footer-row-1">
+                     <div class="content-email">
+                        <p>Sign Up For Our Weekly Email Newsletter With The Best Money Saving Coupons.</p>
+                     </div>
+                     <form action="">
+                        <input type="email" placeholder="Enter Your Email Address">
+                        <a href="#" class=""><span>Subscribe</span> <i class="far fa-paper-plane"></i></a>
+                     </form>
+                  </div>
+                  <div class="footer-row-2">
+                     <div class="logo">
+                        <img src="images/logo.png" alt="">
+                        <p><span>Disclaimer : </span>"We may earn a commission when you use one of our coupons/links to make a purchase."</p>
+                     </div>
+                     <div class="disclaimer-footer">
+                        <h3>Enjoy Discounts</h3>
+                        <ul>
+                           <li><a href=""><i class="fas fa-caret-right"></i> 20 Off Offers</a></li>
+                           <li><a href=""><i class="fas fa-caret-right"></i> Free Delivery Offers</a></li>
+                           <li><a href=""><i class="fas fa-caret-right"></i> All Categories</a></li>
+                           <li><a href=""><i class="fas fa-caret-right"></i> All Stores</a></li>
+                        </ul>
+                     </div>
+                     <div class="disclaimer-footer">
+                        <h3>Featured Stores</h3>
+                        <ul>
+                           <li><a href=""><i class="fas fa-caret-right"></i> Savannah's Candy Kitchen</a></li>
+                           <li><a href=""><i class="fas fa-caret-right"></i> Waterstones</a></li>
+                           <li><a href=""><i class="fas fa-caret-right"></i> vantrue </a></li>
+                           <li><a href=""><i class="fas fa-caret-right"></i> Step 2</a></li>
+                           <li><a href=""><i class="fas fa-caret-right"></i> Pure Electric</a></li>
+                        </ul>
+                     </div>
+                     <div class="disclaimer-footer">
+                        <h3>Quick Links</h3>
+                        <ul>
+                           <li><a href=""><i class="fas fa-caret-right"></i> Home</a></li>
+                           <li><a href=""><i class="fas fa-caret-right"></i> Store</a></li>
+                           <li><a href=""><i class="fas fa-caret-right"></i> Categories</a></li>
+                           <li><a href=""><i class="fas fa-caret-right"></i> Contact Us</a></li>
+                           <li><a href=""><i class="fas fa-caret-right"></i> About Us</a></li>
+                        </ul>
+                     </div>
+                  </div>
+                  <div class="footer-row-3">
+                     <p>Copyright © 2021 | www.findfreevouchers.com - All rights are reserved.</p>
+                     <div class="icons">
+                        <a href=""><i class="fab fa-instagram"></i><span class="tooltip">Instagram</span></a>
+                        <a href=""><i class="fab fa-facebook-f"></i><span class="tooltip">Facebook</span></a>
+                        <a href=""><i class="fab fa-twitter"></i><span class="tooltip">Twitter</span></a>
+                        <a href=""><i class="fab fa-pinterest-p"></i><span class="tooltip">Pinterest</span></a>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </footer>
+
+
+   </body>
+  
+   <!-- JQuery File -->
+   <script src="JQuery/JQuery.js"></script>
+</html>

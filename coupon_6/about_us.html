@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <link rel="icon" href="http://www.savingelite.com/assets/uploads/required/1469684348_favicon.ico" type="image/gif">
+      <title>Document</title>
+      <!-- Latest compiled and minified CSS -->
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+      <!-- JQuery CDN -->
+      <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+      <!-- Latest compiled and minified JavaScript -->
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+      <!-- fontawesome -->
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+      <!-- stylesheet -->
+      <link rel="stylesheet" href="CSS/style.css">
+      <!-- responsive -->
+      <link rel="stylesheet" href="CSS/responsive.css">
+      <!-- font family -->
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link href="https://fonts.googleapis.com/css2?family=Georama:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+      <!-- swipper -->
+      <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css"/>
+   </head>
+   <body>
+      <!-- header -->
+      <section class="header">
+         <div class="container">
+            <div class="row">
+               <div class="col-md-12">
+                  <div class="navigation">
+                     <nav>
+                        <div class="logo_container">
+                           <img src="" data-src="images/logo.png" class="lazy shimmering" alt="">
+                        </div>
+                        <div class="search_container">
+                           <input type="text" placeholder="Search For Product">
+                           <div class="search_icon">
+                              <span>search</span>
+                              <i class="fa fa-search"></i>
+                           </div>
+                        </div>
+                        <div class="menu_toggler show_992">
+                           <i class="fa fa-bars"></i>
+                        </div>
+                     </nav>
+                     <div class="nav_container">
+                        <a href="#" class="categories">
+                           <svg class="svg_icon" xmlns="http://www.w3.org/2000/svg" id="glyph" height="20" viewBox="0 0 64 64" width="20" class="injected-svg" data-src="/assets/images/icons/categories.svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                              <path d="m29 11v14a4 4 0 0 1 -4 4h-14a4 4 0 0 1 -4-4v-14a4 4 0 0 1 4-4h14a4 4 0 0 1 4 4zm24-4h-14a4 4 0 0 0 -4 4v14a4 4 0 0 0 4 4h14a4 4 0 0 0 4-4v-14a4 4 0 0 0 -4-4zm-28 28h-14a4 4 0 0 0 -4 4v14a4 4 0 0 0 4 4h14a4 4 0 0 0 4-4v-14a4 4 0 0 0 -4-4zm21 0a11 11 0 1 0 11 11 11 11 0 0 0 -11-11z"></path>
+                           </svg>
+                           <p>categories</p>
+                           <i class="fa fa-chevron-down"></i>
+                        </a>
+                        <ul class="menu">
+                           <div class="close_btn"><i class="fa fa-times"></i></div>
+                           <li class="active"><a href="index.html">Home</a></li>
+                           <li><a href="store_list.html">store</a></li>
+                           <li><a href="about_us.html">about</a></li>
+                           <li><a href="contact.html">contact</a></li>
+                        </ul>
+                        <div class="categories_mainwrapper">
+                           <ul class="categories_container">
+                              <li class="categories_dropdown_hover" data-menu-id="mega-menu-1"><a href="#" class="categories_container_items">fashion <i class="fa fa-chevron-right"></i></a></li>
+                              <li class="categories_dropdown_hover" data-menu-id="mega-menu-2"><a href="#" class="categories_container_items">fashion <i class="fa fa-chevron-right"></i></a></li>
+                              <li class="categories_dropdown_hover" data-menu-id="mega-menu-3"><a href="#" class="categories_container_items">fashion <i class="fa fa-chevron-right"></i></a></li>
+                              <li class="categories_dropdown_hover" data-menu-id="mega-menu-4"><a href="#" class="categories_container_items">fashion <i class="fa fa-chevron-right"></i></a></li>
+                           </ul>
+                           <div class="categories_dropdown" id="mega-menu-1">
+                              <div class="categories_dropdown_items">
+                                 <a href="#" class="categories_dropdown_title">Man Clothes</a>
+                                 <a href="#" class="categories_dropdown_text">t-shirt</a>
+                                 <a href="#" class="categories_dropdown_text">t-shirt</a>
+                                 <a href="#" class="categories_dropdown_text">t-shirt</a>
+                                 <a href="#" class="categories_dropdown_text">t-shirt</a>
+                              </div>
+                              <div class="categories_dropdown_items">
+                                 <a href="#" class="categories_dropdown_title">Man Clothes</a>
+                                 <a href="#" class="categories_dropdown_text">t-shirt</a>
+                                 <a href="#" class="categories_dropdown_text">t-shirt</a>
+                                 <a href="#" class="categories_dropdown_text">t-shirt</a>
+                                 <a href="#" class="categories_dropdown_text">t-shirt</a>
+                              </div>
+                              <div class="categories_dropdown_items">
+                                 <a href="#" class="categories_dropdown_title">Man Clothes</a>
+                                 <a href="#" class="categories_dropdown_text">t-shirt</a>
+                                 <a href="#" class="categories_dropdown_text">t-shirt</a>
+                                 <a href="#" class="categories_dropdown_text">t-shirt</a>
+                                 <a href="#" class="categories_dropdown_text">t-shirt</a>
+                              </div>
+                              <div class="categories_dropdown_items">
+                                 <a href="#" class="categories_dropdown_title">Man Clothes</a>
+                                 <a href="#" class="categories_dropdown_text">t-shirt</a>
+                                 <a href="#" class="categories_dropdown_text">t-shirt</a>
+                                 <a href="#" class="categories_dropdown_text">t-shirt</a>
+                                 <a href="#" class="categories_dropdown_text">t-shirt</a>
+                              </div>
+                           </div>
+                           <div class="categories_dropdown" id="mega-menu-2">
+                              <div class="categories_dropdown_items">
+                                 <a href="#" class="categories_dropdown_title">Akhtar Clothes</a>
+                                 <a href="#" class="categories_dropdown_text">t-shirt</a>
+                                 <a href="#" class="categories_dropdown_text">t-shirt</a>
+                                 <a href="#" class="categories_dropdown_text">t-shirt</a>
+                                 <a href="#" class="categories_dropdown_text">t-shirt</a>
+                              </div>
+                              <div class="categories_dropdown_items">
+                                 <a href="#" class="categories_dropdown_title">Akhtar Clothes</a>
+                                 <a href="#" class="categories_dropdown_text">t-shirt</a>
+                                 <a href="#" class="categories_dropdown_text">t-shirt</a>
+                                 <a href="#" class="categories_dropdown_text">t-shirt</a>
+                                 <a href="#" class="categories_dropdown_text">t-shirt</a>
+                              </div>
+                              <div class="categories_dropdown_items">
+                                 <a href="#" class="categories_dropdown_title">Akhtar Clothes</a>
+                                 <a href="#" class="categories_dropdown_text">t-shirt</a>
+                                 <a href="#" class="categories_dropdown_text">t-shirt</a>
+                                 <a href="#" class="categories_dropdown_text">t-shirt</a>
+                                 <a href="#" class="categories_dropdown_text">t-shirt</a>
+                              </div>
+                              <div class="categories_dropdown_items">
+                                 <a href="#" class="categories_dropdown_title">Akhtar Clothes</a>
+                                 <a href="#" class="categories_dropdown_text">t-shirt</a>
+                                 <a href="#" class="categories_dropdown_text">t-shirt</a>
+                                 <a href="#" class="categories_dropdown_text">t-shirt</a>
+                                 <a href="#" class="categories_dropdown_text">t-shirt</a>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </section>
+      <!-- About us -->
+      <section class="about">
+         <div class="container">
+            <div class="row">
+               <div class="col-md-12">
+                  <div class="about_container">
+                     <div class="about_sidebar">
+                        <ul class="about_tabs">
+                           <h2 class="sub_heading about_sub_heading">Important <span>Links</span></h2>
+                           <li class="active"> <a href="">About US</a> </li>
+                           <li class=""><a href="">Terms &amp; Conditions</a></li>
+                           <li class=""><a href="">Privacy Policy</a></li>
+                           <li class=""><a href="">Contact Us</a></li>
+                        </ul>
+                        <h2 class="sub_heading about_sub_heading social">Let's <span>Socialize</span></h2>
+                        <div class="footer_social_icon about-page">
+                           <a href="" class="footer_social_icon_items fb"><i class="fa fa-facebook"></i></a>
+                           <a href="" class="footer_social_icon_items twtr"><i class="fa fa-twitter"></i></a>
+                           <a href="" class="footer_social_icon_items intgrm"><i class="fa fa-instagram"></i></a>
+                           <a href="" class="footer_social_icon_items pntrst"><i class="fa fa-pinterest"></i></a>
+                        </div>
+                     </div>
+                     <div class="main_about">
+                        <div class="about_content_about">
+                           <h2 class="main_heading about_heading"><span>About Us</span></h2>
+                           <div class="content_wrapper">
+                              <p>Nowadays, people tend to prefer online shopping to unrestricted purchases, since it avoids many problems and is very convenient. Most brands are very expensive, so they are only accessible to elites. SavingElite is here to solve this problem by making each online brand luxurious or high quality, small or new, within reach of a common man for his incredible discounts and coupons, offers, deals and promotions. SavingElite provides a way to discover product that really represent a lot. SavingElite.com experts guarantee that we will only list the products with the lowest price offered by renowned companies.</p>
+                              <p>SavingElite.com is an online community that helps shoppers save money and make smart purchases. On the site you will find coupons, products, sales, reviews and discounts online. The site is updated throughout the day by its staff. We promise to provide you with the tools you need to find the best deals online. SavingElite has made a dent in the coupon industry in a very short time thanks to the credible services it offers to its customers. We only provide the best for our clients, establishing a bond of trust and love with them. Our team strives effortlessly to bring new and improved coupons and offers for the ease and comfort of our customers. Now you can buy at your convenience without worrying about the price of this product, by buying coupon codes, offers and promotional offers from SavingElite. No matter the cost of the item you want, you will get discounts and discounts from us. It plays a favorable role by providing you with coupons for many major brands, recognized brands and premium brands.</p>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </section>
+      <!-- footer -->
+      <section class="footer">
+         <div class="container">
+            <div class="row">
+               <div class="col-md-12">
+                  <div class="footer_container">
+                     <div class="subs">
+                        <div class="subs_content">
+                           <h2 class="subs_heading">Subscribe To Our Newsletter</h2>
+                           <p class="subs_about">Sign up for our weekly email newsletter with the best money saving coupons.</p>
+                        </div>
+                        <form class="sub_form">
+                           <div class="sub_form_wrapper">
+                              <input type="email" required="required" class="sub_input" placeholder="Enter You'r Email">
+                              <button class="sub_btn"><i class="fa fa-paper-plane"></i>Subscribe</button>
+                           </div>
+                        </form>
+                     </div>
+                     <div class="footer_links">
+                        <div class="footer_links_items">
+                           <h3 class="footer_links_heading">about us</h3>
+                           <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iusto recusandae accusamus provident eius assumenda nesciunt beatae, impedit? Excepturi, tempore delectus.</p>
+                        </div>
+                        <div class="footer_links_items">
+                           <h3 class="footer_links_heading">get in touch</h3>
+                           <ul class="footer_menu">
+                              <li><a href="#">134 Shepherds Bush Road, Hammersmith W6 7PB</a></li>
+                              <li><a href="#">+123456789</a></li>
+                              <li><a href="#">admin@promo4codez.com</a></li>
+                           </ul>
+                        </div>
+                        <div class="footer_links_items">
+                           <h3 class="footer_links_heading">usefull links</h3>
+                           <ul class="footer_menu">
+                              <li><a href="#">Home</a></li>
+                              <li><a href="#">Privacy Policy</a></li>
+                              <li><a href="#">Terms of Use</a></li>
+                              <li><a href="#">Who Are We</a></li>
+                              <li><a href="#">Disclaimer</a></li>
+                              <li><a href="#">Contact us</a></li>
+                           </ul>
+                        </div>
+                        <div class="footer_links_items">
+                           <h3 class="footer_links_heading">popular stores</h3>
+                           <div class="footer_stores">
+                              <a href="#" class="footer_links_img">
+                                 <div class="web_imagebox">
+                                    <img data-src="images/store_slide_1.png" class="lazy shimmering" alt="">
+                                 </div>
+                              </a>
+                              <a href="#" class="footer_links_img">
+                                 <div class="web_imagebox">
+                                    <img data-src="images/store_slide_1.png" class="lazy shimmering" alt="">
+                                 </div>
+                              </a>
+                              <a href="#" class="footer_links_img">
+                                 <div class="web_imagebox">
+                                    <img data-src="images/store_slide_1.png" class="lazy shimmering" alt="">
+                                 </div>
+                              </a>
+                              <a href="#" class="footer_links_img">
+                                 <div class="web_imagebox">
+                                    <img data-src="images/store_slide_1.png" class="lazy shimmering" alt="">
+                                 </div>
+                              </a>
+                              <a href="#" class="footer_links_img">
+                                 <div class="web_imagebox">
+                                    <img data-src="images/store_slide_1.png" class="lazy shimmering" alt="">
+                                 </div>
+                              </a>
+                              <a href="#" class="footer_links_img">
+                                 <div class="web_imagebox">
+                                    <img data-src="images/store_slide_1.png" class="lazy shimmering" alt="">
+                                 </div>
+                              </a>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="discription">
+                        <div class="logo_container">
+                           <img src="images/logo.png" alt="">
+                        </div>
+                        <div class="social_icons">
+                           <a href="#" class="icon_item">
+                           <i class="fa fa-facebook-f"></i>
+                           </a>
+                           <a href="#" class="icon_item">
+                           <i class="fa fa-google-plus"></i>
+                           </a>
+                           <a href="#" class="icon_item">
+                           <i class="fa fa-twitter"></i>
+                           </a>
+                           <a href="#" class="icon_item">
+                           <i class="fa fa-instagram"></i>
+                           </a>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+         </section>
+      <!-- copyright -->
+      <section class="copy_right">
+         <div class="container">
+            <div class="row">
+               <div class="col-md-12">
+                  <p class="copy_right_text">Copyright © 2021 | www.promothecode.com - All rights are reserved.</p>
+               </div>
+            </div>
+         </div>
+         </section>
+   </body>
+   <!-- JQuery File -->
+   <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+   <script src="JQuery/jquery.lazy.min.js"></script>
+   <script src="JQuery/Jquery.js"></script>
+</html>

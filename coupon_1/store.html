@@ -1,0 +1,412 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Document</title>
+      <!-- Latest compiled and minified CSS -->
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+      <!-- JQuery CDN -->
+      <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+      <!-- Latest compiled and minified JavaScript -->
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+      <!-- fontawesome -->
+      <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+      <!-- google Fonts -->
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=Georama:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+      <!-- stylesheet -->
+      <link rel="stylesheet" href="CSS/style.css">
+      <!-- responsive -->
+      <link rel="stylesheet" href="CSS/responsive.css">
+      <!-- swiper -->
+      <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css"/>
+   </head>
+   <body>
+      <!-- Header -->
+      <section class="navigation">
+         <ul class="nav_list" id="nav_list">
+            <div class="links_nav">
+               <li class="active"><b></b><b></b><a href="index.html" class="list_items"><i class="far fa-home"></i> Home</a></li>
+               <li><b></b><b></b><a href="store.html" class="list_items"><i class="far fa-store"></i>Store</a>
+               </li>
+               <li><b></b><b></b><a href="categories.html" class="list_items"> <i class="fa fa-list" aria-hidden="true"></i> categories</a></li>
+               <li><b></b><b></b><a href="about_us.html" class="list_items"> <i class="fa fa-list" aria-hidden="true"></i> about us</a></li>
+            </div>
+            <li><b></b><b></b><a href="Contact.html" class="list_items"><i class="far fa-address-book"></i> Contact</a></li>
+         </ul>
+         <div class="container">
+            <div class="row">
+               <div class="col-md-12">
+                  <div class="navigation_bar">
+                     <div class="header">
+                        <a href="index.html" class="logo">
+                        <img src="images/logo.png" alt="">   
+                        </a>
+                        <form class="form_container">
+                           <input type="text" class="form_input_field" placeholder="Search Product">
+                           <button class="search_icon">
+                           <i class="fa fa-search"></i>
+                           search
+                           </button>
+                           <div class="serach_result_container">
+                              <h2 class="search_content">Stores From "ASD"</h2>
+                              <div class="serach_result_wrapper">
+                                 <a href="store_list.html" class="serach_result_item">
+                                    <h2 class="search_result_content webkit_box">Adiddas Adiddas Adiddas</h2>
+                                 </a>
+                                 <a href="store_list.html" class="serach_result_item">
+                                    <h2 class="search_result_content webkit_box">Adiddas</h2>
+                                 </a>
+                                 <a href="store_list.html" class="serach_result_item">
+                                    <h2 class="search_result_content webkit_box">Adiddas</h2>
+                                 </a>
+                                 <a href="store_list.html" class="serach_result_item">
+                                    <h2 class="search_result_content webkit_box">Adiddas</h2>
+                                 </a>
+                              </div>
+                           </div>
+                        </form>
+                        <div class="categories_container">
+                           <a href="free_del.html" class="categories_btn active hide_at_600"> 20% Off Delivery</a>
+                           <a href="free_del.html" class="categories_btn hide_at_600"> Free Delivery</a>
+                           <a href="#" id="menu_toggle" class="categories_btn menu_toggler show_at_600">
+                           <i class="fa fa-bars"></i>
+                           </a>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </section>
+      <!-- banner -->
+      <section class="banner">
+         <div class="container">
+            <div class="row">
+               <div class="col-md-12">
+                  <div class="banner_content home">
+                     <h1>Stores</h1>
+                     <ol class="breadcrumb custom_breadcrumb">
+                        <li class="breadcrumb-item"><a href="#">Home</a></li>
+                        <li class="breadcrumb-item active" aria-current="page">store list</li>
+                     </ol>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </section>
+      <!-- store list -->
+      <section class="store_stores">
+         <div class="container">
+            <div class="row">
+               <div class="col-md-12">
+                  <div class="str_list_container">
+                     <div class="str_list_main">
+                        <h2 class="store_list_pop_head">popular stores</h2>
+                        <div class="popular_store_list">
+                           <a href="store_list.html" class="pop_str_list_item">
+                              <div class="web_imagebox">
+                                 <img src="images/store-logo.png" alt="">
+                              </div>
+                              <p class="store_list_title webkit_box">Aden + Anais</p>
+                           </a>
+                           <a href="store_list.html" class="pop_str_list_item">
+                              <div class="web_imagebox">
+                                 <img src="images/store-logo.png" alt="">
+                              </div>
+                              <p class="store_list_title webkit_box">Aden + Anais</p>
+                           </a>
+                           <a href="store_list.html" class="pop_str_list_item">
+                              <div class="web_imagebox">
+                                 <img src="images/store-logo.png" alt="">
+                              </div>
+                              <p class="store_list_title webkit_box">Aden + Anais</p>
+                           </a>
+                           <a href="store_list.html" class="pop_str_list_item">
+                              <div class="web_imagebox">
+                                 <img src="images/store-logo.png" alt="">
+                              </div>
+                              <p class="store_list_title webkit_box">Aden + Anais</p>
+                           </a>
+                           <a href="store_list.html" class="pop_str_list_item">
+                              <div class="web_imagebox">
+                                 <img src="images/store-logo.png" alt="">
+                              </div>
+                              <p class="store_list_title webkit_box">Aden + Anais</p>
+                           </a>
+                           <a href="store_list.html" class="pop_str_list_item">
+                              <div class="web_imagebox">
+                                 <img src="images/store-logo.png" alt="">
+                              </div>
+                              <p class="store_list_title webkit_box">Aden + Anais</p>
+                           </a>
+                           <a href="store_list.html" class="pop_str_list_item">
+                              <div class="web_imagebox">
+                                 <img src="images/store-logo.png" alt="">
+                              </div>
+                              <p class="store_list_title webkit_box">Aden + Anais</p>
+                           </a>
+                           <a href="store_list.html" class="pop_str_list_item">
+                              <div class="web_imagebox">
+                                 <img src="images/store-logo.png" alt="">
+                              </div>
+                              <p class="store_list_title webkit_box">Aden + Anais</p>
+                           </a>
+                        </div>
+                        <div class="main_stores_list">
+                           <h2 class="sub_heading_main_store">stores from a</h2>
+                           <div class="main_stores_list_wrapper">
+                              <a href="store_list.html" class="main_stores_list_item">
+                                 <div class="web_imagebox">
+                                    <img src="images/store-logo.png" alt="">
+                                 </div>
+                                 <div class="main_stores_list_content">
+                                    <p class="main_stores_list_title webkit_box">Meshki</p>
+                                    <p class="main_stores_list_offers">offers (1)</p>
+                                 </div>
+                              </a>
+                              <a href="store_list.html" class="main_stores_list_item">
+                                 <div class="web_imagebox">
+                                    <img src="images/store-logo.png" alt="">
+                                 </div>
+                                 <div class="main_stores_list_content">
+                                    <p class="main_stores_list_title webkit_box">Meshki</p>
+                                    <p class="main_stores_list_offers">offers (1)</p>
+                                 </div>
+                              </a>
+                              <a href="store_list.html" class="main_stores_list_item">
+                                 <div class="web_imagebox">
+                                    <img src="images/store-logo.png" alt="">
+                                 </div>
+                                 <div class="main_stores_list_content">
+                                    <p class="main_stores_list_title webkit_box">Meshki</p>
+                                    <p class="main_stores_list_offers">offers (1)</p>
+                                 </div>
+                              </a>
+                              <a href="store_list.html" class="main_stores_list_item">
+                                 <div class="web_imagebox">
+                                    <img src="images/store-logo.png" alt="">
+                                 </div>
+                                 <div class="main_stores_list_content">
+                                    <p class="main_stores_list_title webkit_box">Measdshki</p>
+                                    <p class="main_stores_list_offers">offers (1)</p>
+                                 </div>
+                              </a>
+                              <a href="store_list.html" class="main_stores_list_item">
+                                 <div class="web_imagebox">
+                                    <img src="images/store-logo.png" alt="">
+                                 </div>
+                                 <div class="main_stores_list_content">
+                                    <p class="main_stores_list_title webkit_box">Meshki</p>
+                                    <p class="main_stores_list_offers">offers (1)</p>
+                                 </div>
+                              </a>
+                           </div>
+                           <a href="store_list.html" class="read_more about_read_more">view more <i class="fa fa-chevron-right"></i></a>
+                        </div>
+                        <div class="main_stores_list">
+                           <h2 class="sub_heading_main_store">stores from b</h2>
+                           <div class="main_stores_list_wrapper">
+                              <a href="store_list.html" class="main_stores_list_item">
+                                 <div class="web_imagebox">
+                                    <img src="images/store-logo.png" alt="">
+                                 </div>
+                                 <div class="main_stores_list_content">
+                                    <p class="main_stores_list_title webkit_box">Meshki</p>
+                                    <p class="main_stores_list_offers">offers (1)</p>
+                                 </div>
+                              </a>
+                              <a href="store_list.html" class="main_stores_list_item">
+                                 <div class="web_imagebox">
+                                    <img src="images/store-logo.png" alt="">
+                                 </div>
+                                 <div class="main_stores_list_content">
+                                    <p class="main_stores_list_title webkit_box">Meshki</p>
+                                    <p class="main_stores_list_offers">offers (1)</p>
+                                 </div>
+                              </a>
+                              <a href="store_list.html" class="main_stores_list_item">
+                                 <div class="web_imagebox">
+                                    <img src="images/store-logo.png" alt="">
+                                 </div>
+                                 <div class="main_stores_list_content">
+                                    <p class="main_stores_list_title webkit_box">Meshki</p>
+                                    <p class="main_stores_list_offers">offers (1)</p>
+                                 </div>
+                              </a>
+                              <a href="store_list.html" class="main_stores_list_item">
+                                 <div class="web_imagebox">
+                                    <img src="images/store-logo.png" alt="">
+                                 </div>
+                                 <div class="main_stores_list_content">
+                                    <p class="main_stores_list_title webkit_box">Measdshki</p>
+                                    <p class="main_stores_list_offers">offers (1)</p>
+                                 </div>
+                              </a>
+                              <a href="store_list.html" class="main_stores_list_item">
+                                 <div class="web_imagebox">
+                                    <img src="images/store-logo.png" alt="">
+                                 </div>
+                                 <div class="main_stores_list_content">
+                                    <p class="main_stores_list_title webkit_box">Meshki</p>
+                                    <p class="main_stores_list_offers">offers (1)</p>
+                                 </div>
+                              </a>
+                           </div>
+                           <a href="store_list.html" class="read_more about_read_more">view more <i class="fa fa-chevron-right"></i></a>
+                        </div>
+                     </div>
+                     <div class="str_list_sidebar">
+                        <h3 class="sub_heading">Alphabet</h3>
+                        <div class="alphabets_container">
+                           <a href="#" class="alphabet active"> All Stores </a>
+                           <a href="#" class="alphabet "> A </a>
+                           <a href="#" class="alphabet "> B </a>
+                           <a href="#" class="alphabet "> C </a>
+                           <a href="#" class="alphabet "> D </a>
+                           <a href="#" class="alphabet "> E </a>
+                           <a href="#" class="alphabet "> F </a>
+                           <a href="#" class="alphabet "> G </a>
+                           <a href="#" class="alphabet "> H </a>
+                           <a href="#" class="alphabet "> I </a>
+                           <a href="#" class="alphabet "> J </a>
+                           <a href="#" class="alphabet "> K </a>
+                           <a href="#" class="alphabet "> L </a>
+                           <a href="#" class="alphabet "> M </a>
+                           <a href="#" class="alphabet "> N </a>
+                           <a href="#" class="alphabet "> O </a>
+                           <a href="#" class="alphabet "> P </a>
+                           <a href="#" class="alphabet "> Q </a>
+                           <a href="#" class="alphabet "> R </a>
+                           <a href="#" class="alphabet "> S </a>
+                           <a href="#" class="alphabet "> T </a>
+                           <a href="#" class="alphabet "> U </a>
+                           <a href="#" class="alphabet "> V </a>
+                           <a href="#" class="alphabet "> W </a>
+                           <a href="#" class="alphabet "> X </a>
+                           <a href="#" class="alphabet "> Y </a>
+                           <a href="#" class="alphabet "> Z </a>
+                           <a href="#" class="alphabet "> 0-9 </a>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </section>
+      <!-- footer -->
+      <section class="footer">
+         <div class="container">
+            <div class="row">
+               <div class="col-md-12">
+                  <div class="footer_header">
+                     <div class="footer_contact_icons">
+                        <div class="footer_icon">
+                           <i class="fas fa-phone-alt"></i>
+                        </div>
+                        <div class="footer_contact_text">
+                           <h2>Call us</h2>
+                           <p>9876543210 0</p>
+                        </div>
+                     </div>
+                     <div class="footer_contact_icons order">
+                        <div class="footer_icon">
+                           <i class="fas fa-map-marker-alt"></i>
+                        </div>
+                        <div class="footer_contact_text">
+                           <h2>Find us</h2>
+                           <p>1010 Avenue, sw 54321, chandigarh</p>
+                        </div>
+                     </div>
+                     <div class="footer_contact_icons">
+                        <div class="footer_icon">
+                           <i class="far fa-envelope-open"></i>
+                        </div>
+                        <div class="footer_contact_text">
+                           <h2>Mail us</h2>
+                           <p>mail@info.com</p>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="footer_body ">
+                     <div class="footer_logo grid_colume">
+                        <div class="f_logo">
+                           <img src="images/logo.png" alt="">
+                        </div>
+                        <div class="f_text">
+                           <p>Lorem ipsum dolor sit amet, consec tetur adipisicing elit, sed do eiusmod tempor incididuntut consec tetur adipisicing elit,Lorem ipsum dolor sit amet.</p>
+                           <h2>Follow us</h2>
+                        </div>
+                        <div class="social_icons">
+                           <div class="icon fb">
+                              <i class="fab fa-facebook-f"></i>
+                           </div>
+                           <div class="icon twt">
+                              <i class="fab fa-twitter"></i>
+                           </div>
+                           <div class="icon insta">
+                              <i class="fab fa-instagram"></i>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="footer_logo">
+                        <div class="f_text">
+                           <h2 class="footer_head_title">Useful Links</h2>
+                        </div>
+                        <div class="f_links">
+                           <ul>
+                              <li><a href="About_us.html">Home</a></li>
+                              <li><a href="About_us.html">services</a></li>
+                              <li><a href="About_us.html">Contact</a></li>
+                              <li><a href="About_us.html">Our Services</a></li>
+                              <li><a href="About_us.html">Contact us</a></li>
+                           </ul>
+                           <ul>
+                              <li><a href="About_us.html">Home</a></li>
+                              <li><a href="About_us.html">services</a></li>
+                              <li><a href="About_us.html">Contact</a></li>
+                              <li><a href="About_us.html">Our Services</a></li>
+                              <li><a href="About_us.html">Contact us</a></li>
+                           </ul>
+                        </div>
+                     </div>
+                     <div class="footer_logo">
+                        <div class="f_text">
+                           <h2 class="footer_head_title">Subscribe</h2>
+                        </div>
+                        <p class="subs_text">Don’t miss to subscribe to our new feeds, kindly fill the form below.</p>
+                        <form class="subscribe" action="">
+                           <input type="text" placeholder="Enter Your Email">
+                           <i class="fab fa-telegram-plane"></i>
+                        </form>
+                     </div>
+                  </div>
+                  <div class="footer_footer">
+                     <div class="footer_f">
+                        <div class="f_text">
+                           <p>Copyright &copy; 2018, All Right Reserved <a href="#">Techonza</a></p>
+                        </div>
+                        <ul>
+                           <li><a href="About_us.html">Home</a></li>
+                           <li><a href="About_us.html">Terms</a></li>
+                           <li><a href="About_us.html">Privacy</a></li>
+                           <li><a href="About_us.html">Policy</a></li>
+                           <li><a href="About_us.html">Contact</a></li>
+                        </ul>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </section>
+   </body>
+   <!-- JQuery File -->
+   <script src="JQuery/jquery.lazy.min.js"></script>
+   <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+   <script src="https://unpkg.com/@popperjs/core@2/dist/umd/popper.min.js"></script>
+   <script src="https://unpkg.com/tippy.js@6/dist/tippy-bundle.umd.js"></script>
+   <script src="JQuery/JQuery.js"></script>
+</html>
+<!-- #ded5c4 #f9f9f9 #ef7e56 #305973 #ff9142  #4d216d-->

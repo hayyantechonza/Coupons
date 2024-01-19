@@ -1,0 +1,428 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Document</title>
+      <!-- Latest compiled and minified CSS -->
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+      <!-- JQuery CDN -->
+      <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+      <!-- Latest compiled and minified JavaScript -->
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+      <!-- fontawesome -->
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+      <!-- google Fonts -->
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+      <!-- stylesheet -->
+      <link rel="stylesheet" href="CSS/style.css">
+      <!-- responsive -->
+      <link rel="stylesheet" href="CSS/responsive.css">
+      <!-- swiper -->
+      <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css"/>
+   </head>
+   <body>
+      <!-- Header -->
+      <section class="navigation">
+         <ul class="nav_list" id="nav_list">
+            <div class="categories_container hide_at_600">
+               <a href="free_del.html" class="categories_btn active"> 20% Off Delivery</a>
+               <a href="free_del.html" class="categories_btn"> Free Delivery</a>
+            </div>
+            <form class="search" id="search">
+               <i class="fa fa-search search_icon" onclick="tab()"></i>
+               <div class="input" id="input">
+                  <input type="text" autocomplete="off" placeholder="Search" id="input-field">
+               </div>
+               <div class="search_result_box">
+                  <h3>Stores From "A"</h3>
+                  <div class="search_result">
+                     <a href="#" class="search_result_item"><i class="fa fa-search"></i>addidas</a>
+                     <a href="#" class="search_result_item"><i class="fa fa-search"></i>addidas</a>
+                     <a href="#" class="search_result_item"><i class="fa fa-search"></i>addidas</a>
+                     <a href="#" class="search_result_item"><i class="fa fa-search"></i>addidas</a>
+                     <a href="#" class="search_result_item"><i class="fa fa-search"></i>addidas</a>
+                     <a href="#" class="search_result_item"><i class="fa fa-search"></i>addidas</a>
+                  </div>
+               </div>
+            </form>
+         </ul>
+         <div class="container">
+            <div class="row">
+               <div class="col-md-12">
+                  <div class="navigation_bar">
+                     <div class="header">
+                        <a href="index.html" class="logo">
+                        <img src="images/logo.png" alt="">   
+                        </a>
+                        <div class="links_nav">
+                           <li class="active"><a href="index.html" class="list_items active">Home</a></li>
+                           <li><a href="store.html" class="list_items">Store</a>
+                           </li>
+                           <li><a href="categories.html" class="list_items">categories</a></li>
+                           <li><a href="about_us.html" class="list_items">about</a></li>
+                           <li><a href="contact_us.html" class="list_items">contact</a></li>
+                        </div>
+                        <a href="#" id="menu_toggle" class="menu_toggler">
+                        <i class="fa fa-bars"></i>
+                        </a>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </section>
+      <!-- banner -->
+      <section class="banner">
+         <div class="container">
+            <div class="row">
+               <div class="col-md-12">
+                  <div class="banner_content home">
+                     <ol class="breadcrumb custom_breadcrumb">
+                        <li class="breadcrumb-item"><a href="#">Home</a></li>
+                        <li class="breadcrumb-item active" aria-current="page">store list</li>
+                     </ol>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </section>
+      <!-- store list -->
+      <section class="store_stores">
+         <div class="container">
+            <div class="row">
+               <div class="col-md-12">
+                  <div class="str_list_container">
+                     <div class="str_list_main">
+                        <h3 class="heading">popular stores</h3>
+                        <div class="popular_store_list swiper mySwiper_2">
+                           <div class="swiper-wrapper">
+                              <div class="swiper-slide">
+                                 <a href="single_store.html" class="pop_str_list_item">
+                                    <div class="web_imagebox">
+                                       <img src="images/store_list.png" alt="">
+                                    </div>
+                                    <p class="store_list_title webkit_box">Aden + Anais</p>
+                                 </a>
+                              </div>
+                              <div class="swiper-slide">
+                                 <a href="single_store.html" class="pop_str_list_item">
+                                    <div class="web_imagebox">
+                                       <img src="images/store_list.png" alt="">
+                                    </div>
+                                    <p class="store_list_title webkit_box">Aden + Anais</p>
+                                 </a>
+                              </div>
+                              <div class="swiper-slide">
+                                 <a href="single_store.html" class="pop_str_list_item">
+                                    <div class="web_imagebox">
+                                       <img src="images/store_list.png" alt="">
+                                    </div>
+                                    <p class="store_list_title webkit_box">Aden + Anais</p>
+                                 </a>
+                              </div>
+                              <div class="swiper-slide">
+                                 <a href="single_store.html" class="pop_str_list_item">
+                                    <div class="web_imagebox">
+                                       <img src="images/store_list.png" alt="">
+                                    </div>
+                                    <p class="store_list_title webkit_box">Aden + Anais</p>
+                                 </a>
+                              </div>
+                              <div class="swiper-slide">
+                                 <a href="single_store.html" class="pop_str_list_item">
+                                    <div class="web_imagebox">
+                                       <img src="images/store_list.png" alt="">
+                                    </div>
+                                    <p class="store_list_title webkit_box">Aden + Anais</p>
+                                 </a>
+                              </div>
+                              <div class="swiper-slide">
+                                 <a href="single_store.html" class="pop_str_list_item">
+                                    <div class="web_imagebox">
+                                       <img src="images/store_list.png" alt="">
+                                    </div>
+                                    <p class="store_list_title webkit_box">Aden + Anais</p>
+                                 </a>
+                              </div>
+                              <div class="swiper-slide">
+                                 <a href="single_store.html" class="pop_str_list_item">
+                                    <div class="web_imagebox">
+                                       <img src="images/store_list.png" alt="">
+                                    </div>
+                                    <p class="store_list_title webkit_box">Aden + Anais</p>
+                                 </a>
+                              </div>
+                           </div>
+                           <div class="swiper-button-next arrows"></div>
+                           <div class="swiper-button-prev arrows"></div>
+                        </div>
+                        <div class="main_stores_list">
+                           <div class="store_list_main_title">
+                              <a href="#" class="sub_heading_main_store">#</a>
+                              <a href="single_store.html" class="read_more about_read_more">view more <span>(19)</span></a>
+                           </div>
+                           <div class="main_stores_list_wrapper">
+                              <a href="single_store.html" class="main_stores_list_item">
+                                 <div class="web_imagebox">
+                                    <img src="images/store_list.png" alt="">
+                                 </div>
+                                 <p>addidas</p>
+                              </a>
+                              <a href="single_store.html" class="main_stores_list_item">
+                                 <div class="web_imagebox">
+                                    <img src="images/store_list.png" alt="">
+                                 </div>
+                                 <p>addidas</p>
+                              </a>
+                              <a href="single_store.html" class="main_stores_list_item">
+                                 <div class="web_imagebox">
+                                    <img src="images/store_list.png" alt="">
+                                 </div>
+                                 <p>addidas</p>
+                              </a>
+                              <a href="single_store.html" class="main_stores_list_item">
+                                 <div class="web_imagebox">
+                                    <img src="images/store_list.png" alt="">
+                                 </div>
+                                 <p>addidas</p>
+                              </a>
+                              <a href="single_store.html" class="main_stores_list_item">
+                                 <div class="web_imagebox">
+                                    <img src="images/store_list.png" alt="">
+                                 </div>
+                                 <p>addidas</p>
+                              </a>
+                              <a href="single_store.html" class="main_stores_list_item">
+                                 <div class="web_imagebox">
+                                    <img src="images/store_list.png" alt="">
+                                 </div>
+                                 <p>addidas</p>
+                              </a>
+                              <a href="single_store.html" class="main_stores_list_item">
+                                 <div class="web_imagebox">
+                                    <img src="images/store_list.png" alt="">
+                                 </div>
+                                 <p>addidas</p>
+                              </a>
+                           </div>
+                        </div>
+                        <div class="main_stores_list">
+                           <div class="store_list_main_title">
+                              <a href="#" class="sub_heading_main_store">a</a>
+                              <a href="single_store.html" class="read_more about_read_more">view more <span>(19)</span></a>
+                           </div>
+                           <div class="main_stores_list_wrapper">
+                              <a href="single_store.html" class="main_stores_list_item">
+                                 <div class="web_imagebox">
+                                    <img src="images/store_list.png" alt="">
+                                 </div>
+                                 <p>addidas</p>
+                              </a>
+                              <a href="single_store.html" class="main_stores_list_item">
+                                 <div class="web_imagebox">
+                                    <img src="images/store_list.png" alt="">
+                                 </div>
+                                 <p>addidas</p>
+                              </a>
+                              <a href="single_store.html" class="main_stores_list_item">
+                                 <div class="web_imagebox">
+                                    <img src="images/store_list.png" alt="">
+                                 </div>
+                                 <p>addidas</p>
+                              </a>
+                              <a href="single_store.html" class="main_stores_list_item">
+                                 <div class="web_imagebox">
+                                    <img src="images/store_list.png" alt="">
+                                 </div>
+                                 <p>addidas</p>
+                              </a>
+                              <a href="single_store.html" class="main_stores_list_item">
+                                 <div class="web_imagebox">
+                                    <img src="images/store_list.png" alt="">
+                                 </div>
+                                 <p>addidas</p>
+                              </a>
+                              <a href="single_store.html" class="main_stores_list_item">
+                                 <div class="web_imagebox">
+                                    <img src="images/store_list.png" alt="">
+                                 </div>
+                                 <p>addidas</p>
+                              </a>
+                              <a href="single_store.html" class="main_stores_list_item">
+                                 <div class="web_imagebox">
+                                    <img src="images/store_list.png" alt="">
+                                 </div>
+                                 <p>addidas</p>
+                              </a>
+                           </div>
+                        </div>
+                        <div class="main_stores_list">
+                           <div class="store_list_main_title">
+                              <a href="#" class="sub_heading_main_store">b</a>
+                              <a href="single_store.html" class="read_more about_read_more">view more <span>(19)</span></a>
+                           </div>
+                           <div class="main_stores_list_wrapper">
+                              <a href="single_store.html" class="main_stores_list_item">
+                                 <div class="web_imagebox">
+                                    <img src="images/store_list.png" alt="">
+                                 </div>
+                                 <p>addidas</p>
+                              </a>
+                              <a href="single_store.html" class="main_stores_list_item">
+                                 <div class="web_imagebox">
+                                    <img src="images/store_list.png" alt="">
+                                 </div>
+                                 <p>addidas</p>
+                              </a>
+                              <a href="single_store.html" class="main_stores_list_item">
+                                 <div class="web_imagebox">
+                                    <img src="images/store_list.png" alt="">
+                                 </div>
+                                 <p>addidas</p>
+                              </a>
+                              <a href="single_store.html" class="main_stores_list_item">
+                                 <div class="web_imagebox">
+                                    <img src="images/store_list.png" alt="">
+                                 </div>
+                                 <p>addidas</p>
+                              </a>
+                              <a href="single_store.html" class="main_stores_list_item">
+                                 <div class="web_imagebox">
+                                    <img src="images/store_list.png" alt="">
+                                 </div>
+                                 <p>addidas</p>
+                              </a>
+                              <a href="single_store.html" class="main_stores_list_item">
+                                 <div class="web_imagebox">
+                                    <img src="images/store_list.png" alt="">
+                                 </div>
+                                 <p>addidas</p>
+                              </a>
+                              <a href="single_store.html" class="main_stores_list_item">
+                                 <div class="web_imagebox">
+                                    <img src="images/store_list.png" alt="">
+                                 </div>
+                                 <p>addidas</p>
+                              </a>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="str_list_sidebar">
+                        <div class="alphabets_container">
+                           <a href="#" class="alphabet active"> # </a>
+                           <a href="#" class="alphabet "> A </a>
+                           <a href="#" class="alphabet "> B </a>
+                           <a href="#" class="alphabet "> C </a>
+                           <a href="#" class="alphabet "> D </a>
+                           <a href="#" class="alphabet "> E </a>
+                           <a href="#" class="alphabet "> F </a>
+                           <a href="#" class="alphabet "> G </a>
+                           <a href="#" class="alphabet "> H </a>
+                           <a href="#" class="alphabet "> I </a>
+                           <a href="#" class="alphabet "> J </a>
+                           <a href="#" class="alphabet "> K </a>
+                           <a href="#" class="alphabet "> L </a>
+                           <a href="#" class="alphabet "> M </a>
+                           <a href="#" class="alphabet "> N </a>
+                           <a href="#" class="alphabet "> O </a>
+                           <a href="#" class="alphabet "> P </a>
+                           <a href="#" class="alphabet "> Q </a>
+                           <a href="#" class="alphabet "> R </a>
+                           <a href="#" class="alphabet "> S </a>
+                           <a href="#" class="alphabet "> T </a>
+                           <a href="#" class="alphabet "> U </a>
+                           <a href="#" class="alphabet "> V </a>
+                           <a href="#" class="alphabet "> W </a>
+                           <a href="#" class="alphabet "> X </a>
+                           <a href="#" class="alphabet "> Y </a>
+                           <a href="#" class="alphabet "> Z </a>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </section>
+      <!-- footer -->
+      <section class="footer">
+         <div class="container">
+            <div class="row">
+               <div class="col-md-12">
+                  <div class="footer_header">
+                     <div class="footer_logo_contaienr">
+                        <div class="footer_logo">
+                           <img src="images/logo.png" alt="">
+                        </div>
+                        <p class="footer_dis footer_text">Lorem, ipsum dolor sit amet consectetur adipisicing, elit. Consequuntur, suscipit.</p>
+                     </div>
+                     <form class="subscribe" action="">
+                        <input type="text" placeholder="Enter Your Email">
+                        <i class="fa fa-paper-plane"></i>
+                     </form>
+                  </div>
+                  <div class="footer_body">
+                     <div class="footer_body_item footer_body_item_1">
+                        <h4 class="footer_title">popular category</h4>
+                        <div class="footer_cat_container">
+                           <div class="footer_cat_item active webkit_box">electronics & computer</div>
+                           <div class="footer_cat_item webkit_box">electronics & computer</div>
+                           <div class="footer_cat_item webkit_box">electronics & computer</div>
+                           <div class="footer_cat_item webkit_box">electronics & computer</div>
+                           <div class="footer_cat_item webkit_box">electronics & computer</div>
+                           <div class="footer_cat_item webkit_box">electronics & computer</div>
+                           <div class="footer_cat_item webkit_box">electronics & computer</div>
+                        </div>
+                     </div>
+                     <div class="footer_body_item footer_body_item_2">
+                        <h3 class="footer_title">Enjoy Discounts</h3>
+                        <div class="footer_cat_container">
+                           <div class="footer_cat_item active webkit_box">electronics</div>
+                           <div class="footer_cat_item webkit_box">electronics</div>
+                           <div class="footer_cat_item webkit_box">electronics</div>
+                           <div class="footer_cat_item webkit_box">electronics</div>
+                           <div class="footer_cat_item webkit_box">electronics</div>
+                        </div>
+                     </div>
+                     <div class="footer_body_item footer_body_item_3">
+                        <h3 class="footer_title">importent links</h3>
+                        <div class="footer_cat_container">
+                           <div class="footer_cat_item active webkit_box">home</div>
+                           <div class="footer_cat_item webkit_box">about</div>
+                           <div class="footer_cat_item webkit_box">terms & condition</div>
+                           <div class="footer_cat_item webkit_box">Privacy Policy</div>
+                           <div class="footer_cat_item webkit_box">Contact Us</div>
+                        </div>
+                     </div>
+                     <div class="footer_body_item footer_body_item_4">
+                        <h3 class="footer_title">top categories</h3>
+                        <div class="footer_cat_banner">
+                           <a href="#" class="footer_cat_banner_item background lazy" data-src="images/banner-1.jpg">
+                              <div class="footer_cat_banner_name">fashion</div>
+                           </a>
+                           <a href="#" class="footer_cat_banner_item background lazy" data-src="images/banner-3.jpg">
+                              <div class="footer_cat_banner_name">brand</div>
+                           </a>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+         <div class="footer_footer">
+            <div class="container">
+               Copyright © 2022 | All Rights Are Reserved.
+            </div>
+         </div>
+      </section>
+   </body>
+   <!-- JQuery File -->
+   <script src="JQuery/jquery.lazy.min.js"></script>
+   <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+   <script src="https://unpkg.com/@popperjs/core@2/dist/umd/popper.min.js"></script>
+   <script src="https://unpkg.com/tippy.js@6/dist/tippy-bundle.umd.js"></script>
+   <script src="JQuery/JQuery.js"></script>
+</html>
+<!-- #ded5c4 #f9f9f9 #ef7e56 #305973 #ff9142  #4d216d-->

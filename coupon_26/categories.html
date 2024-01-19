@@ -1,0 +1,448 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="./css/swiper-bundle.min.css">
+  <link rel="stylesheet" href="./css/bootstrap.min.css">
+  <link rel="stylesheet" href="./css/style.css">
+  <link rel="stylesheet" href="./css/responsive.css">
+</head>
+
+<body class="flex flex-column h-screen">
+  <!-- Header -->
+  <header>
+    <div class="header_primary py-2">
+      <div class="container">
+        <div class="primary_header_main flex gap-2">
+          <a href="index.html" class="home_btn flex-center">
+            <i class="ph-duotone ph-house"></i>
+          </a>
+          <form class="flex flex-column search">
+            <div class="search_wrapper flex items-center px-2">
+              <input type="text" class="flex-1 p-2" placeholder="Search blog & categories" />
+              <i class="ph-duotone ph-magnifying-glass"></i>
+            </div>
+            <div class="search_result"></div>
+          </form>
+          <a href="discount.html" class="contact_btn button hide_500">
+            <i class="ph-duotone ph-gift"></i>
+            <span>Discount</span>
+          </a>
+        </div>
+      </div>
+    </div>
+    <div class="header_secondary py-2">
+      <div class="container">
+        <div class="secondary_header_main flex items-center gap-5">
+          <a href="index.html" class="logo">
+            <img src="./images/logo/logo.svg" alt="">
+          </a>
+          <nav class="flex-1">
+            <menu>
+              <ul class="flex items-center gap-4">
+                <li>
+                  <a href="index.html">Home</a>
+                </li>
+                <li>
+                  <a href="store.html">Store</a>
+                </li>
+                <li>
+                  <a href="about.html">About us</a>
+                </li>
+                <li>
+                  <a href="categories.html" class="active">Categories</a>
+                </li>
+                <li>
+                  <a href="contact.html">contact</a>
+                </li>
+              </ul>
+            </menu>
+            <button class="menu_btn hide show_flex_768 bg-primary flex-center">
+              <i class="ph-bold ph-list"></i>
+            </button>
+          </nav>
+          <div class="social_icons header_socials hide_992">
+            <div class="icon facebook">
+              <figure>
+                <img src="images/socials/facebook.svg" alt="">
+              </figure>
+            </div>
+            <div class="icon twitter">
+              <i class="fa fa-twitter"></i>
+              <figure>
+                <img src="images/socials/twitter.svg" alt="">
+              </figure>
+            </div>
+            <div class="icon instagram">
+              <i class="fa fa-instagram"></i>
+              <figure>
+                <img src="images/socials/instagram.svg" alt="">
+              </figure>
+            </div>
+            <div class="icon google_plus">
+              <i class="fa fa-google-plus"></i>
+              <figure>
+                <img src="images/socials/google_plus.svg" alt="">
+              </figure>
+            </div>
+            <div class="icon linkedin">
+              <i class="fa fa-linkedin"></i>
+              <figure>
+                <img src="images/socials/linkedin.svg" alt="">
+              </figure>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+  <!-- Main -->
+  <main class="flex-1">
+    <section class="categories bg">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <div class="categories_main">
+              <div class="category">
+                <a href="single_categories.html" class="category_head">
+                  <figure class="category_img">
+                    <img src="images/categories/categories_1.webp" alt="Fashion and Apparel">
+                  </figure>
+                  <div class="category_content">
+                    <h4 class="categories_title">Fashion and Apparel</h4>
+                    <span class="category_count">15</span>
+                  </div>
+                </a>
+                <div class="category_sub_categories">
+                  <a href="single_categories.html" class="sub_category">Clothing</a>
+                  <a href="single_categories.html" class="sub_category">Shoes</a>
+                  <a href="single_categories.html" class="sub_category">Accessories</a>
+                  <a href="single_categories.html" class="sub_category">Activewear</a>
+                  <a href="single_categories.html" class="sub_category">Hats</a>
+                  <a href="single_categories.html" class="sub_category">Jewelry</a>
+                  <a href="single_categories.html" class="sub_category">Bags</a>
+                  <a href="single_categories.html" class="sub_category">Sunglasses</a>
+                  <a href="single_categories.html" class="sub_category">Watches</a>
+                  <a href="single_categories.html" class="sub_category">Lingerie</a>
+                </div>
+              </div>
+              <div class="category">
+                <a href="single_categories.html" class="category_head">
+                  <figure class="category_img">
+                    <img src="images/categories/categories_2.webp" alt="Electronics">
+                  </figure>
+                  <div class="category_content">
+                    <h4 class="categories_title">Electronics</h4>
+                    <span class="category_count">12</span>
+                  </div>
+                </a>
+                <div class="category_sub_categories">
+                  <a href="single_categories.html" class="sub_category">Gadgets</a>
+                  <a href="single_categories.html" class="sub_category">Computers & Laptops</a>
+                  <a href="single_categories.html" class="sub_category">Mobile Phones</a>
+                  <a href="single_categories.html" class="sub_category">Audio & Headphones</a>
+                  <a href="single_categories.html" class="sub_category">Smart Home Devices</a>
+                  <a href="single_categories.html" class="sub_category">Wearables</a>
+                  <a href="single_categories.html" class="sub_category">Electronics Accessories</a>
+                  <a href="single_categories.html" class="sub_category">Cameras</a>
+                  <a href="single_categories.html" class="sub_category">TV & Entertainment</a>
+                  <a href="single_categories.html" class="sub_category">Office Electronics</a>
+                </div>
+              </div>
+              <div class="category">
+                <a href="single_categories.html" class="category_head">
+                  <figure class="category_img">
+                    <img src="images/categories/categories_3.webp" alt="Home and Living">
+                  </figure>
+                  <div class="category_content">
+                    <h4 class="categories_title">Home and Living</h4>
+                    <span class="category_count">16</span>
+                  </div>
+                </a>
+                <div class="category_sub_categories">
+                  <a href="single_categories.html" class="sub_category">Furniture</a>
+                  <a href="single_categories.html" class="sub_category">Home Decor</a>
+                  <a href="single_categories.html" class="sub_category">Appliances</a>
+                  <a href="single_categories.html" class="sub_category">Kitchen & Dining</a>
+                  <a href="single_categories.html" class="sub_category">Bedding & Linens</a>
+                  <a href="single_categories.html" class="sub_category">Storage & Organization</a>
+                  <a href="single_categories.html" class="sub_category">Lighting</a>
+                  <a href="single_categories.html" class="sub_category">Bathroom Accessories</a>
+                  <a href="single_categories.html" class="sub_category">Outdoor Furniture</a>
+                  <a href="single_categories.html" class="sub_category">Pet Supplies</a>
+                </div>
+              </div>
+              <div class="category">
+                <a href="single_categories.html" class="category_head">
+                  <figure class="category_img">
+                    <img src="images/categories/categories_4.webp" alt="Travel and Accommodation">
+                  </figure>
+                  <div class="category_content">
+                    <h4 class="categories_title">Travel and Accommodation</h4>
+                    <span class="category_count">18</span>
+                  </div>
+                </a>
+                <div class="category_sub_categories">
+                  <a href="single_categories.html" class="sub_category">Flights</a>
+                  <a href="single_categories.html" class="sub_category">Hotels</a>
+                  <a href="single_categories.html" class="sub_category">Car Rentals</a>
+                  <a href="single_categories.html" class="sub_category">Vacation Packages</a>
+                  <a href="single_categories.html" class="sub_category">Cruises</a>
+                  <a href="single_categories.html" class="sub_category">Train Tickets</a>
+                  <a href="single_categories.html" class="sub_category">Bus Tickets</a>
+                  <a href="single_categories.html" class="sub_category">Travel Accessories</a>
+                  <a href="single_categories.html" class="sub_category">Travel Insurance</a>
+                  <a href="single_categories.html" class="sub_category">Holiday Deals</a>
+                </div>
+              </div>
+              <div class="category">
+                <a href="single_categories.html" class="category_head">
+                  <figure class="category_img">
+                    <img src="images/categories/categories_5.webp" alt="Health and Beauty">
+                  </figure>
+                  <div class="category_content">
+                    <h4 class="categories_title">Health and Beauty</h4>
+                    <span class="category_count">14</span>
+                  </div>
+                </a>
+                <div class="category_sub_categories">
+                  <a href="single_categories.html" class="sub_category">Skincare</a>
+                  <a href="single_categories.html" class="sub_category">Makeup</a>
+                  <a href="single_categories.html" class="sub_category">Fitness Equipment</a>
+                  <a href="single_categories.html" class="sub_category">Supplements</a>
+                  <a href="single_categories.html" class="sub_category">Hair Care</a>
+                  <a href="single_categories.html" class="sub_category">Perfumes</a>
+                  <a href="single_categories.html" class="sub_category">Vitamins</a>
+                  <a href="single_categories.html" class="sub_category">Dental Care</a>
+                  <a href="single_categories.html" class="sub_category">Personal Care</a>
+                  <a href="single_categories.html" class="sub_category">Weight Loss</a>
+                </div>
+              </div>
+              <div class="category">
+                <a href="single_categories.html" class="category_head">
+                  <figure class="category_img">
+                    <img src="images/categories/categories_6.webp" alt="Food and Dining">
+                  </figure>
+                  <div class="category_content">
+                    <h4 class="categories_title">Food and Dining</h4>
+                    <span class="category_count">12</span>
+                  </div>
+                </a>
+                <div class="category_sub_categories">
+                  <a href="single_categories.html" class="sub_category">Restaurants</a>
+                  <a href="single_categories.html" class="sub_category">Grocery Coupons</a>
+                  <a href="single_categories.html" class="sub_category">Food Delivery</a>
+                  <a href="single_categories.html" class="sub_category">Takeout & Dining</a>
+                  <a href="single_categories.html" class="sub_category">Fast Food</a>
+                  <a href="single_categories.html" class="sub_category">Catering Services</a>
+                  <a href="single_categories.html" class="sub_category">Coffee Shops</a>
+                  <a href="single_categories.html" class="sub_category">Desserts & Sweets</a>
+                  <a href="single_categories.html" class="sub_category">Wine & Spirits</a>
+                  <a href="single_categories.html" class="sub_category">Food Festivals</a>
+                </div>
+              </div>
+              <div class="category">
+                <a href="single_categories.html" class="category_head">
+                  <figure class="category_img">
+                    <img src="images/categories/categories_7.webp" alt="Entertainment">
+                  </figure>
+                  <div class="category_content">
+                    <h4 class="categories_title">Entertainment</h4>
+                    <span class="category_count">15</span>
+                  </div>
+                </a>
+                <div class="category_sub_categories">
+                  <a href="single_categories.html" class="sub_category">Movie Tickets</a>
+                  <a href="single_categories.html" class="sub_category">Concerts</a>
+                  <a href="single_categories.html" class="sub_category">Streaming Services</a>
+                  <a href="single_categories.html" class="sub_category">Video Games</a>
+                  <a href="single_categories.html" class="sub_category">Amusement Parks</a>
+                  <a href="single_categories.html" class="sub_category">Theater Plays</a>
+                  <a href="single_categories.html" class="sub_category">Live Performances</a>
+                  <a href="single_categories.html" class="sub_category">Nightlife Events</a>
+                  <a href="single_categories.html" class="sub_category">Comedy Shows</a>
+                  <a href="single_categories.html" class="sub_category">Sports Events</a>
+                </div>
+              </div>
+              <div class="category">
+                <a href="single_categories.html" class="category_head">
+                  <figure class="category_img">
+                    <img src="images/categories/categories_8.webp" alt="Automotive">
+                  </figure>
+                  <div class="category_content">
+                    <h4 class="categories_title">Automotive</h4>
+                    <span class="category_count">14</span>
+                  </div>
+                </a>
+                <div class="category_sub_categories">
+                  <a href="single_categories.html" class="sub_category">Auto Parts</a>
+                  <a href="single_categories.html" class="sub_category">Tires</a>
+                  <a href="single_categories.html" class="sub_category">Car Accessories</a>
+                  <a href="single_categories.html" class="sub_category">Maintenance Services</a>
+                  <a href="single_categories.html" class="sub_category">Car Rentals</a>
+                  <a href="single_categories.html" class="sub_category">Auto Detailing</a>
+                  <a href="single_categories.html" class="sub_category">Motorcycles</a>
+                  <a href="single_categories.html" class="sub_category">Bike Accessories</a>
+                  <a href="single_categories.html" class="sub_category">Oil Change</a>
+                  <a href="single_categories.html" class="sub_category">Auto Repairs</a>
+                </div>
+              </div>
+              <div class="category">
+                <a href="single_categories.html" class="category_head">
+                  <figure class="category_img">
+                    <img src="images/categories/categories_9.webp" alt="Office and School Supplies">
+                  </figure>
+                  <div class="category_content">
+                    <h4 class="categories_title">Office and School Supplies</h4>
+                    <span class="category_count">11</span>
+                  </div>
+                </a>
+                <div class="category_sub_categories">
+                  <a href="single_categories.html" class="sub_category">Office Furniture</a>
+                  <a href="single_categories.html" class="sub_category">Stationery</a>
+                  <a href="single_categories.html" class="sub_category">School Supplies</a>
+                  <a href="single_categories.html" class="sub_category">Office Electronics</a>
+                  <a href="single_categories.html" class="sub_category">Writing Instruments</a>
+                  <a href="single_categories.html" class="sub_category">Organizers & Planners</a>
+                  <a href="single_categories.html" class="sub_category">Art & Craft Supplies</a>
+                  <a href="single_categories.html" class="sub_category">Back to School</a>
+                  <a href="single_categories.html" class="sub_category">Printer Supplies</a>
+                  <a href="single_categories.html" class="sub_category">Educational Books</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+  <!-- Footer -->
+  <footer>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <div class="footer_main grid gap-5">
+            <div class="footer_column">
+              <a href="" class="logo"><img src="images/logo/logo.svg" alt=""></a>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt, a.</p>
+              <div class="social_icons mt-3">
+                <div class="icon facebook">
+                  <figure>
+                    <img src="images/socials/facebook.svg" alt="">
+                  </figure>
+                </div>
+                <div class="icon twitter">
+                  <i class="fa fa-twitter"></i>
+                  <figure>
+                    <img src="images/socials/twitter.svg" alt="">
+                  </figure>
+                </div>
+                <div class="icon instagram">
+                  <i class="fa fa-instagram"></i>
+                  <figure>
+                    <img src="images/socials/instagram.svg" alt="">
+                  </figure>
+                </div>
+                <div class="icon google_plus">
+                  <i class="fa fa-google-plus"></i>
+                  <figure>
+                    <img src="images/socials/google_plus.svg" alt="">
+                  </figure>
+                </div>
+                <div class="icon linkedin">
+                  <i class="fa fa-linkedin"></i>
+                  <figure>
+                    <img src="images/socials/linkedin.svg" alt="">
+                  </figure>
+                </div>
+              </div>
+            </div>
+            <div class="footer_column">
+              <h5 class="footer_heading">Quick links</h5>
+              <ul class="footer-list flex flex-column gap-2 items-start">
+                <li class="flex items-center justify-between w-full gap-2">
+                  <a href="/">Home</a>
+                  <i class="ph ph-caret-right"></i>
+                </li>
+                <li class="flex items-center justify-between w-full gap-2">
+                  <a href="/about-us">About Us</a>
+                  <i class="ph ph-caret-right"></i>
+                </li>
+                <li class="flex items-center justify-between w-full gap-2">
+                  <a href="/terms-and-conditions">Terms & Conditions</a>
+                  <i class="ph ph-caret-right"></i>
+                </li>
+                <li class="flex items-center justify-between w-full gap-2">
+                  <a href="/privacy-policy">Privacy Policy</a>
+                  <i class="ph ph-caret-right"></i>
+                </li>
+                <li class="flex items-center justify-between w-full gap-2">
+                  <a href="/contact-us">Contact Us</a>
+                  <i class="ph ph-caret-right"></i>
+                </li>
+              </ul>
+            </div>
+            <div class="footer_column">
+              <h5 class="footer_heading">Popular Stores</h5>
+              <ul class="footer-list flex flex-column gap-2 items-start">
+                <li class="flex items-center justify-between w-full gap-2">
+                  <a href="#">APH</a>
+                  <i class="ph ph-caret-right"></i>
+                </li>
+                <li class="flex items-center justify-between w-full gap-2">
+                  <a href="#">Montezumas</a>
+                  <i class="ph ph-caret-right"></i>
+                </li>
+                <li class="flex items-center justify-between w-full gap-2">
+                  <a href="#">Mastershoe</a>
+                  <i class="ph ph-caret-right"></i>
+                </li>
+                <li class="flex items-center justify-between w-full gap-2">
+                  <a href="#">Wowcher</a>
+                  <i class="ph ph-caret-right"></i>
+                </li>
+                <li class="flex items-center justify-between w-full gap-2">
+                  <a href="#">P&Co</a>
+                  <i class="ph ph-caret-right"></i>
+                </li>
+              </ul>
+            </div>
+            <div class="footer_column">
+              <h5 class="footer_heading">Featured</h5>
+              <ul class="footer-list flex flex-column gap-2 items-start">
+                <li class="flex items-center justify-between w-full gap-2">
+                  <a href="/all-categories">All Categories</a>
+                  <i class="ph ph-caret-right"></i>
+                </li>
+                <li class="flex items-center justify-between w-full gap-2">
+                  <a href="/all-categories">All Store</a>
+                  <i class="ph ph-caret-right"></i>
+                </li>
+                <li class="flex items-center justify-between w-full gap-2">
+                  <a href="/contact-us">Contact Us</a>
+                  <i class="ph ph-caret-right"></i>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="copyright">
+      <div class="container">
+        <p class="text-white">&copy; 2024 Hayyan ali. All rights reserved.</p>
+      </div>
+    </div>
+  </footer>
+  <!-- All scripts File -->
+  <script type="text/javascript" src="./js/jquery.js"></script>
+  <script type="text/javascript" src="./js/phosphor-icon.js"></script>
+  <script type="text/javascript" src="./js/swiper.bundle.min.js"></script>
+  <script type="text/javascript" src="./js/bootstrap.bundle.min.js"></script>
+  <script type="text/javascript" src="./js/custom.js"></script>
+</body>
+
+</html>

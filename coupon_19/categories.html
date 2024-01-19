@@ -1,0 +1,523 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>18th web Home Page</title>
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <!-- JQuery js CDN -->
+    <script src="jQuery/jquery.js"></script>
+    <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.js"></script>
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.13.2/themes/base/jquery-ui.css">
+    <!-- bootstrap js CDN -->
+    <script src="jQuery/bootstrap.js"></script>
+    <!-- stylesheet -->
+    <link rel="stylesheet" href="css/style.css">
+    <!-- responsive -->
+    <link rel="stylesheet" href="css/responsive.css">
+    <!-- font family -->
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Sans:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <!-- swipper -->
+    <link rel="stylesheet" href="css/swiper-bundle.min.css" />
+    <!-- fontawesome -->
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <!-- icon -->
+    <link type="image/png" sizes="96x96" rel="icon" href="https://img.icons8.com/color/48/000000/autodesk-bim-360.png">
+</head>
+
+<body>
+    <!-- Header -->
+    <section class="header">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="header_container">
+                        <a href="#" class="logo_container">
+                            <img src="images/logo.png" alt="">
+                        </a>
+                        <form class="serch_bar">
+                            <div class="serch_bar_wpr">
+                                <div class="search">
+                                    <input type="text" class="input" placeholder="Search Thousands of Stores in 10th Web.com">
+                                    <i class="fa fa-search"></i>
+                                </div>
+                            </div>
+                            <div class="search_result">
+                                <h3>Enter Keywords To Search</h3>
+                                <div class="search_result_ul">
+                                    <a href="single_store.html">
+                                        <div class="web_imagebox">
+                                            <img class="img-responsive" src="images/cat_logo.png">
+                                        </div>
+                                        <div class="li-detail">
+                                            <div class="store-name webkit_box">Abbott Lyon</div>
+                                            <div class="store-info">30 Offers</div>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                        </form>
+                        <div class="nav_link">
+                            <a href="store.html" class="home_icon">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-shopping-cart" width="24" height="24" viewBox="0 0 24 24" stroke-width="1.5" stroke="#8b008b" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                    <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                                    <circle cx="6" cy="19" r="2"></circle>
+                                    <circle cx="17" cy="19" r="2"></circle>
+                                    <path d="M17 17h-11v-14h-2"></path>
+                                    <path d="M6 5l14 1l-1 7h-13"></path>
+                                </svg>
+                                <p class="home">all store</p>
+                            </a>
+                            <a href="categories.html" class="home_icon">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-truck-delivery" width="24" height="24" viewBox="0 0 24 24" stroke-width="1.5" stroke="#8b008b" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                    <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                                    <circle cx="7" cy="17" r="2"></circle>
+                                    <circle cx="17" cy="17" r="2"></circle>
+                                    <path d="M5 17h-2v-4m-1 -8h11v12m-4 0h6m4 0h2v-6h-8m0 -5h5l3 5"></path>
+                                    <line x1="3" y1="9" x2="7" y2="9"></line>
+                                </svg>
+                                <p class="home">free delivery</p>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="hdr_content_bottom">
+                        <div class="navigation menu">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-plus" width="44" height="44" viewBox="0 0 24 24" stroke-width="1.5" stroke="#2c3e50" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                                <line x1="12" y1="5" x2="12" y2="19" />
+                                <line x1="5" y1="12" x2="19" y2="12" />
+                            </svg>
+                            <a href="index.html" class="nav_item">
+                                home
+                            </a>
+                            <a href="contact.html" class="nav_item">
+                                contact
+                            </a>
+                            <a href="about.html" class="nav_item">
+                                about
+                            </a>
+                            <a href="store.html" class="nav_item">
+                                all stores
+                            </a>
+                            <a href="categories.html" class="nav_item">
+                                all Categories
+                            </a>
+                        </div>
+                        <div class="menu_toggler">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="44" height="44" viewBox="0 0 24 24" stroke-width="1.5" stroke="#2c3e50" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                                <line x1="4" y1="6" x2="20" y2="6" />
+                                <line x1="4" y1="12" x2="20" y2="12" />
+                                <line x1="4" y1="18" x2="20" y2="18" />
+                            </svg>
+                        </div>
+                        <div class="nav_item cat_btn">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" stroke-width="3" stroke="#fff" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                                <line x1="9" y1="6" x2="20" y2="6"></line>
+                                <line x1="9" y1="12" x2="20" y2="12"></line>
+                                <line x1="9" y1="18" x2="20" y2="18"></line>
+                                <line x1="5" y1="6" x2="5" y2="6.01"></line>
+                                <line x1="5" y1="12" x2="5" y2="12.01"></line>
+                                <line x1="5" y1="18" x2="5" y2="18.01"></line>
+                            </svg>
+                            Browse Categories
+                        </div>
+                        <div class="side_cat">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-plus" width="44" height="44" viewBox="0 0 24 24" stroke-width="1.5" stroke="#2c3e50" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                                <line x1="12" y1="5" x2="12" y2="19" />
+                                <line x1="5" y1="12" x2="19" y2="12" />
+                            </svg>
+                            <h4 class="side_cat_heading">
+                                categories
+                            </h4>
+                            <ul>
+                                <li>
+                                    <a href="#">MOBILES</a>
+                                </li>
+                                <li>
+                                    <a href="#">headphones</a>
+                                </li>
+                                <li>
+                                    <a href="#">laptops</a>
+                                </li>
+                            </ul>
+                            <ul>
+                                <li>
+                                    <a href="#">men fashion </a>
+                                </li>
+                                <li>
+                                    <a href="#">women fashion</a>
+                                </li>
+                                <li>
+                                    <a href="#">men shoose </a>
+                                </li>
+                                <li>
+                                    <a href="#">women shoose</a>
+                                </li>
+                            </ul>
+                            <ul>
+                                <li>
+                                    <a href="#">BEAUTY</a>
+                                </li>
+                                <li>
+                                    <a href="#">GROCERY</a>
+                                </li>
+                                <li>
+                                    <a href="#">DIAPERS</a>
+                                </li>
+                            </ul>
+                            <ul>
+                                <li>
+                                    <a href="#">see all catgories</a>
+                                </li>
+                            </ul>
+                            <ul>
+                                <li>
+                                    <a href="#">all stores</a>
+                                </li>
+                                <li>
+                                    <a href="categories.html">all categories</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- store -->
+    <section class="store bg_color">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <h2 class="heading">Coupons, Promo Codes & Deals By Category</h2>
+                    <div class="main_store">
+                        <div class="main_str_header">
+                            <form class="search str_search">
+                                <input type="text" autocomplete="off" class="str_search_input" id="str_search" placeholder="Search Thousands of Stores in 10th Web.com">
+                                <i class="fa fa-search"></i>
+                            </form>
+                        </div>
+                        <div class="main_str_body">
+                            <div class="str_item">
+                                <div class="str_header">
+                                    <a href="store.html" class="web_imagebox">
+                                        <img src="images/cat_logo.png" alt="">
+                                    </a>
+                                    <div class="str_content">
+                                        <h4>fashion & design</h4>
+                                        <p>all offers is 10,000</p>
+                                    </div>
+                                </div>
+                                <div class="store_wrpr">
+                                    <a href="single_categories.html" class="sub_str">
+                                        <div class="web_imagebox">
+                                            <img src="images/cat_logo.png" alt="">
+                                        </div>
+                                        <span class="webkit_box">
+                                            abbott lyon
+                                        </span>
+                                    </a>
+                                    <a href="single_categories.html" class="sub_str">
+                                        <div class="web_imagebox">
+                                            <img src="images/cat_logo.png" alt="">
+                                        </div>
+                                        <span class="webkit_box">
+                                            AbeBooks
+                                        </span>
+                                    </a>
+                                    <a href="single_categories.html" class="sub_str">
+                                        <div class="web_imagebox">
+                                            <img src="images/cat_logo.png" alt="">
+                                        </div>
+                                        <span class="webkit_box">
+                                            abnormal
+                                        </span>
+                                    </a>
+                                    <a href="single_categories.html" class="sub_str">
+                                        <div class="web_imagebox">
+                                            <img src="images/cat_logo.png" alt="">
+                                        </div>
+                                        <span class="webkit_box">
+                                            Absolute Collagen
+                                        </span>
+                                    </a>
+                                </div>
+                                <div class="str_footer">
+                                    <a href="#" class="str_view_all">view all <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-chevrons-right" width="44" height="44" viewBox="0 0 24 24" stroke-width="1.5" stroke="#2c3e50" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                            <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                                            <polyline points="7 7 12 12 7 17" />
+                                            <polyline points="13 7 18 12 13 17" />
+                                        </svg></a>
+                                </div>
+                            </div>
+                            <div class="str_item">
+                                <div class="str_header">
+                                    <a href="store.html" class="web_imagebox">
+                                        <img src="images/cat_logo.png" alt="">
+                                    </a>
+                                    <div class="str_content">
+                                        <h4>babies & children </h4>
+                                        <p>all offers is 10,000</p>
+                                    </div>
+                                </div>
+                                <div class="store_wrpr">
+                                    <a href="single_categories.html" class="sub_str">
+                                        <div class="web_imagebox">
+                                            <img src="images/cat_logo.png" alt="">
+                                        </div>
+                                        <span class="webkit_box">
+                                            Babbel
+                                        </span>
+                                    </a>
+                                    <a href="single_categories.html" class="sub_str">
+                                        <div class="web_imagebox">
+                                            <img src="images/cat_logo.png" alt="">
+                                        </div>
+                                        <span class="webkit_box">
+                                            Baby Security
+                                        </span>
+                                    </a>
+                                    <a href="single_categories.html" class="sub_str">
+                                        <div class="web_imagebox">
+                                            <img src="images/cat_logo.png" alt="">
+                                        </div>
+                                        <span class="webkit_box">
+                                            Baby Monitors Direct
+                                        </span>
+                                    </a>
+                                    <a href="single_categories.html" class="sub_str">
+                                        <div class="web_imagebox">
+                                            <img src="images/cat_logo.png" alt="">
+                                        </div>
+                                        <span class="webkit_box">
+                                            Baby MORI
+                                        </span>
+                                    </a>
+                                    <a href="single_categories.html" class="sub_str">
+                                        <div class="web_imagebox">
+                                            <img src="images/cat_logo.png" alt="">
+                                        </div>
+                                        <span class="webkit_box">
+                                            Babbel
+                                        </span>
+                                    </a>
+                                    <a href="single_categories.html" class="sub_str">
+                                        <div class="web_imagebox">
+                                            <img src="images/cat_logo.png" alt="">
+                                        </div>
+                                        <span class="webkit_box">
+                                            Baby Security
+                                        </span>
+                                    </a>
+                                    <a href="single_categories.html" class="sub_str">
+                                        <div class="web_imagebox">
+                                            <img src="images/cat_logo.png" alt="">
+                                        </div>
+                                        <span class="webkit_box">
+                                            Baby Monitors Direct
+                                        </span>
+                                    </a>
+                                    <a href="single_categories.html" class="sub_str">
+                                        <div class="web_imagebox">
+                                            <img src="images/cat_logo.png" alt="">
+                                        </div>
+                                        <span class="webkit_box">
+                                            Baby MORI
+                                        </span>
+                                    </a>
+                                </div>
+                                <div class="str_footer">
+                                    <a href="#" class="str_view_all">view all <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-chevrons-right" width="44" height="44" viewBox="0 0 24 24" stroke-width="1.5" stroke="#2c3e50" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                            <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                                            <polyline points="7 7 12 12 7 17" />
+                                            <polyline points="13 7 18 12 13 17" />
+                                        </svg></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- footer -->
+    <section class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="fotr_container">
+                        <div class="ftr_tops">
+                            <div class="ftr_profile">
+                                <a href="#" class="logo_container ftr_logo">
+                                    <img src="images/logo.png" alt="">
+                                </a>
+                                <p class="ftr_dis">Disclaimer: "Ut placerat consequat diam, sed placerat justo sagittis nec. Suspendisse tempor efficitur dolor at tempor. Donec commodo, orci, dui nibh imperdiet neque, sed volutpat orci sem nec est.."</p>
+                            </div>
+                        </div>
+                        <div class="ftr_center">
+                            <div class="ftr_links">
+                                <h2 class="ftr_heading"><span>Follow Us On</span></h2>
+                                <ul class="ftr_links_wrpr">
+                                    <li>
+                                        <a href="#">
+                                            <i class="fa fa-facebook-f"></i>
+                                            <p>facebook</p>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            <i class="fa fa-twitter"></i>
+                                            <p>twitter</p>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            <i class="fa fa-instagram"></i>
+                                            <p>instagram</p>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            <i class="fa fa-pinterest-p"></i>
+                                            <p>pinterest</p>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            <i class="fa fa-linkedin"></i>
+                                            <p>linkedin</p>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="ftr_links">
+                                <h2 class="ftr_heading"><span>More Links</span></h2>
+                                <ul class="ftr_links_wrpr">
+                                    <li>
+                                        <a href="#">
+                                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                                <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                                                <polyline points="9 6 15 12 9 18"></polyline>
+                                            </svg>
+                                            who we are
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                                <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                                                <polyline points="9 6 15 12 9 18"></polyline>
+                                            </svg>
+                                            terms &amp; condition
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                                <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                                                <polyline points="9 6 15 12 9 18"></polyline>
+                                            </svg>
+                                            Privacy Policy
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                                <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                                                <polyline points="9 6 15 12 9 18"></polyline>
+                                            </svg>
+                                            contact
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="ftr_links">
+                                <h2 class="ftr_heading"><span>Popular Stores</span></h2>
+                                <ul class="ftr_links_wrpr">
+                                    <li>
+                                        <a href="#">
+                                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                                <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                                                <polyline points="9 6 15 12 9 18"></polyline>
+                                            </svg>
+                                            who we are
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                                <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                                                <polyline points="9 6 15 12 9 18"></polyline>
+                                            </svg>
+                                            terms &amp; condition
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                                <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                                                <polyline points="9 6 15 12 9 18"></polyline>
+                                            </svg>
+                                            Privacy Policy
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                                <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                                                <polyline points="9 6 15 12 9 18"></polyline>
+                                            </svg>
+                                            contact
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="ftr_links">
+                                <h2 class="ftr_heading"><span>top offers</span></h2>
+                                <ul class="ftr_links_wrpr top_offers">
+                                    <li>
+                                        <a href="single_store.html">
+                                            <p class="name">£50 Off When You Spend £500</p>
+                                            <p class="offers">12 offers</p>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="single_store.html">
+                                            <p class="name">£50 Off When You Spend £500</p>
+                                            <p class="offers">12 offers</p>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="single_store.html">
+                                            <p class="name">£50 Off When You Spend £500</p>
+                                            <p class="offers">12 offers</p>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="ftr_bottom">
+                            <div class="ftr_botm_text">
+                                <p><a href="index.html">webiste link</a> Copyright 2022 © Created &amp; Managed By <a href="#">Techonza ©</a></p>
+                            </div>
+                            <form class="subs_area">
+                                <input type="email" placeholder="Enter your Email Address." required="">
+                                <button>send</button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+<!-- JQuery File -->
+<script src="JQuery/swiper-bundle.min.js"></script>
+<script src="jQuery/custom.js"></script>
+
+</html>

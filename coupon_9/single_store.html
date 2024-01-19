@@ -1,0 +1,518 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Document</title>
+      <!-- Latest compiled and minified CSS -->
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+      <!-- JQuery CDN -->
+      <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+      <!-- Latest compiled and minified JavaScript -->
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+      <!-- fontawesome -->
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+      <!-- google Fonts -->
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+      <!-- stylesheet -->
+      <link rel="stylesheet" href="CSS/style.css">
+      <!-- responsive -->
+      <link rel="stylesheet" href="CSS/responsive.css">
+      <!-- swiper -->
+      <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css"/>
+   </head>
+   <body>
+      <!-- Header -->
+      <section class="navigation">
+         <ul class="nav_list" id="nav_list">
+            <div class="categories_container hide_at_600">
+               <a href="free_del.html" class="categories_btn active"> 20% Off Delivery</a>
+               <a href="free_del.html" class="categories_btn"> Free Delivery</a>
+            </div>
+            <form class="search" id="search">
+               <i class="fa fa-search search_icon" onclick="tab()"></i>
+               <div class="input" id="input">
+                  <input type="text" autocomplete="off" placeholder="Search" id="input-field">
+               </div>
+               <div class="search_result_box">
+                  <h3>Stores From "A"</h3>
+                  <div class="search_result">
+                     <a href="#" class="search_result_item"><i class="fa fa-search"></i>addidas</a>
+                     <a href="#" class="search_result_item"><i class="fa fa-search"></i>addidas</a>
+                     <a href="#" class="search_result_item"><i class="fa fa-search"></i>addidas</a>
+                     <a href="#" class="search_result_item"><i class="fa fa-search"></i>addidas</a>
+                     <a href="#" class="search_result_item"><i class="fa fa-search"></i>addidas</a>
+                     <a href="#" class="search_result_item"><i class="fa fa-search"></i>addidas</a>
+                  </div>
+               </div>
+            </form>
+         </ul>
+         <div class="container">
+            <div class="row">
+               <div class="col-md-12">
+                  <div class="navigation_bar">
+                     <div class="header">
+                        <a href="index.html" class="logo">
+                           <img src="images/logo.png" alt="">   
+                        </a>
+                        <div class="links_nav">
+                           <li class="active"><a href="index.html" class="list_items active">Home</a></li>
+                           <li><a href="store.html" class="list_items">Store</a>
+                           </li>
+                           <li><a href="categories.html" class="list_items">categories</a></li>
+                           <li><a href="about_us.html" class="list_items">about</a></li>
+                           <li><a href="contact_us.html" class="list_items">contact</a></li>
+                        </div>
+                        <a href="#" id="menu_toggle" class="menu_toggler">
+                           <i class="fa fa-bars"></i>
+                        </a>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </section>
+      <!-- banner -->
+      <section class="banner">
+         <div class="container">
+            <div class="row">
+               <div class="col-md-12">
+                  <div class="banner_content home">
+                     <ol class="breadcrumb custom_breadcrumb">
+                        <li class="breadcrumb-item"><a href="#">Home</a></li>
+                        <li class="breadcrumb-item"><a href="#">store</a></li>
+                        <li class="breadcrumb-item active" aria-current="page">single store</li>
+                     </ol>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </section>
+      <!-- Coupns -->
+      <section class="coupons_main_container">
+         <div class="container">
+            <div class="row">
+               <div class="col-md-12">
+                  <div class="coupon_container">
+                     <div class="coupon_main">
+                        <div class="store_main_dis">
+                           <div class="profile_img">
+                              <div class="web_imagebox">
+                                 <img src="images/store_list.png" alt="">
+                              </div>
+                           </div>
+                           <div class="str_m_p_content">
+                              <h2>Abbott Lyon Promo & Discount Code March 2022</h2>
+                              <ul class="stars top_stars">
+                                 <li class="star selected">
+                                    <i class="fa fa-star"></i>
+                                 </li>
+                                 <li class="star selected">
+                                    <i class="fa fa-star"></i>
+                                 </li>
+                                 <li class="star selected">
+                                    <i class="fa fa-star"></i>
+                                 </li>
+                                 <li class="star">
+                                    <i class="fa fa-star"></i>
+                                 </li>
+                                 <li class="star">
+                                    <i class="fa fa-star"></i>
+                                 </li>
+                              </ul>
+                              <p class="top_rating">5 Rating, 3 votes</p>
+                           </div>
+                           <div class="switchers">
+                              <a href="#" class="switchers_items active all_sw">All (22)</a>
+                              <a href="#" class="switchers_items code_sw">code (22)</a>
+                              <a href="#" class="switchers_items deal_sw">deal (22)</a>
+                           </div>
+                        </div>
+                        <div class="coupon_main_wrapper">
+                           <div class="coupon code">
+                              <div class="coupon_img">
+                                 <div class="str_tag">
+                                    <i class="fa" aria-hidden="true"></i>
+                                 </div>
+                                 <div class="web_imagebox">
+                                    <img src="images/store_list.png" alt="">
+                                 </div>
+                                 <p class="store_name webkit_box">code</p>
+                              </div>
+                              <div class="str_coupon_content">
+                                 <h4>40% off Selected Items at Abbott Lyon</h4>
+                                 <p class="coupon_text">Enter this discount code at checkout to save 40% on selected items at Abbott Lyon.</p>
+                                 <span class="read_more coupon_read">view details <i class="fa fa-chevron-down"></i></span>
+                              </div>
+                              <div class="code_btn_container">
+                                 <p class="verfied"><i class="fa fa-check-square-o" aria-hidden="true"></i>verfied</p>
+                                 <a href="#" class="featured_blogs_coupon_btn" data-toggle="modal" data-target="#exampleModal">
+                                    <div class="codes">
+                                       <p>Get Code</p>
+                                       <p>***22</p>
+                                    </div>
+                                 </a>
+
+                                 <div class="bages_container">
+                                    <p class="days_left"><span class="update">update</span> : 4 days left</p>
+                                 </div>
+                                 <div class="str_view_detail">
+                                    <div class="badges_container">
+                                       <h4 class="str_view_detail_title">details :</h4>
+                                       <p class="expire badge_item"><span>expire</span> : 2 / 12 / 2022 .</p>
+                                       <p class="added badge_item"><span>added</span> : 2 / 12 / 2022 .</p>
+                                    </div>
+                                 </div>
+                              </div>
+                           </div>
+                           <div class="coupon deal">
+                              <div class="coupon_img">
+                                 <div class="str_tag">
+                                    <i class="fa" aria-hidden="true"></i>
+                                 </div>
+                                 <div class="web_imagebox">
+                                    <img src="images/store_list.png" alt="">
+                                 </div>
+                                 <p class="store_name webkit_box">code</p>
+                              </div>
+                              <div class="str_coupon_content">
+                                 <h4>40% off Selected Items at Abbott Lyon</h4>
+                                 <p class="coupon_text">Enter this discount code at checkout to save 40% on selected items at Abbott Lyon.</p>
+                                 <span class="read_more coupon_read">view details <i class="fa fa-chevron-down"></i></span>
+                              </div>
+                              <div class="code_btn_container">
+                                 <p class="verfied"><i class="fa fa-check-square-o" aria-hidden="true"></i>verfied</p>
+                                 <a href="#" class="featured_blogs_coupon_btn" data-toggle="modal" data-target="#exampleModal">
+                                    <div class="codes">
+                                       <p>Get Code</p>
+                                       <p>***22</p>
+                                    </div>
+                                 </a>
+
+                                 <div class="bages_container">
+                                    <p class="days_left"><span class="update">update</span> : 4 days left</p>
+                                 </div>
+                                 <div class="str_view_detail">
+                                    <div class="badges_container">
+                                       <h4 class="str_view_detail_title">details :</h4>
+                                       <p class="expire badge_item"><span>expire</span> : 2 / 12 / 2022 .</p>
+                                       <p class="added badge_item"><span>added</span> : 2 / 12 / 2022 .</p>
+                                    </div>
+                                 </div>
+                              </div>
+                           </div>
+                           <div class="expired_coupon_container">
+                              <h2 class="expired_coupon_heading">Expired offers abbott lyon</h2>
+                              <p>There Are No Active Offers For Now You Can Try Expired Offers, It May Work For You !!</p>
+                           </div>
+                           <div class="coupon expire code">
+                              <div class="coupon_img">
+                                 <div class="str_tag">
+                                    <i class="fa" aria-hidden="true"></i>
+                                 </div>
+                                 <div class="web_imagebox">
+                                    <img src="images/store_list.png" alt="">
+                                 </div>
+                                 <p class="store_name webkit_box">code</p>
+                              </div>
+                              <div class="str_coupon_content">
+                                 <h4>40% off Selected Items at Abbott Lyon</h4>
+                                 <p class="coupon_text">Enter this discount code at checkout to save 40% on selected items at Abbott Lyon.</p>
+                                 <span class="read_more coupon_read">view details <i class="fa fa-chevron-down"></i></span>
+                              </div>
+                              <div class="code_btn_container">
+                                 <p class="verfied"><i class="fa fa-check-square-o" aria-hidden="true"></i>verfied</p>
+                                 <a href="#" class="featured_blogs_coupon_btn" data-toggle="modal" data-target="#exampleModal">
+                                    <div class="codes">
+                                       <p>Get Code</p>
+                                       <p>***22</p>
+                                    </div>
+                                 </a>
+
+                                 <div class="bages_container">
+                                    <p class="days_left"><span class="update">update</span> : 4 days left</p>
+                                 </div>
+                                 <div class="str_view_detail">
+                                    <div class="badges_container">
+                                       <h4 class="str_view_detail_title">details :</h4>
+                                       <p class="expire badge_item"><span>expire</span> : 2 / 12 / 2022 .</p>
+                                       <p class="added badge_item"><span>added</span> : 2 / 12 / 2022 .</p>
+                                    </div>
+                                 </div>
+                              </div>
+                           </div>
+                           <div class="coupon expire deal">
+                              <div class="coupon_img">
+                                 <div class="str_tag">
+                                    <i class="fa" aria-hidden="true"></i>
+                                 </div>
+                                 <div class="web_imagebox">
+                                    <img src="images/store_list.png" alt="">
+                                 </div>
+                                 <p class="store_name webkit_box">code</p>
+                              </div>
+                              <div class="str_coupon_content">
+                                 <h4>40% off Selected Items at Abbott Lyon</h4>
+                                 <p class="coupon_text">Enter this discount code at checkout to save 40% on selected items at Abbott Lyon.</p>
+                                 <span class="read_more coupon_read">view details <i class="fa fa-chevron-down"></i></span>
+                              </div>
+                              <div class="code_btn_container">
+                                 <p class="verfied"><i class="fa fa-check-square-o" aria-hidden="true"></i>verfied</p>
+                                 <a href="#" class="featured_blogs_coupon_btn" data-toggle="modal" data-target="#exampleModal">
+                                    <div class="codes">
+                                       <p>Get Code</p>
+                                       <p>***22</p>
+                                    </div>
+                                 </a>
+
+                                 <div class="bages_container">
+                                    <p class="days_left"><span class="update">update</span> : 4 days left</p>
+                                 </div>
+                                 <div class="str_view_detail">
+                                    <div class="badges_container">
+                                       <h4 class="str_view_detail_title">details :</h4>
+                                       <p class="expire badge_item"><span>expire</span> : 2 / 12 / 2022 .</p>
+                                       <p class="added badge_item"><span>added</span> : 2 / 12 / 2022 .</p>
+                                    </div>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="coupon_sidebar">
+                        <div class="coupon_sidebar_items str_main_profile">
+                           <div class="str_m_p_img">
+                              <div class="web_imagebox">
+                                 <img src="images/store_list.png" alt="">
+                              </div>
+                           </div>
+                           <a href="#" class="link_store">storelink.uk.co</a>
+                           <ul class="stars">
+                              <li class="star selected">
+                                 <i class="fa fa-star"></i>
+                              </li>
+                              <li class="star selected">
+                                 <i class="fa fa-star"></i>
+                              </li>
+                              <li class="star selected">
+                                 <i class="fa fa-star"></i>
+                              </li>
+                              <li class="star">
+                                 <i class="fa fa-star"></i>
+                              </li>
+                              <li class="star">
+                                 <i class="fa fa-star"></i>
+                              </li>
+                           </ul>
+                           <p>5 Rating, 3 votes</p>
+                           <p class="store_about_title">about abbott lyon <i class="fa fa-chevron-down"></i></p>
+                           <div class="store_about">
+                             <p>Find the highest quality accessories for men and women at Abbott Lyon.</p> 
+
+                              <p>Whether you’re looking for that special gift or you just want to treat yourself, explore a gorgeous range of jewellery, watches, handbags and sunglasses to add a touch of luxury to any outfit.</p>
+
+                              <p>Each collection is designed in-house using the finest materials at affordable prices. Why not personalise your accessories for that extra special touch? If a monogrammed handbag or an engraved watch or piece of jewellery sounds like your dream, Abbott Lyon is your go-to online marketplace.</p>
+                           </div>
+                        </div>
+                        <div class="coupon_sidebar_items">
+                           <h4>Related stores</h4>
+                           <div class="coupon_sidebar_items_btn">
+                              <a href="#" class="main_stores_list_item">
+                                 <div class="web_imagebox">
+                                    <img src="images/store_list.png" alt="">
+                                 </div>
+                                 <p>addidas</p>
+                              </a>
+                              <a href="#" class="main_stores_list_item">
+                                 <div class="web_imagebox">
+                                    <img src="images/store_list.png" alt="">
+                                 </div>
+                                 <p>addidas</p>
+                              </a>
+                              <a href="#" class="main_stores_list_item">
+                                 <div class="web_imagebox">
+                                    <img src="images/store_list.png" alt="">
+                                 </div>
+                                 <p>addidas</p>
+                              </a>
+                           </div>
+                        </div>
+                        <div class="coupon_sidebar_items">
+                           <h4>Featured Stores</h4>
+                           <div class="cat_pop_container">
+                              <a href="#" class="cat_pop_item">Accessories</a>
+                              <a href="#" class="cat_pop_item">Children's Fashion</a>
+                              <a href="#" class="cat_pop_item">Jewellery &amp; Watches</a>
+                              <a href="#" class="cat_pop_item">Men's Fashion</a>
+                              <a href="#" class="cat_pop_item">Women's Fashion</a>
+                              <a href="#" class="cat_pop_item">Shoes</a>
+                              <a href="#" class="cat_pop_item">Lingerie</a>
+                           </div>
+                        </div>
+                        <div class="coupon_sidebar_items">
+                           <h4>Related stores</h4>
+                           <div class="coupon_sidebar_items_btn">
+                              <a href="#" class="main_stores_list_item">
+                                 <div class="web_imagebox">
+                                    <img src="images/store_list.png" alt="">
+                                 </div>
+                                 <p>addidas</p>
+                              </a>
+                              <a href="#" class="main_stores_list_item">
+                                 <div class="web_imagebox">
+                                    <img src="images/store_list.png" alt="">
+                                 </div>
+                                 <p>addidas</p>
+                              </a>
+                              <a href="#" class="main_stores_list_item">
+                                 <div class="web_imagebox">
+                                    <img src="images/store_list.png" alt="">
+                                 </div>
+                                 <p>addidas</p>
+                              </a>
+                              <a href="#" class="main_stores_list_item">
+                                 <div class="web_imagebox">
+                                    <img src="images/store_list.png" alt="">
+                                 </div>
+                                 <p>addidas</p>
+                              </a>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </section>
+       <!-- footer -->
+      <section class="footer">
+         <div class="container">
+            <div class="row">
+               <div class="col-md-12">
+                  <div class="footer_header">
+                     <div class="footer_logo_contaienr">
+                        <div class="footer_logo">
+                           <img src="images/logo.png" alt="">
+                        </div>
+                        <p class="footer_dis footer_text">Lorem, ipsum dolor sit amet consectetur adipisicing, elit. Consequuntur, suscipit.</p>
+                     </div>
+                     <form class="subscribe" action="">
+                           <input type="text" placeholder="Enter Your Email">
+                           <i class="fa fa-paper-plane"></i>
+                        </form>
+                  </div>
+                  <div class="footer_body">
+                     <div class="footer_body_item footer_body_item_1">
+                        <h4 class="footer_title">popular category</h4>
+                        <div class="footer_cat_container">
+                           <div class="footer_cat_item active webkit_box">electronics & computer</div>
+                           <div class="footer_cat_item webkit_box">electronics & computer</div>
+                           <div class="footer_cat_item webkit_box">electronics & computer</div>
+                           <div class="footer_cat_item webkit_box">electronics & computer</div>
+                           <div class="footer_cat_item webkit_box">electronics & computer</div>
+                           <div class="footer_cat_item webkit_box">electronics & computer</div>
+                           <div class="footer_cat_item webkit_box">electronics & computer</div>
+                        </div>
+                     </div>
+                     <div class="footer_body_item footer_body_item_2">
+                        <h3 class="footer_title">Enjoy Discounts</h3>
+                        <div class="footer_cat_container">
+                           <div class="footer_cat_item active webkit_box">electronics</div>
+                           <div class="footer_cat_item webkit_box">electronics</div>
+                           <div class="footer_cat_item webkit_box">electronics</div>
+                           <div class="footer_cat_item webkit_box">electronics</div>
+                           <div class="footer_cat_item webkit_box">electronics</div>
+                        </div>
+                     </div>
+                     
+                     <div class="footer_body_item footer_body_item_3">
+                        <h3 class="footer_title">importent links</h3>
+                        <div class="footer_cat_container">
+                           <div class="footer_cat_item active webkit_box">home</div>
+                           <div class="footer_cat_item webkit_box">about</div>
+                           <div class="footer_cat_item webkit_box">terms & condition</div>
+                           <div class="footer_cat_item webkit_box">Privacy Policy</div>
+                           <div class="footer_cat_item webkit_box">Contact Us</div>
+                        </div>
+                     </div>
+                     <div class="footer_body_item footer_body_item_4">
+                        <h3 class="footer_title">top categories</h3>
+                        <div class="footer_cat_banner">
+                           <a href="#" class="footer_cat_banner_item background lazy" data-src="images/banner-1.jpg">
+                              <div class="footer_cat_banner_name">fashion</div>
+                           </a>
+                           <a href="#" class="footer_cat_banner_item background lazy" data-src="images/banner-3.jpg">
+                              <div class="footer_cat_banner_name">brand</div>
+                           </a>
+                        </div>
+                     </div>
+                  </div>
+                  
+               </div>
+            </div>
+         </div>
+         <div class="footer_footer">
+            <div class="container">
+               Copyright © 2022 | All Rights Are Reserved.
+            </div>
+         </div>
+      </section>
+      <!-- Modal -->
+      <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+         <div class="modal-dialog" role="document">
+            <div class="modal-content">
+               <div class="modal_main">
+                  <div class="modal-header">
+                     <h5 class="modal-title" id="exampleModalLabel">1P Mobile</h5>
+                     <div class="store_title_modal">
+                        <div class="modal_content">
+                           <div class="modal_content_wrapper">
+                              <h2 class="store_modal">Upto 70% Off On Sitewide Orders</h2>
+                              <p class="coupon_text">Enter this discount code at checkout to save 40% on selected items at Abbott Lyon.</p>
+                           </div>
+                           <div class="modal_img">
+                              <div class="web_imagebox">
+                                 <img src="images/store_list.png" alt="">
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                     <button type="button" class="close close_modal" data-dismiss="modal" aria-label="Close">
+                     <span aria-hidden="true">&times;</span>
+                     </button>
+                  </div>
+                  <div class="modal-body">
+                     <div class="extras_heading">details :</div>
+                     <div class="modal_body_main_container">
+                        <div class="modal_body_main">
+                           <p>Click The Button Above To Copy Code The Code & Paste It At Checkout</p>
+                           <div class="copy_code">
+                               <div class="modal_code" data-code="**664">
+                              **664
+                           </div>
+                           <div class="copy_code_text"><img src="https://img.icons8.com/material-outlined/20/ffffff/copy.png"/>copy code</div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="modal-footer">
+                     <div class="modal_badge_container">
+                        <p class="modal_expire modal_badge"><img src="https://img.icons8.com/material-outlined/20/ffffff/expired.png"/>expire : 2 / 12 / 2022 .</p>
+                        <p class="modal_verified modal_badge"><img src="https://img.icons8.com/material-outlined/20/ffffff/security-checked.png"/>varified</p>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+   </body>
+   <!-- JQuery File -->
+   <script src="JQuery/jquery.lazy.min.js"></script>
+   <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+   <script src="https://unpkg.com/@popperjs/core@2/dist/umd/popper.min.js"></script>
+   <script src="https://unpkg.com/tippy.js@6/dist/tippy-bundle.umd.js"></script>
+   <script src="JQuery/JQuery.js"></script>
+</html>
+<!-- #ded5c4 #f9f9f9 #ef7e56 #305973 #ff9142  #4d216d-->

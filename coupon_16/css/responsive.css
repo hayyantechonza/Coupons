@@ -1,0 +1,588 @@
+@media (min-width: 992px) {
+   .container {
+      width: 970px;
+   }
+}
+
+@media (min-width: 768px) {
+   .container {
+      width: 750px;
+   }
+}
+
+
+@media (max-width: 1400px) {
+   .container {
+      width: 90%;
+   }
+}
+
+@media (min-width: 1300px) {
+   .container {
+      width: 1300px;
+   }
+}
+
+@media (max-width: 992px) {
+   .container {
+      width: 100%;
+   }
+}
+
+/*///////////////////////////////////   Custom Responsive   /////////////////////////////////////*/
+
+
+@media (max-width: 1200px) {
+   .single_store_container {
+      flex-direction: column-reverse;
+   }
+
+   .str_profile {
+      display: none;
+   }
+
+   .sngle_str_sidebar {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+      margin-top: 20px;
+      grid-gap: 30px;
+      align-items: flex-start;
+   }
+
+   .sngle_str_pnl_container :where(.stars, .rating_dis, .web_imagebox) {
+      display: flex !important;
+   }
+
+   .sngle_str_pnl {
+      max-width: 100%;
+   }
+
+}
+
+@media (max-width: 1100px) {}
+
+@media (max-width: 992px) {
+   .discount_container {
+      display: none;
+   }
+
+   .f_a_q_container {
+      background: inherit !important;
+   }
+
+   .f_a_q_wrapper {
+      width: 100%;
+   }
+
+   .news_letter_container {
+      background: inherit !important;
+      min-height: auto;
+   }
+
+   .news_letter_wrpr {
+      width: 100%;
+      text-align: center;
+   }
+
+   .subs_text {
+      max-width: 100%;
+   }
+
+   .subs {
+      margin: 0 auto;
+      margin-top: 15px;
+   }
+
+   .subs_heading {
+      line-height: 1.3;
+   }
+
+   .dis_container {
+      background: inherit !important;
+   }
+
+   .dis_wrpr {
+      max-width: 100%;
+   }
+
+   .store_head {
+      flex-direction: column-reverse;
+      align-items: inherit;
+   }
+
+   .cat_container {
+      flex-direction: column;
+   }
+
+   .cat_sidebar {
+      width: 100%;
+      flex: 0 0 auto;
+   }
+
+   .cat_main {
+      width: 100%;
+   }
+
+   .contact-mainwrapper {
+      flex-direction: column-reverse;
+   }
+
+   .contact-mainwrapper :where(.contact_sidebar, .contact-main) {
+      width: 100%;
+   }
+
+   .contact_sidebar {
+      width: 100%;
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+      align-items: flex-start;
+   }
+}
+
+@media (max-width: 850px) {}
+
+@media (max-width: 800px) {
+   .news_letter_wrpr {
+      padding: 15px;
+   }
+}
+
+@media (max-width: 768px) {
+
+   .menu_toggler {
+      display: flex;
+      z-index: 100;
+   }
+
+   .menu {
+      position: absolute;
+      background: #2c2c2c;
+      width: 100%;
+      text-align: center;
+      left: 0;
+      justify-content: flex-start;
+      top: 100%;
+      padding: 10px;
+      z-index: 99;
+      display: none;
+   }
+
+   .menu_item {
+      color: #fff;
+      margin: 5px 0;
+      display: inline-block;
+   }
+
+   .coupon {
+      flex-direction: column;
+      align-items: center;
+   }
+
+   .coupon .cpn_btn {
+      flex: 0 0 auto;
+      width: 150px;
+   }
+
+   .coupon_content {
+      align-items: center;
+      text-align: center;
+   }
+
+   .coupon_text {
+      text-align: center;
+   }
+
+   .cpn_container {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+   }
+
+   .expired_coupon_container {
+      grid-column: span 2;
+   }
+}
+
+@media (max-width: 650px) {
+   .ftr_center {
+      grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+   }
+
+   .str_heading {
+      font-size: 18px;
+   }
+
+   .store_slide_img {
+      height: 60px;
+      width: 60px;
+   }
+
+   .store_slide_name {
+      font-size: 14px;
+   }
+
+   .store-info {
+      font-size: 13px;
+   }
+
+   .bnr_cpn {
+      min-height: 150px;
+   }
+
+   .bnr_cpn_title {
+      font-size: 16px;
+      padding: 10px 10px 10px 10px;
+   }
+
+   .heading {
+      font-size: 23px;
+   }
+
+   .top_cat_item h4 {
+      font-size: 20px;
+   }
+
+   .top_cat_item {
+      min-height: 150px;
+   }
+
+   .home_cpn_title {
+      font-size: 16px;
+   }
+
+   .expire {
+      font-size: 12px;
+   }
+
+   .home_cpn_text {
+      font-size: 14px;
+   }
+
+   .cpn_btn {
+      width: 150px;
+      height: 35px;
+   }
+
+   .home_cpn_head {
+      min-height: 130px;
+   }
+
+   .cpn_btn p {
+      font-size: 14px;
+   }
+
+   .how_to_item svg {
+      height: 45px;
+      width: 45px;
+   }
+
+   .how_to_item:before {
+      height: 45px;
+      width: 45px;
+   }
+
+   .howblck_head {
+      font-size: 18px;
+   }
+
+   .howblck_descp {
+      font-size: 14px;
+   }
+
+   .top_str_heading {
+      font-size: 17px;
+   }
+
+   .top_str_head a {
+      font-size: 14px;
+   }
+
+   .top_str_head a svg {
+      height: 10px;
+      width: 10px;
+   }
+
+   .top_str_name {
+      font-size: 14px;
+   }
+
+   .question h4 {
+      font-size: 16px;
+   }
+
+   .question p {}
+
+   .subs_heading {
+      font-size: 20px;
+   }
+
+   .subs_text {
+      font-size: 14px;
+   }
+
+   .subs {
+      height: 40px;
+   }
+
+   .dis_heading {
+      font-size: 20px;
+      margin-bottom: 20px;
+   }
+
+   .dis_wrpr p {
+      font-size: 14px;
+   }
+
+   .post_box svg {
+      height: 45px;
+      width: 45px;
+   }
+
+   .stats_number {
+      font-size: 16px;
+   }
+
+   .post_box_content p {
+      font-size: 14px;
+   }
+
+   .ftr_heading {
+      font-size: 18px;
+   }
+
+   .ftr_links_wrpr a {
+      font-size: 13px;
+   }
+
+   .top_offers .name {
+      font-size: 14px;
+   }
+
+   .top_offers .offers {
+      font-size: 14px;
+   }
+
+   .ftr_dis {
+      font-size: 14px;
+   }
+
+   .ftr_bottom p {
+      font-size: 14px;
+   }
+
+   .expired_coupon_container {
+      grid-column: span 1;
+   }
+
+   .sngle_str_pnl_container {
+      flex-direction: column;
+      align-items: center;
+   }
+
+   .sngle_str_pnl {
+      align-items: center;
+      text-align: center;
+   }
+
+   .breadcrumbs a {
+      font-size: 13px;
+   }
+
+   .store_heading {
+      font-size: 18px;
+   }
+
+   .store_text {
+      font-size: 14px;
+   }
+
+   .str_search {
+      height: 35px;
+   }
+
+   .str_head_heading {
+      font-size: 16px;
+   }
+
+   .leter_items {
+      font-size: 13px;
+      padding: 5px 10px;
+   }
+
+   .str_head a {
+      font-size: 13px;
+   }
+
+   .str_sub_item {
+      font-size: 13px;
+   }
+
+   .sngle_str_pnl_container .web_imagebox {
+      height: 80px;
+      width: 80px;
+      flex: 0 0 80px;
+   }
+
+   .str_panel_title {
+      font-size: 20px;
+   }
+
+   .str_penl_text {
+      font-size: 14px;
+   }
+
+   .stars i {
+      font-size: 20px;
+   }
+
+   .rating_dis {
+      font-size: 14px;
+   }
+
+   .switchers_items {
+      font-size: 13px;
+   }
+
+   .coupon_img .web_imagebox {
+      height: 80px;
+      width: 80px;
+   }
+
+   .coupon h3,
+   .coupon a {
+      font-size: 17px;
+   }
+
+   .coupon_text {
+      font-size: 14px;
+   }
+
+   .expired_coupon_heading {
+      font-size: 18px;
+   }
+
+   .expired_coupon_container p {
+      font-size: 13px;
+   }
+
+   .sngl_side_heading {
+      font-size: 14px;
+   }
+
+   .sngle_str_side_item p {
+      font-size: 14px;
+   }
+
+   .use_coupon li {
+      font-size: 14px;
+   }
+
+   .sngle_str_side_item p {
+      font-size: 13px;
+   }
+
+   .sngle_tab_item {
+      font-size: 13px;
+   }
+
+   .top-heading h3 {
+      font-size: 25px;
+   }
+
+   .content-page-content p {
+      font-size: 14px;
+   }
+
+   .contact-form label {
+      font-size: 14px;
+   }
+
+   .contact-panel-title {
+      font-size: 15px;
+   }
+
+   .contact-panel_link {
+      font-size: 14px;
+   }
+
+   .contact-panel_link i {
+      height: 35px;
+      width: 35px;
+      flex: 0 0 35px;
+   }
+
+   .contact_info {
+      font-size: 20px;
+   }
+
+   .info_tilte {
+      font-size: 15px;
+      padding-bottom: 5px;
+   }
+
+   .info_content .text {
+      font-size: 14px;
+   }
+
+   .info_item i {
+      height: 40px;
+      width: 40px;
+      flex: 0 0 40px;
+   }
+
+   .contact_social .icon {
+      height: 35px;
+      width: 35px;
+   }
+
+   .modal_subs_heading {
+      font-size: 20px;
+   }
+
+   .modal_subs_text {
+      font-size: 14px;
+   }
+
+   .modal .subs {
+      height: 35px;
+   }
+
+   .str_cpn_title {
+      font-size: 16px;
+   }
+
+   .str_cpn_des {
+      font-size: 13px;
+   }
+
+   .model_code {
+      height: 35px;
+      width: 180px;
+   }
+
+   .modal_link {
+      font-size: 14px;
+   }
+
+   .modal_head_body .web_imagebox {
+      height: 70px;
+      width: 70px;
+      flex: 0 0 70px;
+   }
+}
+
+@media (max-width: 600px) {}
+
+@media (max-width: 550px) {
+   .modal_head_body {
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+   }
+   .model_code{
+      margin: 20px auto 0 auto;
+   }
+}
+
+@media (max-width: 500px) {}
+
+@media (max-width: 425px) {}

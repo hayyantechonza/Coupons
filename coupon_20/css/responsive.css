@@ -1,0 +1,282 @@
+@media (min-width: 992px) {
+    .container {
+        width: 970px;
+    }
+}
+
+@media (min-width: 768px) {
+    .container {
+        width: 750px;
+    }
+}
+
+
+@media (max-width: 1400px) {
+    .container {
+        width: 90%;
+    }
+}
+
+@media (min-width: 1300px) {
+    .container {
+        width: 1300px;
+    }
+}
+
+@media (max-width: 992px) {
+    .container {
+        width: 100%;
+    }
+}
+
+/*///////////////////////////////////   Custom Responsive   /////////////////////////////////////*/
+
+
+@media (max-width: 1200px) {}
+
+@media (max-width: 1150px) {}
+
+@media (max-width: 1100px) {}
+
+@media (max-width: 992px) {
+    .menu_toggler {
+        display: flex;
+    }
+
+    .discount_container {
+        display: none;
+    }
+
+    .search_form {
+        max-width: 100%;
+    }
+
+    .menu {
+        display: block;
+        background: white;
+        width: 300px;
+        height: 100vh;
+        right: -300px;
+        padding: 10px;
+        position: fixed;
+        z-index: 99;
+        transition: 0.5s ease;
+        top: 120px;
+    }
+
+    .menu.active {
+        right: 0;
+    }
+
+    .menu li {
+        width: 180px;
+        margin: 0 auto;
+        margin-bottom: 10px;
+    }
+
+    .contact_container {
+        flex-direction: column-reverse;
+    }
+
+    .contact_sidebar {
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: flex-start;
+        align-items: flex-start;
+        flex: 0 0 auto;
+    }
+
+    .contact_side_item {
+        flex: 1 1 280px;
+    }
+
+    .sngl_str_container {
+        flex-direction: column-reverse;
+    }
+
+    .single_str_sidebar {
+        flex-wrap: wrap;
+        flex-direction: row;
+        grid-gap: 30px;
+        background: transparent;
+        box-shadow: none;
+        border-radius: 0;
+        align-items: flex-start;
+    }
+
+    .sidebar_item {
+        flex: 1 1 250px;
+        background: #fff;
+        box-shadow: 0 0 5px #0001;
+        border-radius: 5px;
+        border-bottom: none !important;
+    }
+
+    .about_main {
+        flex-direction: column;
+    }
+
+    .abt_content {
+        padding-right: 15px;
+    }
+
+    .abt_sidebar {
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        padding: 15px;
+        grid-gap: 20px;
+    }
+
+    .abt_sidebar_item {
+        flex: 1 1 280px;
+        margin: 0;
+    }
+}
+
+@media (max-width: 850px) {}
+
+@media (max-width: 800px) {}
+
+@media (max-width: 768px) {
+
+    .faq_container {
+        background-image: inherit !important;
+    }
+
+    .contact_tabs {
+        max-width: 100%;
+    }
+
+    .str_pop_slider {
+        display: none;
+    }
+}
+
+@media (min-width: 768px) {
+
+    .modal-dialog {
+        width: 700px;
+    }
+
+}
+
+@media (max-width: 650px) {
+    .heading {
+        font-size: 20px;
+    }
+
+    .view_all {
+        padding: 5px 10px;
+        font-size: 12px;
+        height: 30px;
+    }
+
+    .view_all {
+        padding: 5px 10px;
+        font-size: 12px;
+        height: 30px;
+    }
+
+    .bnr_title {
+        font-size: 18px;
+        line-height: 1.5;
+    }
+
+    .bnr_text {
+        font-size: 13px;
+    }
+
+    .mySwiper_1 .container {
+        min-height: 300px;
+    }
+
+    .str_title {
+        font-size: 13px;
+    }
+
+    .home_cpn_header h4 {
+        font-size: 15px;
+    }
+
+    .home_cpn_body p {
+        font-size: 14px;
+    }
+
+    .top_cat_title {
+        font-size: 15px;
+    }
+}
+
+@media (max-width: 600px) {
+
+    .home_cpn {
+        grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    }
+
+    .modal_profile_content {
+        display: none;
+    }
+    .modal_content{
+        min-width: auto;
+        box-shadow: none;
+    }
+
+    .modal_profile {
+        background: none;
+        flex: 0 0 auto;
+    }
+
+    .modal_container {
+        flex-direction: column;
+    }
+
+}
+
+@media (max-width: 550px) {}
+
+@media (max-width: 500px) {
+    .home_cpn_header {
+        flex-direction: column;
+        padding: 0;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .home_cpn_header .web_imagebox {
+        margin: 0 auto;
+    }
+
+    .home_cpn_body p {
+        text-align: center;
+    }
+
+    .home_cpn_footer {
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .coupon_get_code {
+        margin-left: 0;
+    }
+
+    .str_panel_container {
+        flex-direction: column;
+        text-align: center;
+        justify-content: center;
+    }
+
+    .store_breadcrumbs {
+        justify-content: center;
+    }
+
+    .str_panel_heading {
+        line-height: 1.5;
+    }
+}
+
+@media (max-width: 425px) {}
+
+@media (max-width: 375px) {}

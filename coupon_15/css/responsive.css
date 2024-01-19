@@ -1,0 +1,418 @@
+@media (min-width: 992px) {
+   .container {
+      width: 970px;
+   }
+}
+
+@media (min-width: 768px) {
+   .container {
+      width: 750px;
+   }
+}
+
+
+@media (max-width: 1400px) {
+   .container {
+      width: 90%;
+   }
+}
+
+@media (min-width: 1300px) {
+   .container {
+      width: 1300px;
+   }
+}
+
+@media (max-width: 992px) {
+   .container {
+      width: 100%;
+   }
+}
+
+/*///////////////////////////////////   Custom Responsive   /////////////////////////////////////*/
+
+
+@media (max-width: 1200px) {}
+
+@media (max-width: 1100px) {
+   .faq_img {
+      display: none;
+   }
+
+   .faq_item:nth-child(2) .faq_sub_item {
+      padding: 15px;
+   }
+
+   .faq_item:nth-child(1) .faq_sub_item {
+      padding: 15px;
+   }
+
+   .faq_container {
+      grid-gap: 20px;
+   }
+}
+
+@media (max-width: 992px) {
+   .bnr_container {
+      background-image: inherit !important;
+   }
+
+   .banner {
+      padding: 20px 0;
+   }
+
+   .bnr_form {
+      max-width: 100%;
+   }
+
+   .bnr_form .search {
+      margin-top: 0;
+   }
+
+   .cat_container {
+      flex-direction: column;
+   }
+
+   .cat_sidebar {
+      width: 100%;
+      flex: 0 0 auto;
+   }
+
+   .cat_main {
+      background: transparent;
+      box-shadow: none;
+      padding: 0;
+      border-radius: 0;
+   }
+   .single_store_sidebar {
+      display: grid;
+      width: 100%;
+      grid-template-columns: repeat(auto-fill, minmax(300px, 1fr))
+   }
+
+   .contact-mainwrapper {
+      flex-direction: column-reverse;
+   }
+
+   .contact-sidebar {
+      width: 100%;
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+      grid-gap: 30px;
+   }
+
+   .contact-main {
+      width: 100%;
+   }
+
+   .contact-form label {
+      font-size: 14px;
+   }
+
+   .contact-panel-title {
+      font-size: 15px;
+   }
+
+   .contact-panel_link {
+      font-size: 14px;
+   }
+
+   .contact-panel_link i {
+      height: 35px;
+      width: 35px;
+      flex: 0 0 35px;
+   }
+   .single_store_container{
+      flex-direction: column-reverse;
+   }
+   .contact-panel{
+      margin-bottom: 0;
+   }
+}
+
+@media (max-width: 850px) {}
+
+@media (max-width: 800px) {
+   .subs {
+      flex-direction: column;
+   }
+
+   .subs_content {
+      flex: 0 0 auto;
+      text-align: center;
+      justify-content: center;
+   }
+}
+
+@media (max-width: 768px) {
+
+   .logo_container {
+      height: 60px;
+      flex: 0 0 150px;
+      width: 150px;
+   }
+
+   .hdr_cont {
+      display: block;
+   }
+
+   .search {
+      max-width: 100%;
+      margin-top: 5px;
+   }
+
+   .dsicount {
+      position: absolute;
+      top: 11px;
+      right: 15px;
+   }
+
+   .dis_item svg {
+      display: none;
+   }
+
+   .dis_content span {
+      display: none;
+   }
+
+   .dis_content p {
+      background: #ed7430;
+      padding: 0 15px;
+      height: 40px;
+      display: flex;
+      line-height: 1;
+      align-items: center;
+      justify-content: center;
+      border-radius: 3px;
+      text-transform: capitalize;
+      font-weight: 500;
+      letter-spacing: 0;
+   }
+
+   .tabs {
+      display: none;
+   }
+
+   .bnr_container {
+      min-height: auto;
+   }
+
+   .faq_container {
+      flex-direction: column;
+   }
+}
+
+@media (max-width: 650px) {
+   .dis_content p {
+      font-size: 14px;
+   }
+
+   .menu_item {
+      padding: 7px 20px;
+   }
+
+   .bnr_text {
+      font-size: 20px;
+   }
+
+   .heading {
+      font-size: 25px;
+   }
+
+   .str_rbn {
+      font-size: 14px;
+   }
+
+   .str_offer {
+      font-size: 14px;
+   }
+
+   .view_more {
+      font-size: 14px;
+   }
+
+   .top_cat_item {
+      min-height: 100px;
+   }
+
+   .top_cat_item h4 {
+      font-size: 20px;
+   }
+
+   .how_to_item svg {
+      height: 30px;
+      width: 30px;
+   }
+
+   .howblck_head {
+      font-size: 18px;
+   }
+
+   .howblck_descp {
+      font-size: 14px;
+   }
+
+   .home_cpn_head {
+      font-size: 18px;
+      padding: 30px 10px 50px 10px;
+   }
+
+   .user_verified {
+      font-size: 12px;
+   }
+
+   .home_cpn_head .web_imagebox {}
+
+   .home_cpn_title {
+      font-size: 16px;
+   }
+
+   .expire {
+      font-size: 12px;
+   }
+
+   .cpn_btn {
+      width: 150px;
+      height: 35px;
+   }
+
+   .cpn_btn p {
+      font-size: 14px;
+   }
+
+   .faq_heading {
+      font-size: 20px;
+   }
+
+   .disclaimer_main h3 {
+      font-size: 20px;
+   }
+
+   .disclaimer_main p {
+      font-size: 14px;
+   }
+
+   .subs_heading {
+      font-size: 20px;
+   }
+
+   .sub_form_wrapper {
+      height: 40px;
+   }
+
+   .ftr_container {
+      grid-gap: 20px;
+   }
+
+   .footer_title {
+      font-size: 20px;
+   }
+
+   .footer_links li {
+      font-size: 14px;
+   }
+
+   .footer_dis {
+      font-size: 13px;
+   }
+
+   .icon {
+      height: 35px;
+      width: 35px;
+      flex: 0 0 35px;
+   }
+
+   .icon i {
+      font-size: 14px;
+   }
+
+   .store_heading {
+      font-size: 25px;
+   }
+
+   .store_text {
+      font-size: 15px;
+   }
+
+   .str_head {
+      font-size: 17px;
+   }
+
+   .store-name {
+      font-size: 15px;
+   }
+
+   .abt_main h3 {
+      font-size: 20px;
+   }
+
+   .abt_main p {
+      font-size: 14px;
+   }
+
+   .about_nav a {
+      font-size: 14px;
+   }
+
+   .cpn_main,
+   .expire_cpn {
+      grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+   }
+
+   .str_cpn_title {
+      font-size: 18px;
+   }
+
+   .str_discount {
+      padding: 20px 10px;
+      flex: 0 0 110px;
+      font-size: 18px;
+   }
+
+   .str_verified {
+      font-size: 13px;
+      font-weight: 400;
+   }
+
+   .expired_coupon_heading {
+      font-size: 20px;
+   }
+
+   .sngl_side_heading {
+      font-size: 18px;
+   }
+
+   .side_str_name {
+      font-size: 14px;
+   }
+
+   .switchers_items {
+      font-size: 13px;
+      padding: 5px 15px;
+   }
+   .switchers{
+      display: none;
+   }
+}
+
+@media (max-width: 600px) {}
+
+@media (max-width: 550px) {
+   .single_cat_header{
+      flex-direction: column;
+      align-items: center;
+   }
+   .single_cat_header_content{
+      align-items: center;
+   }
+   .single_cat_header .str_link{
+      margin-left: auto;
+   }
+   .str_main_title{
+      text-align: center;
+   }
+}
+
+@media (max-width: 500px) {}
+
+@media (max-width: 425px) {}

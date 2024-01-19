@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="./css/swiper-bundle.min.css">
+  <link rel="stylesheet" href="./css/bootstrap.min.css">
+  <link rel="stylesheet" href="./css/style.css">
+  <link rel="stylesheet" href="./css/responsive.css">
+</head>
+
+<body class="flex flex-column h-screen">
+  <!-- Header -->
+  <header>
+    <div class="header_primary py-2">
+      <div class="container">
+        <div class="primary_header_main flex gap-2">
+          <a href="index.html" class="home_btn flex-center">
+            <i class="ph-duotone ph-house"></i>
+          </a>
+          <form class="flex flex-column search">
+            <div class="search_wrapper flex items-center px-2">
+              <input type="text" class="flex-1 p-2" placeholder="Search blog & categories" />
+              <i class="ph-duotone ph-magnifying-glass"></i>
+            </div>
+            <div class="search_result"></div>
+          </form>
+          <a href="discount.html" class="contact_btn button hide_500">
+            <i class="ph-duotone ph-gift"></i>
+            <span>Discount</span>
+          </a>
+        </div>
+      </div>
+    </div>
+    <div class="header_secondary py-2">
+      <div class="container">
+        <div class="secondary_header_main flex items-center gap-5">
+          <a href="index.html" class="logo">
+            <img src="./images/logo/logo.svg" alt="">
+          </a>
+          <nav class="flex-1">
+            <menu>
+              <ul class="flex items-center gap-4">
+                <li>
+                  <a href="index.html" class="active">Home</a>
+                </li>
+                <li>
+                  <a href="store.html">Store</a>
+                </li>
+                <li>
+                  <a href="about.html">About us</a>
+                </li>
+                <li>
+                  <a href="categories.html">Categories</a>
+                </li>
+                <li>
+                  <a href="contact.html">contact</a>
+                </li>
+              </ul>
+            </menu>
+            <button class="menu_btn hide show_flex_768 bg-primary flex-center">
+              <i class="ph-bold ph-list"></i>
+            </button>
+          </nav>
+          <div class="social_icons header_socials hide_992">
+            <div class="icon facebook">
+              <figure>
+                <img src="images/socials/facebook.svg" alt="">
+              </figure>
+            </div>
+            <div class="icon twitter">
+              <i class="fa fa-twitter"></i>
+              <figure>
+                <img src="images/socials/twitter.svg" alt="">
+              </figure>
+            </div>
+            <div class="icon instagram">
+              <i class="fa fa-instagram"></i>
+              <figure>
+                <img src="images/socials/instagram.svg" alt="">
+              </figure>
+            </div>
+            <div class="icon google_plus">
+              <i class="fa fa-google-plus"></i>
+              <figure>
+                <img src="images/socials/google_plus.svg" alt="">
+              </figure>
+            </div>
+            <div class="icon linkedin">
+              <i class="fa fa-linkedin"></i>
+              <figure>
+                <img src="images/socials/linkedin.svg" alt="">
+              </figure>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+  <!-- Main -->
+  <main class="flex-1">
+    <section class="stores">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <div class="str_filter"></div>
+            <div class="store_item single_alphabet mb-4">
+              <div class="store_header">
+                <div class="store_heading flex">
+                  <span class="store_alfa">A</span>
+                  <h5>store from a</h5>
+                </div>
+                <a href="#" class="button">
+                  <span>view all</span>
+                  <i class="ph-duotone ph-caret-double-right"></i>
+                </a>
+              </div>
+              <div class="store_list">
+                <a href="single_store.html" class="pop_cat flex flex-column gap-2 items-center">
+                  <figure class="pop_cat_img p-3">
+                    <img src="images/stores/store_1.webp" alt="Category 1" class="object-contain">
+                  </figure>
+                  <div class="pop_cat_content px-2 pb-2">
+                    <h6 class="webkit_box">Groceries</h6>
+                    <span class="text-secondary">50 Offers</span>
+                  </div>
+                </a>
+                <a href="single_store.html" class="pop_cat flex flex-column gap-2 items-center">
+                  <figure class="pop_cat_img p-3">
+                    <img src="images/stores/store_2.webp" alt="Category 2" class="object-contain">
+                  </figure>
+                  <div class="pop_cat_content px-2 pb-2">
+                    <h6 class="webkit_box">Electronics</h6>
+                    <span class="text-secondary">50 Offers</span>
+                  </div>
+                </a>
+                <a href="single_store.html" class="pop_cat flex flex-column gap-2 items-center">
+                  <figure class="pop_cat_img p-3">
+                    <img src="images/stores/store_3.webp" alt="Category 3" class="object-contain">
+                  </figure>
+                  <div class="pop_cat_content px-2 pb-2">
+                    <h6 class="webkit_box">Fashion</h6>
+                    <span class="text-secondary">50 Offers</span>
+                  </div>
+                </a>
+                <a href="single_store.html" class="pop_cat flex flex-column gap-2 items-center">
+                  <figure class="pop_cat_img p-3">
+                    <img src="images/stores/store_4.webp" alt="Category 4" class="object-contain">
+                  </figure>
+                  <div class="pop_cat_content px-2 pb-2">
+                    <h6 class="webkit_box">Travel</h6>
+                    <span class="text-secondary">50 Offers</span>
+                  </div>
+                </a>
+                <a href="single_store.html" class="pop_cat flex flex-column gap-2 items-center">
+                  <figure class="pop_cat_img p-3">
+                    <img src="images/stores/store_5.webp" alt="Category 5" class="object-contain">
+                  </figure>
+                  <div class="pop_cat_content px-2 pb-2">
+                    <h6 class="webkit_box">Health &amp; Beauty</h6>
+                    <span class="text-secondary">50 Offers</span>
+                  </div>
+                </a>
+                <a href="single_store.html" class="pop_cat flex flex-column gap-2 items-center">
+                  <figure class="pop_cat_img p-3">
+                    <img src="images/stores/store_6.webp" alt="Category 6" class="object-contain">
+                  </figure>
+                  <div class="pop_cat_content px-2 pb-2">
+                    <h6 class="webkit_box">Home Decor</h6>
+                    <span class="text-secondary">50 Offers</span>
+                  </div>
+                </a>
+                <a href="single_store.html" class="pop_cat flex flex-column gap-2 items-center">
+                  <figure class="pop_cat_img p-3">
+                    <img src="images/stores/store_7.webp" alt="Category 7" class="object-contain">
+                  </figure>
+                  <div class="pop_cat_content px-2 pb-2">
+                    <h6 class="webkit_box">Sports &amp; Outdoors</h6>
+                    <span class="text-secondary">50 Offers</span>
+                  </div>
+                </a>
+                <a href="single_store.html" class="pop_cat flex flex-column gap-2 items-center">
+                  <figure class="pop_cat_img p-3">
+                    <img src="images/stores/store_8.webp" alt="Category 8" class="object-contain">
+                  </figure>
+                  <div class="pop_cat_content px-2 pb-2">
+                    <h6 class="webkit_box">Books &amp; Literature</h6>
+                    <span class="text-secondary">50 Offers</span>
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+  <!-- Footer -->
+  <footer>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <div class="footer_main grid gap-5">
+            <div class="footer_column">
+              <a href="" class="logo"><img src="images/logo/logo.svg" alt=""></a>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt, a.</p>
+              <div class="social_icons mt-3">
+                <div class="icon facebook">
+                  <figure>
+                    <img src="images/socials/facebook.svg" alt="">
+                  </figure>
+                </div>
+                <div class="icon twitter">
+                  <i class="fa fa-twitter"></i>
+                  <figure>
+                    <img src="images/socials/twitter.svg" alt="">
+                  </figure>
+                </div>
+                <div class="icon instagram">
+                  <i class="fa fa-instagram"></i>
+                  <figure>
+                    <img src="images/socials/instagram.svg" alt="">
+                  </figure>
+                </div>
+                <div class="icon google_plus">
+                  <i class="fa fa-google-plus"></i>
+                  <figure>
+                    <img src="images/socials/google_plus.svg" alt="">
+                  </figure>
+                </div>
+                <div class="icon linkedin">
+                  <i class="fa fa-linkedin"></i>
+                  <figure>
+                    <img src="images/socials/linkedin.svg" alt="">
+                  </figure>
+                </div>
+              </div>
+            </div>
+            <div class="footer_column">
+              <h5 class="footer_heading">Quick links</h5>
+              <ul class="footer-list flex flex-column gap-2 items-start">
+                <li class="flex items-center justify-between w-full gap-2">
+                  <a href="/">Home</a>
+                  <i class="ph ph-caret-right"></i>
+                </li>
+                <li class="flex items-center justify-between w-full gap-2">
+                  <a href="/about-us">About Us</a>
+                  <i class="ph ph-caret-right"></i>
+                </li>
+                <li class="flex items-center justify-between w-full gap-2">
+                  <a href="/terms-and-conditions">Terms & Conditions</a>
+                  <i class="ph ph-caret-right"></i>
+                </li>
+                <li class="flex items-center justify-between w-full gap-2">
+                  <a href="/privacy-policy">Privacy Policy</a>
+                  <i class="ph ph-caret-right"></i>
+                </li>
+                <li class="flex items-center justify-between w-full gap-2">
+                  <a href="/contact-us">Contact Us</a>
+                  <i class="ph ph-caret-right"></i>
+                </li>
+              </ul>
+            </div>
+            <div class="footer_column">
+              <h5 class="footer_heading">Popular Stores</h5>
+              <ul class="footer-list flex flex-column gap-2 items-start">
+                <li class="flex items-center justify-between w-full gap-2">
+                  <a href="#">APH</a>
+                  <i class="ph ph-caret-right"></i>
+                </li>
+                <li class="flex items-center justify-between w-full gap-2">
+                  <a href="#">Montezumas</a>
+                  <i class="ph ph-caret-right"></i>
+                </li>
+                <li class="flex items-center justify-between w-full gap-2">
+                  <a href="#">Mastershoe</a>
+                  <i class="ph ph-caret-right"></i>
+                </li>
+                <li class="flex items-center justify-between w-full gap-2">
+                  <a href="#">Wowcher</a>
+                  <i class="ph ph-caret-right"></i>
+                </li>
+                <li class="flex items-center justify-between w-full gap-2">
+                  <a href="#">P&Co</a>
+                  <i class="ph ph-caret-right"></i>
+                </li>
+              </ul>
+            </div>
+            <div class="footer_column">
+              <h5 class="footer_heading">Featured</h5>
+              <ul class="footer-list flex flex-column gap-2 items-start">
+                <li class="flex items-center justify-between w-full gap-2">
+                  <a href="/all-categories">All Categories</a>
+                  <i class="ph ph-caret-right"></i>
+                </li>
+                <li class="flex items-center justify-between w-full gap-2">
+                  <a href="/all-categories">All Store</a>
+                  <i class="ph ph-caret-right"></i>
+                </li>
+                <li class="flex items-center justify-between w-full gap-2">
+                  <a href="/contact-us">Contact Us</a>
+                  <i class="ph ph-caret-right"></i>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="copyright">
+      <div class="container">
+        <p class="text-white">&copy; 2024 Hayyan ali. All rights reserved.</p>
+      </div>
+    </div>
+  </footer>
+  <!-- All scripts File -->
+  <script type="text/javascript" src="./js/jquery.js"></script>
+  <script type="text/javascript" src="./js/phosphor-icon.js"></script>
+  <script type="text/javascript" src="./js/swiper.bundle.min.js"></script>
+  <script type="text/javascript" src="./js/bootstrap.bundle.min.js"></script>
+  <script type="text/javascript" src="./js/custom.js"></script>
+</body>
+
+</html>

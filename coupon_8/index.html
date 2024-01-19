@@ -1,0 +1,754 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>7th web</title>
+      <!-- Latest compiled and minified CSS -->
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+      <!-- JQuery CDN -->
+      <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+      <!-- Latest compiled and minified JavaScript -->
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+      <!-- fontawesome -->
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+      <!-- stylesheet -->
+      <link rel="stylesheet" href="CSS/style.css">
+      <!-- responsive -->
+      <link rel="stylesheet" href="CSS/responsive.css">
+      <!-- swipper -->
+      <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css"/>
+   </head>
+   <body>
+      <!-- header -->
+      <section class="header">
+         <div class="container">
+            <div class="row">
+               <div class="col-md-12">
+                  <div class="nav_bar">
+                     <a href="index.html" class="logo_container">
+                     <img src="images/logo.png" alt="Logo">
+                     </a>
+                     <form class="header_form">
+                        <input class="search_bar" type="text" placeholder="search" required>
+                        <button class="search_btn" type="submit">
+                        search
+                        <i class="fa fa-search"></i>
+                        </button>
+                        <!-- <div class="search_result_box">
+                           <h3>Stores From "A"</h3>
+                           <div class="search_result">
+                              <a href="#" class="search_result_item"><i class="fa fa-dot-circle-o"></i>addidas</a>
+                              <a href="#" class="search_result_item"><i class="fa fa-dot-circle-o"></i>addidas</a>
+                              <a href="#" class="search_result_item"><i class="fa fa-dot-circle-o"></i>addidas</a>
+                              <a href="#" class="search_result_item"><i class="fa fa-dot-circle-o"></i>addidas</a>
+                              <a href="#" class="search_result_item"><i class="fa fa-dot-circle-o"></i>addidas</a>
+                              <a href="#" class="search_result_item"><i class="fa fa-dot-circle-o"></i>addidas</a>
+                           </div>
+                        </div> -->
+                     </form>
+                     <div class="f_d_offers">
+                        <a href="" class="f_d_offers_btn active">Top 20 Offers</a>
+                        <a href="" class="f_d_offers_btn">Free Delivery Offers</a>
+                     </div>
+                     <div class="menu_toggler">
+                        <i class="fa fa-align-right"></i>
+                     </div>
+                  </div>
+                  <div class="nav_bar_2">
+                     <div class="cat_btn_header">
+                        category 
+                        <i class="fa fa-chevron-down"></i>
+                        <div class="c_d_d">
+                           <a href="category.html" class="c_d_d_item">Accessories <small>21</small></a>
+                           <a href="category.html" class="c_d_d_item">man</a>
+                           <a href="category.html" class="c_d_d_item">woman <small>5</small></a>
+                           <a href="category.html" class="c_d_d_item">wishlist <small>21</small></a>
+                           <a href="category.html" class="c_d_d_item">Accessories</a>
+                        </div>
+                     </div>
+                     <ul class="menu">
+                        <li>
+                           <a href="index.html" class="menu_item">
+                           home
+                           </a>
+                        </li>
+                        <li>
+                           <a href="about.html" class="menu_item">
+                           about
+                           </a>
+                        </li>
+                        <li class="store_a">
+                           <a href="store.html" class="menu_item">
+                           top brands
+                           <i class="fa fa-chevron-down"></i>
+                           </a>
+                           <div class="dropdown_menu">
+                              <h2 class="d_d_heading">popular stores</h2>
+                              <div class="dropdown_menu_wrapper">
+                                 <a href="#"><i class="fa fa-angle-double-right"></i>Abbot lyon</a>
+                                 <a href="#"><i class="fa fa-angle-double-right"></i>Abbot lyon</a>
+                                 <a href="#"><i class="fa fa-angle-double-right"></i>Abbot lyon</a>
+                                 <a href="#"><i class="fa fa-angle-double-right"></i>Abbot lyon</a>
+                                 <a href="#"><i class="fa fa-angle-double-right"></i>Abbot lyon</a>
+                              </div>
+                              <a href="store.html" class="dropdown_menu_viewall">-- view all --</a>
+                           </div>
+                        </li>
+                        <li>
+                           <a href="contact.html" class="menu_item">
+                           contact
+                           </a>
+                        </li>
+                     </ul>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </section>
+      <!-- popular store -->
+      <!-- <section class="popular_store">
+         <div class="container">
+         	<div class="row">
+         		<div class="col-md-12">
+         			<div class="p_s_container">
+         				<div class="p_s_row_1">
+         					<h3 class="p_s_heading">Popular store</h3>
+         				</div>
+         				<div class="p_s_row_2">
+         					<div class="p_s_col_wrapper">
+         						<div class="p_s_col">
+         							<a href="#" class="p_s_col_item">
+         								<div class="p_s_col_img">
+         									<div class="web_imagebox">
+         										<img src="images/store_img.png" alt="">
+         									</div>
+         								</div>
+         								<p>abbot lyaon</p>
+         							</a>
+         							<a href="#" class="p_s_col_item">
+         								<div class="p_s_col_img">
+         									<div class="web_imagebox">
+         										<img src="images/store_img.png" alt="">
+         									</div>
+         								</div>
+         								<p>abbot lyaon</p>
+         							</a>
+         							<a href="#" class="p_s_col_item">
+         								<div class="p_s_col_img">
+         									<div class="web_imagebox">
+         										<img src="images/store_img.png" alt="">
+         									</div>
+         								</div>
+         								<p>abbot lyaon</p>
+         							</a>
+         							<a href="#" class="p_s_col_item">
+         								<div class="p_s_col_img">
+         									<div class="web_imagebox">
+         										<img src="images/store_img.png" alt="">
+         									</div>
+         								</div>
+         								<p>abbot lyaon</p>
+         							</a>
+         							<a href="#" class="p_s_col_item">
+         								<div class="p_s_col_img">
+         									<div class="web_imagebox">
+         										<img src="images/store_img.png" alt="">
+         									</div>
+         								</div>
+         								<p>abbot lyaon</p>
+         							</a>
+         						</div>
+         						<div class="view_more_container">
+         							<a href="#" class="view_more p_s_v_m">--view more--</a>
+         						</div>
+         					</div>
+         				</div>
+         			</div>
+         		</div>
+         	</div>
+         </div>
+         </section> -->
+      <!-- banner -->
+      <div class="banner">
+         <div class="banner_container swiper mySwiper">
+            <div class="swiper-wrapper">
+               <div class="swiper-slide">
+                  <div class="banner_content lazy shimmering" data-src="images/banner_bg-2.png">
+                     <div class="banner_title">
+                        <img src="images/banner.png" alt="">
+                        <p>new collection</p>
+                     </div>
+                     <h2 class="banner_heading">
+                        The Great Fashion 
+                        <br>
+                        Collection 2022
+                     </h2>
+                     <p class="banner_dis">
+                        Up To 40% Off Final Sale Items. 
+                        <br>
+                        Caught in the Moment!
+                     </p>
+                     <a class="banner_btn" href="single_store.html">
+                     Show Collection <i class="fa fa-chevron-right"></i>
+                     </a>
+                  </div>
+               </div>
+               <div class="swiper-slide">
+                  <div class="banner_content lazy shimmering" data-src="images/banner_bg.png">
+                     <div class="banner_title">
+                        <img src="images/banner.png" alt="">
+                        <p>new collection</p>
+                     </div>
+                     <h2 class="banner_heading">
+                        The Great Fashion 
+                        <br>
+                        Collection 2022
+                     </h2>
+                     <p class="banner_dis">
+                        Up To 40% Off Final Sale Items. 
+                        <br>
+                        Caught in the Moment!
+                     </p>
+                     <a class="banner_btn" href="single_store.html">
+                     Show Collection <i class="fa fa-chevron-right"></i>
+                     </a>
+                  </div>
+               </div>
+               <div class="swiper-slide">
+                  <div class="banner_content lazy shimmering" data-src="images/banner_bg-3.png">
+                     <div class="banner_title">
+                        <img src="images/banner.png" alt="">
+                        <p>new collection</p>
+                     </div>
+                     <h2 class="banner_heading">
+                        The Great Fashion 
+                        <br>
+                        Collection 2022
+                     </h2>
+                     <p class="banner_dis">
+                        Up To 40% Off Final Sale Items. 
+                        <br>
+                        Caught in the Moment!
+                     </p>
+                     <a class="banner_btn" href="single_store.html">
+                     Show Collection <i class="fa fa-chevron-right"></i>
+                     </a>
+                  </div>
+               </div>
+            </div>
+            <div class="swiper-button-next arrows"></div>
+            <div class="swiper-button-prev arrows"></div>
+            <div class="swiper-pagination"></div>
+         </div>
+      </div>
+      <!-- featured_offers -->
+      <section class="featured_offers">
+         <div class="container">
+            <div class="row">
+               <div class="col-md-12">
+                  <h2 class="main_heading">
+                     <span>featured offers</span>
+                  </h2>
+                  <div class="swiper mySwiper_1 featured_offers_contaienr">
+                     <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                           <div class="featured_offers_item">
+                              <a href="#" class="featured_offers_bg lazy shimmering" data-src="images/coupon_bg.png"></a>
+                              <div class="featured_offers_content">
+                                 <div class="featured_offers_header">
+                                    <div class="featured_offers_img">
+                                       <div class="web_imagebox">
+                                          <img src="images/store_img.png" alt="">
+                                       </div>
+                                    </div>
+                                    <h3 class="featured_offers_title"> Up to 88% Off + Extra 12% Student Discount</h3>
+                                 </div>
+                                 <p class="featured_offers_dis">Get up To 88% Off + Extra 12% Student Discount (Use Our Zeelool Student Discount Code at The Checkout to Enjoy Extra 12% Off Your Order) At Zeelool</p>
+                                 <a href="" class="view_more">view more ></a>
+                                 <a href="#" class="featured_blogs_coupon_btn" data-toggle="modal" data-target="#exampleModal">
+                                    <div class="codes">
+                                       <p><i class="fa fa-tag" aria-hidden="true"></i>Get Code</p>
+                                       <p>***22</p>
+                                    </div>
+                                 </a>
+                              </div>
+                           </div>
+                        </div>
+                        <div class="swiper-slide">
+                           <div class="featured_offers_item">
+                              <a href="#" class="featured_offers_bg lazy shimmering" data-src="images/coupon_bg.png"></a>
+                              <div class="featured_offers_content">
+                                 <div class="featured_offers_header">
+                                    <div class="featured_offers_img">
+                                       <div class="web_imagebox">
+                                          <img src="images/store_img.png" alt="">
+                                       </div>
+                                    </div>
+                                    <h3 class="featured_offers_title"> Up to 88% Off + Extra 12% Student Discount</h3>
+                                 </div>
+                                 <p class="featured_offers_dis">Get up To 88% Off + Extra 12% Student Discount (Use Our Zeelool Student Discount Code at The Checkout to Enjoy Extra 12% Off Your Order) At Zeelool</p>
+                                 <a href="" class="view_more">view more ></a>
+                                 <a href="#" class="featured_blogs_coupon_btn deal" data-toggle="modal" data-target="#exampleModal">
+                                    <div class="codes">
+                                       <p><i class="fa fa-tag" aria-hidden="true"></i>Get deal</p>
+                                       <p>***22</p>
+                                    </div>
+                                 </a>
+                              </div>
+                           </div>
+                        </div>
+                        <div class="swiper-slide">
+                           <div class="featured_offers_item">
+                              <a href="#" class="featured_offers_bg lazy shimmering" data-src="images/coupon_bg_2.png"></a>
+                              <div class="featured_offers_content">
+                                 <div class="featured_offers_header">
+                                    <div class="featured_offers_img">
+                                       <div class="web_imagebox">
+                                          <img src="images/store_img.png" alt="">
+                                       </div>
+                                    </div>
+                                    <h3 class="featured_offers_title"> Up to 88% Off + Extra 12% Student Discount</h3>
+                                 </div>
+                                 <p class="featured_offers_dis">Get up To 88% Off + Extra 12% Student Discount (Use Our Zeelool Student Discount Code at The Checkout to Enjoy Extra 12% Off Your Order) At Zeelool</p>
+                                 <a href="" class="view_more">view more ></a>
+                                 <a href="#" class="featured_blogs_coupon_btn" data-toggle="modal" data-target="#exampleModal">
+                                    <div class="codes">
+                                       <p><i class="fa fa-tag" aria-hidden="true"></i>Get Code</p>
+                                       <p>***22</p>
+                                    </div>
+                                 </a>
+                              </div>
+                           </div>
+                        </div>
+                        <div class="swiper-slide">
+                           <div class="featured_offers_item">
+                              <a href="#" class="featured_offers_bg lazy shimmering" data-src="images/coupon_bg_3.png"></a>
+                              <div class="featured_offers_content">
+                                 <div class="featured_offers_header">
+                                    <div class="featured_offers_img">
+                                       <div class="web_imagebox">
+                                          <img src="images/store_img.png" alt="">
+                                       </div>
+                                    </div>
+                                    <h3 class="featured_offers_title"> Up to 88% Off + Extra 12% Student Discount</h3>
+                                 </div>
+                                 <p class="featured_offers_dis">Get up To 88% Off + Extra 12% Student Discount (Use Our Zeelool Student Discount Code at The Checkout to Enjoy Extra 12% Off Your Order) At Zeelool</p>
+                                 <a href="" class="view_more">view more ></a>
+                                 <a href="#" class="featured_blogs_coupon_btn" data-toggle="modal" data-target="#exampleModal">
+                                    <div class="codes">
+                                       <p><i class="fa fa-tag" aria-hidden="true"></i>Get Code</p>
+                                       <p>***22</p>
+                                    </div>
+                                 </a>
+                              </div>
+                           </div>
+                        </div>
+                        <div class="swiper-slide">
+                           <div class="featured_offers_item">
+                              <a href="#" class="featured_offers_bg lazy shimmering" data-src="images/coupon_bg_4.png"></a>
+                              <div class="featured_offers_content">
+                                 <div class="featured_offers_header">
+                                    <div class="featured_offers_img">
+                                       <div class="web_imagebox">
+                                          <img src="images/store_img.png" alt="">
+                                       </div>
+                                    </div>
+                                    <h3 class="featured_offers_title"> Up to 88% Off + Extra 12% Student Discount</h3>
+                                 </div>
+                                 <p class="featured_offers_dis">Get up To 88% Off + Extra 12% Student Discount (Use Our Zeelool Student Discount Code at The Checkout to Enjoy Extra 12% Off Your Order) At Zeelool</p>
+                                 <a href="" class="view_more">view more ></a>
+                                 <a href="#" class="featured_blogs_coupon_btn deal" data-toggle="modal" data-target="#exampleModal">
+                                    <div class="codes">
+                                       <p><i class="fa fa-tag" aria-hidden="true"></i>Get deal</p>
+                                       <p>***22</p>
+                                    </div>
+                                 </a>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="swiper-button-next arrows"></div>
+                     <div class="swiper-button-prev arrows"></div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </section>
+      <!-- popular store -->
+      <section class="popular_store">
+         <div class="container">
+            <div class="row">
+               <div class="col-md-12">
+                  <h2 class="main_heading">
+                     <span>popular store</span>
+                  </h2>
+                  <div class="popular_store_container">
+                     <div class="p_s_sidebar">
+                        <div class="p_s_img">
+                           <div class="web_imagebox">
+                              <img src="images/store.jpg" alt="">
+                           </div>
+                        </div>
+                        <p class="p_s_sub_heading">top stores</p>
+                        <a href="#" class="view_more p_s_view_more">view more ></a>
+                     </div>
+                     <div class="p_s_main">
+                        <div class="cubes_wrapper">
+                           <a href="#" class="p_s_item"> adidasadidas</a>
+                           <a href="#" class="p_s_item">adidas adidas</a>
+                           <a href="#" class="p_s_item">adidas</a>
+                           <a href="#" class="p_s_item">adidas</a>
+                           <a href="#" class="p_s_item">adidas</a>
+                           <a href="#" class="p_s_item">adidas adidas</a>
+                           <a href="#" class="p_s_item">adidas</a>
+                           <a href="#" class="p_s_item">adidas</a>
+                           <a href="#" class="p_s_item">adidas adidas</a>
+                           <a href="#" class="p_s_item">adidas</a>
+                           <a href="#" class="p_s_item">adidas</a>
+                           <a href="#" class="p_s_item">adidasadidas adidas</a>
+                           <a href="#" class="p_s_item">adidas</a>
+                           <a href="#" class="p_s_item">adidas</a>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </section>
+      <!-- popular category -->
+      <section class="popular_categories">
+         <div class="container">
+            <div class="row">
+               <div class="col-md-12">
+                  <h2 class="main_heading">
+                     <span>popular category</span>
+                  </h2>
+                  <div class="p_c_container">
+                     <div class="p_c_item1 p_c_item lazy shimmering" data-src="images/p_s_bg.jpg">
+                        <div class="p_c_item_wrapper">
+                           <div class="p_c_item_child">
+                              <p class="p_c_title">SAVE 30%</p>
+                              <h3 class="p_c_heading">WOMEN</h3>
+                              <a href="#" class="view_more p_c_view_more">view more &gt;</a>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="p_c_item1 p_c_item lazy shimmering" data-src="images/p_s_bg_2.png">
+                        <div class="p_c_item_wrapper">
+                           <div class="p_c_item_child">
+                              <p class="p_c_title">SAVE 30%</p>
+                              <h3 class="p_c_heading">men</h3>
+                              <a href="#" class="view_more p_c_view_more">view more &gt;</a>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </section>
+      <!-- Latest Offers -->
+      <section class="featured_offers latest_offers">
+         <div class="container">
+            <div class="row">
+               <div class="col-md-12">
+                  <h2 class="main_heading">
+                     <span>latest offers</span>
+                  </h2>
+                  <div class="swiper mySwiper_1 featured_offers_contaienr">
+                     <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                           <div class="featured_offers_item">
+                              <a href="#" class="featured_offers_bg lazy shimmering" data-src="images/coupon_bg.png"></a>
+                              <div class="featured_offers_content">
+                                 <div class="featured_offers_header">
+                                    <div class="featured_offers_img">
+                                       <div class="web_imagebox">
+                                          <img src="images/store_img.png" alt="">
+                                       </div>
+                                    </div>
+                                    <h3 class="featured_offers_title"> Up to 88% Off + Extra 12% Student Discount</h3>
+                                 </div>
+                                 <p class="featured_offers_dis">Get up To 88% Off + Extra 12% Student Discount (Use Our Zeelool Student Discount Code at The Checkout to Enjoy Extra 12% Off Your Order) At Zeelool</p>
+                                 <a href="" class="view_more">view more ></a>
+                                 <a href="#" class="featured_blogs_coupon_btn" data-toggle="modal" data-target="#exampleModal">
+                                    <div class="codes">
+                                       <p><i class="fa fa-tag" aria-hidden="true"></i>Get Code</p>
+                                       <p>***22</p>
+                                    </div>
+                                 </a>
+                              </div>
+                           </div>
+                        </div>
+                        <div class="swiper-slide">
+                           <div class="featured_offers_item">
+                              <a href="#" class="featured_offers_bg lazy shimmering" data-src="images/coupon_bg.png"></a>
+                              <div class="featured_offers_content">
+                                 <div class="featured_offers_header">
+                                    <div class="featured_offers_img">
+                                       <div class="web_imagebox">
+                                          <img src="images/store_img.png" alt="">
+                                       </div>
+                                    </div>
+                                    <h3 class="featured_offers_title"> Up to 88% Off + Extra 12% Student Discount</h3>
+                                 </div>
+                                 <p class="featured_offers_dis">Get up To 88% Off + Extra 12% Student Discount (Use Our Zeelool Student Discount Code at The Checkout to Enjoy Extra 12% Off Your Order) At Zeelool</p>
+                                 <a href="" class="view_more">view more ></a>
+                                 <a href="#" class="featured_blogs_coupon_btn deal" data-toggle="modal" data-target="#exampleModal">
+                                    <div class="codes">
+                                       <p><i class="fa fa-tag" aria-hidden="true"></i>Get deal</p>
+                                       <p>***22</p>
+                                    </div>
+                                 </a>
+                              </div>
+                           </div>
+                        </div>
+                        <div class="swiper-slide">
+                           <div class="featured_offers_item">
+                              <a href="#" class="featured_offers_bg lazy shimmering" data-src="images/coupon_bg_2.png"></a>
+                              <div class="featured_offers_content">
+                                 <div class="featured_offers_header">
+                                    <div class="featured_offers_img">
+                                       <div class="web_imagebox">
+                                          <img src="images/store_img.png" alt="">
+                                       </div>
+                                    </div>
+                                    <h3 class="featured_offers_title"> Up to 88% Off + Extra 12% Student Discount</h3>
+                                 </div>
+                                 <p class="featured_offers_dis">Get up To 88% Off + Extra 12% Student Discount (Use Our Zeelool Student Discount Code at The Checkout to Enjoy Extra 12% Off Your Order) At Zeelool</p>
+                                 <a href="" class="view_more">view more ></a>
+                                 <a href="#" class="featured_blogs_coupon_btn" data-toggle="modal" data-target="#exampleModal">
+                                    <div class="codes">
+                                       <p><i class="fa fa-tag" aria-hidden="true"></i>Get Code</p>
+                                       <p>***22</p>
+                                    </div>
+                                 </a>
+                              </div>
+                           </div>
+                        </div>
+                        <div class="swiper-slide">
+                           <div class="featured_offers_item">
+                              <a href="#" class="featured_offers_bg lazy shimmering" data-src="images/coupon_bg_3.png"></a>
+                              <div class="featured_offers_content">
+                                 <div class="featured_offers_header">
+                                    <div class="featured_offers_img">
+                                       <div class="web_imagebox">
+                                          <img src="images/store_img.png" alt="">
+                                       </div>
+                                    </div>
+                                    <h3 class="featured_offers_title"> Up to 88% Off + Extra 12% Student Discount</h3>
+                                 </div>
+                                 <p class="featured_offers_dis">Get up To 88% Off + Extra 12% Student Discount (Use Our Zeelool Student Discount Code at The Checkout to Enjoy Extra 12% Off Your Order) At Zeelool</p>
+                                 <a href="" class="view_more">view more ></a>
+                                 <a href="#" class="featured_blogs_coupon_btn" data-toggle="modal" data-target="#exampleModal">
+                                    <div class="codes">
+                                       <p><i class="fa fa-tag" aria-hidden="true"></i>Get Code</p>
+                                       <p>***22</p>
+                                    </div>
+                                 </a>
+                              </div>
+                           </div>
+                        </div>
+                        <div class="swiper-slide">
+                           <div class="featured_offers_item">
+                              <a href="#" class="featured_offers_bg lazy shimmering" data-src="images/coupon_bg_4.png"></a>
+                              <div class="featured_offers_content">
+                                 <div class="featured_offers_header">
+                                    <div class="featured_offers_img">
+                                       <div class="web_imagebox">
+                                          <img src="images/store_img.png" alt="">
+                                       </div>
+                                    </div>
+                                    <h3 class="featured_offers_title"> Up to 88% Off + Extra 12% Student Discount</h3>
+                                 </div>
+                                 <p class="featured_offers_dis">Get up To 88% Off + Extra 12% Student Discount (Use Our Zeelool Student Discount Code at The Checkout to Enjoy Extra 12% Off Your Order) At Zeelool</p>
+                                 <a href="" class="view_more">view more ></a>
+                                 <a href="#" class="featured_blogs_coupon_btn deal" data-toggle="modal" data-target="#exampleModal">
+                                    <div class="codes">
+                                       <p><i class="fa fa-tag" aria-hidden="true"></i>Get deal</p>
+                                       <p>***22</p>
+                                    </div>
+                                 </a>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="swiper-button-next arrows"></div>
+                     <div class="swiper-button-prev arrows"></div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </section>
+      <!-- F.A.Q -->
+      <section class="f_a_q">
+         <div class="container">
+            <div class="row">
+               <div class="col-md-12">
+                  <h2 class="main_heading">
+                     <span>frequently asked</span>
+                  </h2>
+                  <div class="f_a_q_container">
+                     <div class="f_a_q_item">
+                        <div class="f_a_q_wrapper">
+                           <h3 class="f_a_q_question">What is correct FAQ or FAQs ?</h3>
+                           <p class="f_a_q_answer">Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit fuga consequuntur, id quos assumenda aliquam, minus optio et, necessitatibus ut dolorum. Enim, similique consequatur iure dolore? Minima, saepe odit doloremque.</p>
+                        </div>
+                     </div>
+                     <div class="f_a_q_item">
+                        <div class="f_a_q_wrapper">
+                           <h3 class="f_a_q_question">What is correct FAQ or FAQs ?</h3>
+                           <p class="f_a_q_answer">Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit fuga consequuntur, id quos assumenda aliquam, minus optio et, necessitatibus ut dolorum. Enim, similique consequatur iure dolore? Minima, saepe odit doloremque.</p>
+                        </div>
+                     </div>
+                     <div class="f_a_q_item">
+                        <div class="f_a_q_wrapper">
+                           <h3 class="f_a_q_question">What is correct FAQ or FAQs ?</h3>
+                           <p class="f_a_q_answer">Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit fuga consequuntur, id quos assumenda aliquam, minus optio et, necessitatibus ut dolorum. Enim, similique consequatur iure dolore? Minima, saepe odit doloremque.</p>
+                        </div>
+                     </div>
+                     <div class="f_a_q_item">
+                        <div class="f_a_q_wrapper">
+                           <h3 class="f_a_q_question">What is correct FAQ or FAQs ?</h3>
+                           <p class="f_a_q_answer">Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit fuga consequuntur, id quos assumenda aliquam, minus optio et, necessitatibus ut dolorum. Enim, similique consequatur iure dolore? Minima, saepe odit doloremque.</p>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </section>
+      <!-- footer -->
+      <section class="footer">
+         <div class="container">
+            <div class="row">
+               <div class="col-md-12">
+                  <div class="footer_conainer">
+                     <div class="footer_row_1 footer_row">
+                        <div class="news_letter footer_heading">
+                           <h3>SUBSCRIBE NEWSLETTER</h3>
+                           <p>Subscribe to the Panda eCommerce Newsletter<br> updates from your favourite products.
+                           </p>
+                           <form action="#" class="subs">
+                              <input type="text" placeholder="Email address here...." required>
+                              <button>subscribe</button>
+                           </form>
+                        </div>
+                     </div>
+                     <div class="footer_row_2 footer_row">
+                        <div class="footer_logo_container footer_heading">
+                           <div class="footrer_logo">
+                              <img src="images/logo.png" alt="">
+                           </div>
+                           <p class="footer_dis">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione, mollitia?</p>
+                           <div class="social_icons ">
+                              <a href="#"><i class="fa fa-facebook"></i></a>
+                              <a href="#"><i class="fa fa-instagram"></i></a>
+                              <a href="#"><i class="fa fa-twitter"></i></a>
+                              <a href="#"><i class="fa fa-pinterest-p"></i></a>
+                           </div>
+                        </div>
+                        <div class="get_in_touch footer_heading">
+                           <h3>get in touch</h3>
+                           <div class="footer_contact">
+                              <div class="footer_contact_item">
+                                 <i class="fa fa-phone"></i>
+                                 +012465798
+                              </div>
+                              <div class="footer_contact_item">
+                                 <i class="fa fa-envelope"></i>
+                                 Info@Panda.Com
+                              </div>
+                              <div class="footer_contact_item">
+                                 <i class="fa fa-map-marker"></i>
+                                 Info@Panda.Com
+                              </div>
+                           </div>
+                        </div>
+                        <div class="footer_heading">
+                           <h3>quick links</h3>
+                           <ul class="footer_links">
+                              <li><a href="" class="fotter_link_item">home</a></li>
+                              <li><a href="" class="fotter_link_item">about us</a></li>
+                              <li><a href="" class="fotter_link_item">faq</a></li>
+                              <li><a href="" class="fotter_link_item">privicy policy</a></li>
+                              <li><a href="" class="fotter_link_item">trems & condition</a></li>
+                           </ul>
+                        </div>
+                        <div class="footer_heading">
+                           <h3>stores</h3>
+                           <ul class="footer_links">
+                              <li><a href="" class="fotter_link_item">home</a></li>
+                              <li><a href="" class="fotter_link_item">about us</a></li>
+                              <li><a href="" class="fotter_link_item">faq</a></li>
+                              <li><a href="" class="fotter_link_item">privicy policy</a></li>
+                              <li><a href="" class="fotter_link_item">trems & condition</a></li>
+                           </ul>
+                        </div>
+                     </div>
+                     <div class="footer_row_3 footer_row">
+                        Copyright © 2022 | All Rights Are Reserved.
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </section>
+      <!-- modal -->
+      <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+         <div class="modal-dialog" role="document">
+            <div class="modal-content">
+               <div class="modal_main">
+                  <div class="modal-header">
+                     <h5 class="modal-title" id="exampleModalLabel">1P Mobile</h5>
+                     <div class="store_title_modal">
+                        <div class="modal_title_content">
+                           <h2 class="store_modal">Upto 70% Off On Sitewide Orders</h2>
+                        </div>
+                     </div>
+                     <button type="button" class="close close_modal" data-dismiss="modal" aria-label="Close">
+                     <span aria-hidden="true">&times;</span>
+                     </button>
+                  </div>
+                  <div class="modal-body">
+                     <div class="modal_body_main_container">
+                        <div class="modal_body_main">
+                           <p>Click The Button Above To Copy Code The Code & Paste It At Checkout</p>
+                           <div class="copy_code">
+                               <div class="modal_code" data-code="**664">
+                              **664
+                           </div>
+                           <a href="#" class="visit_site">visit store</a>
+                           </div>
+                        </div>
+                        <div class="modal_img">
+                           <div class="web_imagebox">
+                              <img src="images/store_img.png" alt="">
+                           </div>
+                        </div>
+                     </div>
+                     <div class="extras_heading popup">Terms &amp; Conditions :</div>
+                     <ul class="extra_terms popup">
+                        <li><span>This code has limited usages. You've used 0 of 3.</span></li>
+                        <li><span>Cannot be used in conjunction with any other offer.</span></li>
+                        <li><span>One per person.</span></li>
+                        <li><span>For full Terms &amp; Conditions please see website.</span></li>
+                        <li><span>Available whilst stocks lasts.</span></li>
+                        <li><span>All brands reserve the right to remove any offer without giving prior notice.</span></li>
+                        <li><span>£10 off offer available until 11.55 pm on 30 November 2021, valid on two (2) orders made
+                           via the Uber Eats app in the UK when you spend a minimum of £15 per order on food and drink,
+                           excluding the delivery fee.</span>
+                        </li>
+                     </ul>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>   
+   </body>
+   <!-- JQuery File -->
+   <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+   <script src="JQuery/jquery.lazy.min.js"></script>
+   <script src="JQuery/custom.js"></script>
+</html>

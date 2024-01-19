@@ -1,0 +1,413 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Document</title>
+      <!-- Latest compiled and minified CSS -->
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+      <!-- JQuery CDN -->
+      <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+      <!-- Latest compiled and minified JavaScript -->
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+      <!-- fontawesome -->
+      <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+      <!-- google Fonts -->
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=Georama:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+      <!-- stylesheet -->
+      <link rel="stylesheet" href="CSS/style.css">
+      <!-- responsive -->
+      <link rel="stylesheet" href="CSS/responsive.css">
+      <!-- swiper -->
+      <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css"/>
+   </head>
+   <body>
+      <!-- Header -->
+      <section class="navigation">
+         <ul class="nav_list" id="nav_list">
+            <div class="links_nav">
+               <li class="active"><b></b><b></b><a href="index.html" class="list_items"><i class="far fa-home"></i> Home</a></li>
+               <li><b></b><b></b><a href="store.html" class="list_items"><i class="far fa-store"></i>Store</a>
+               </li>
+               <li><b></b><b></b><a href="categories.html" class="list_items"> <i class="fa fa-list" aria-hidden="true"></i> categories</a></li>
+               <li><b></b><b></b><a href="about_us.html" class="list_items"> <i class="fa fa-list" aria-hidden="true"></i> about us</a></li>
+            </div>
+            <li><b></b><b></b><a href="Contact.html" class="list_items"><i class="far fa-address-book"></i> Contact</a></li>
+         </ul>
+         <div class="container">
+            <div class="row">
+               <div class="col-md-12">
+                  <div class="navigation_bar">
+                     <div class="header">
+                        <a href="index.html" class="logo">
+                        <img src="images/logo.png" alt="">   
+                        </a>
+                        <form class="form_container">
+                           <input type="text" class="form_input_field" placeholder="Search Product">
+                           <button class="search_icon">
+                           <i class="fa fa-search"></i>
+                           search
+                           </button>
+                           <div class="serach_result_container">
+                              <h2 class="search_content">Stores From "ASD"</h2>
+                              <div class="serach_result_wrapper">
+                                 <a href="store_list.html" class="serach_result_item">
+                                    <h2 class="search_result_content webkit_box">Adiddas Adiddas Adiddas</h2>
+                                 </a>
+                                 <a href="store_list.html" class="serach_result_item">
+                                    <h2 class="search_result_content webkit_box">Adiddas</h2>
+                                 </a>
+                                 <a href="store_list.html" class="serach_result_item">
+                                    <h2 class="search_result_content webkit_box">Adiddas</h2>
+                                 </a>
+                                 <a href="store_list.html" class="serach_result_item">
+                                    <h2 class="search_result_content webkit_box">Adiddas</h2>
+                                 </a>
+                              </div>
+                           </div>
+                        </form>
+                        <div class="categories_container">
+                           <a href="free_del.html" class="categories_btn active hide_at_600"> 20% Off Delivery</a>
+                           <a href="free_del.html" class="categories_btn hide_at_600"> Free Delivery</a>
+                           <a href="#" id="menu_toggle" class="categories_btn menu_toggler show_at_600">
+                           <i class="fa fa-bars"></i>
+                           </a>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </section>
+      <!-- Coupns -->
+      <section class="coupons_main_container">
+         <div class="container">
+            <div class="row">
+               <div class="col-md-12">
+                  <div class="coupon_container free_del">
+                     <div class="coupon_main">
+                        <div class="str_main_profile">
+                           <div class="switchers">
+                              <a href="#" class="switchers_items active all_sw">All (22)</a>
+                              <a href="#" class="switchers_items code_sw">code (22)</a>
+                              <a href="#" class="switchers_items deal_sw">deal (22)</a>
+                           </div>
+                        </div>
+                        <div class="coupon_main_wrapper">
+                           <div class="coupon deal">
+                              <div class="coupon_dis">
+                                 <div class="str_tag">
+                                    <i class="fa" aria-hidden="true"></i>
+                                 </div>
+                                 <h2>50%</h2>
+                                 <p>off</p>
+                              </div>
+                              <div class="str_coupon_content">
+                                 <div class="bages_container">
+                                    <p class="store_name">code alensa</p>
+                                    <p class="days_left"><span class="update">update</span> : 4 days left</p>
+                                 </div>
+                                 <h4>40% off Selected Items at Abbott Lyon</h4>
+                                 <p class="coupon_text">Enter this discount code at checkout to save 40% on selected items at Abbott Lyon.</p>
+                                 <span class="read_more coupon_read">view details <i class="fa fa-chevron-down"></i></span>
+                              </div>
+                              <div class="code_btn_container coupon_btn">
+                                 <a href="#" class="coupon_btn_a code_btn" data-text="***1234" data-toggle="modal" data-target="#exampleModal">Get dael</a>
+                              </div>
+                              <div class="str_view_detail">
+                                 <div class="str_view_detail_wrapper">
+                                    <div class="badges_container">
+                                       <h4 class="str_view_detail_title">details :</h4>
+                                       <p class="expire badge_item"><span>expire</span> : 2 / 12 / 2022 .</p>
+                                       <p class="added badge_item"><span>added</span> : 2 / 12 / 2022 .</p>
+                                    </div>
+                                    <div class="terms_condition">
+                                       <h4 class="str_view_detail_title">terms & condition :</h4>
+                                       <ul class="t_n_c">
+                                          <li>This code has limited usages. You've used 0 of 3.</li>
+                                          <li>Cannot be used in conjunction with any other offer.</li>
+                                          <li>One per person.</li>
+                                          <li>For full Terms &amp; Conditions please see website.</li>
+                                          <li>Available whilst stocks lasts.</li>
+                                          <li>All brands reserve the right to remove any offer without giving prior notice.</li>
+                                          <li>£10 off offer available until 11.55 pm on 30 November 2021, valid on two (2) orders made
+                                             via the Uber Eats app in the UK when you spend a minimum of £15 per order on food and drink,
+                                             excluding the delivery fee.
+                                          </li>
+                                       </ul>
+                                    </div>
+                                 </div>
+                              </div>
+                           </div>
+                           <div class="coupon code">
+                              <div class="coupon_dis">
+                                 <div class="str_tag">
+                                    <i class="fa" aria-hidden="true"></i>
+                                 </div>
+                                 <h2>50%</h2>
+                                 <p>off</p>
+                              </div>
+                              <div class="str_coupon_content">
+                                 <div class="bages_container">
+                                    <p class="store_name">code alensa</p>
+                                    <p class="days_left"><span class="update">update</span> : 4 days left</p>
+                                 </div>
+                                 <h4>40% off Selected Items at Abbott Lyon</h4>
+                                 <p class="coupon_text">Enter this discount code at checkout to save 40% on selected items at Abbott Lyon.</p>
+                                 <span class="read_more coupon_read">view details <i class="fa fa-chevron-down"></i></span>
+                              </div>
+                              <div class="code_btn_container coupon_btn">
+                                 <a href="#" class="coupon_btn_a" data-text="***1234" data-toggle="modal" data-target="#exampleModal">Get deal</a>
+                              </div>
+                              <div class="str_view_detail">
+                                 <div class="str_view_detail_wrapper">
+                                    <div class="badges_container">
+                                       <h4 class="str_view_detail_title">details :</h4>
+                                       <p class="expire badge_item"><span>expire</span> : 2 / 12 / 2022 .</p>
+                                       <p class="added badge_item"><span>added</span> : 2 / 12 / 2022 .</p>
+                                    </div>
+                                    <div class="terms_condition">
+                                       <h4 class="str_view_detail_title">terms & condition :</h4>
+                                       <ul class="t_n_c">
+                                          <li>This code has limited usages. You've used 0 of 3.</li>
+                                          <li>Cannot be used in conjunction with any other offer.</li>
+                                          <li>One per person.</li>
+                                          <li>For full Terms &amp; Conditions please see website.</li>
+                                          <li>Available whilst stocks lasts.</li>
+                                          <li>All brands reserve the right to remove any offer without giving prior notice.</li>
+                                          <li>£10 off offer available until 11.55 pm on 30 November 2021, valid on two (2) orders made
+                                             via the Uber Eats app in the UK when you spend a minimum of £15 per order on food and drink,
+                                             excluding the delivery fee.
+                                          </li>
+                                       </ul>
+                                    </div>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="coupon_sidebar">
+                        <div class="coupon_sidebar_items">
+                           <h4>About Abbott Lyon<i class="fa fa-info" aria-hidden="true"></i></h4>
+                           <p class="webkit_box">Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias cumque, quidem ratione, sint facere repellendus. Nesciunt natus, delectus eius earum! Saepe veniam aliquid recusandae aut consequuntur, porro ab ducimus mollitia.</p>
+                           <div class="read_more single_str_about">read more <i class="fa fa-chevron-right"></i></div>
+                        </div>
+                        <div class="coupon_sidebar_items">
+                           <h4>Related stores <i class="fa fa-list"></i> </h4>
+                           <div class="coupon_sidebar_items_btn">
+                              <a href="#">door ball</a>
+                              <a href="#">door ball asd </a>
+                              <a href="#">door ball as</a>
+                              <a href="#">door ball ad</a>
+                              <a href="#">door ball adsdsadas</a>
+                              <a href="#">door ball as a</a>
+                              <a href="#">door ball as </a>
+                              <a href="#">door ball das</a>
+                           </div>
+                        </div>
+                        <div class="coupon_sidebar_items">
+                           <h4>Filters <i class="fa fa-filter" aria-hidden="true"></i></h4>
+                           <div class="filter_verified">
+                              <div class="str_checked"></div>
+                              <label>verified</label>
+                              <p class="str_v_p_c">32</p>
+                           </div>
+                           <div class="filter_verified">
+                              <div class="str_checked"></div>
+                              <label>10% off</label>
+                              <p class="str_v_p_c">53</p>
+                           </div>
+                           <div class="filter_verified">
+                              <div class="str_checked"></div>
+                              <label>20% off</label>
+                              <p class="str_v_p_c">12</p>
+                           </div>
+                           <div class="filter_verified">
+                              <div class="str_checked"></div>
+                              <label>30% off</label>
+                              <p class="str_v_p_c">64</p>
+                           </div>
+                           <div class="filter_verified">
+                              <div class="str_checked"></div>
+                              <label>40% off</label>
+                              <p class="str_v_p_c">31</p>
+                           </div>
+                        </div>
+                        <div class="coupon_sidebar_items">
+                           <h4>Similar Stores <i class="fa fa-home" aria-hidden="true"></i></h4>
+                           <div class="coupon_sidebar_items_btn">
+                              <a href="#">door ball</a>
+                              <a href="#">door ball asd </a>
+                              <a href="#">door ball as</a>
+                              <a href="#">door ball ad</a>
+                              <a href="#">door ball adsdsadas</a>
+                              <a href="#">door ball as a</a>
+                              <a href="#">door ball as </a>
+                              <a href="#">door ball das</a>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </section>
+      <!-- footer -->
+      <section class="footer">
+         <div class="container">
+            <div class="row">
+               <div class="col-md-12">
+                  <div class="footer_header">
+                     <div class="footer_contact_icons">
+                        <div class="footer_icon">
+                           <i class="fas fa-phone-alt"></i>
+                        </div>
+                        <div class="footer_contact_text">
+                           <h2>Call us</h2>
+                           <p>9876543210 0</p>
+                        </div>
+                     </div>
+                     <div class="footer_contact_icons order">
+                        <div class="footer_icon">
+                           <i class="fas fa-map-marker-alt"></i>
+                        </div>
+                        <div class="footer_contact_text">
+                           <h2>Find us</h2>
+                           <p>1010 Avenue, sw 54321, chandigarh</p>
+                        </div>
+                     </div>
+                     <div class="footer_contact_icons">
+                        <div class="footer_icon">
+                           <i class="far fa-envelope-open"></i>
+                        </div>
+                        <div class="footer_contact_text">
+                           <h2>Mail us</h2>
+                           <p>mail@info.com</p>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="footer_body ">
+                     <div class="footer_logo grid_colume">
+                        <div class="f_logo">
+                           <img src="images/logo.png" alt="">
+                        </div>
+                        <div class="f_text">
+                           <p>Lorem ipsum dolor sit amet, consec tetur adipisicing elit, sed do eiusmod tempor incididuntut consec tetur adipisicing elit,Lorem ipsum dolor sit amet.</p>
+                           <h2>Follow us</h2>
+                        </div>
+                        <div class="social_icons">
+                           <div class="icon fb">
+                              <i class="fab fa-facebook-f"></i>
+                           </div>
+                           <div class="icon twt">
+                              <i class="fab fa-twitter"></i>
+                           </div>
+                           <div class="icon insta">
+                              <i class="fab fa-instagram"></i>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="footer_logo">
+                        <div class="f_text">
+                           <h2 class="footer_head_title">Useful Links</h2>
+                        </div>
+                        <div class="f_links">
+                           <ul>
+                              <li><a href="About_us.html">Home</a></li>
+                              <li><a href="About_us.html">services</a></li>
+                              <li><a href="About_us.html">Contact</a></li>
+                              <li><a href="About_us.html">Our Services</a></li>
+                              <li><a href="About_us.html">Contact us</a></li>
+                           </ul>
+                           <ul>
+                              <li><a href="About_us.html">Home</a></li>
+                              <li><a href="About_us.html">services</a></li>
+                              <li><a href="About_us.html">Contact</a></li>
+                              <li><a href="About_us.html">Our Services</a></li>
+                              <li><a href="About_us.html">Contact us</a></li>
+                           </ul>
+                        </div>
+                     </div>
+                     <div class="footer_logo">
+                        <div class="f_text">
+                           <h2 class="footer_head_title">Subscribe</h2>
+                        </div>
+                        <p class="subs_text">Don’t miss to subscribe to our new feeds, kindly fill the form below.</p>
+                        <form class="subscribe" action="">
+                           <input type="text" placeholder="Enter Your Email">
+                           <i class="fab fa-telegram-plane"></i>
+                        </form>
+                     </div>
+                  </div>
+                  <div class="footer_footer">
+                     <div class="footer_f">
+                        <div class="f_text">
+                           <p>Copyright &copy; 2018, All Right Reserved <a href="#">Techonza</a></p>
+                        </div>
+                        <ul>
+                           <li><a href="About_us.html">Home</a></li>
+                           <li><a href="About_us.html">Terms</a></li>
+                           <li><a href="About_us.html">Privacy</a></li>
+                           <li><a href="About_us.html">Policy</a></li>
+                           <li><a href="About_us.html">Contact</a></li>
+                        </ul>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </section>
+      <!-- Modal -->
+      <div class="modal fade in" style="display: ;" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+         <div class="modal-dialog" role="document">
+            <div class="modal-content">
+               <div class="modal-header">
+                  <div class="modal_img_title">
+                     <div class="web_imagebox">
+                        <img src="images/store_list.png" alt="">
+                     </div>
+                  </div>
+                  <div class="modal_title">
+                     <a href="#" class="modal_title_heading">10% Off Sitewide <i class="fa fa-external-link"></i></a>
+                  </div>
+               </div>
+               <div class="modal-body">
+                  <div class="content_modal">
+                     <p>Click on this link to get new products from £8.99 at Smartphoto.</p>
+                     <div class="copy_code">
+                        <p>6354123</p>
+                        <button class="code_copy">
+                        Copy
+                        </button>
+                     </div>
+                  </div>
+                  <div class="bages">
+                     <div class="bage">
+                        <i class="far fa-clock"></i>
+                        <p>Updated on : 17 Jan 2022</p>
+                     </div>
+                     <div class="bage">
+                        <i class="far fa-clock"></i>
+                        <p>No expire</p>
+                     </div>
+                  </div>
+               </div>
+               <div class="modal-footer">
+                  <p>Want more Sainsbury's Offers? Visit Sainsbury's</p>
+                  <button class="modal_btn">visit site
+                  <i class="fa fa-external-link"></i></button>
+               </div>
+            </div>
+         </div>
+      </div>
+   </body>
+   <!-- JQuery File -->
+   <script src="JQuery/jquery.lazy.min.js"></script>
+   <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+   <script src="https://unpkg.com/@popperjs/core@2/dist/umd/popper.min.js"></script>
+   <script src="https://unpkg.com/tippy.js@6/dist/tippy-bundle.umd.js"></script>
+   <script src="JQuery/JQuery.js"></script>
+</html>
+<!-- #ded5c4 #f9f9f9 #ef7e56 #305973 #ff9142  #4d216d-->
