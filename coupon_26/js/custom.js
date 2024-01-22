@@ -50,4 +50,13 @@ $(function() {
 
   $('.str_alpha').first().addClass('active');
 
+  $('#cpn_modal').modal('show')
+  $('.search input').bind('keyup', function() {
+    var value = $(this).val();
+    if (value != '') {
+        $('.search_result').fadeIn(100);
+    } else {
+        $('.search_result').fadeOut(100);
+    }
+});
 });

@@ -130,6 +130,14 @@
 }
 
 @media (max-width: 768px) {
+  .modal_title {
+    flex-direction: column;
+    text-align: center;
+    margin: 0 auto;
+}
+.modal_title_content .timing{
+  justify-content: center;
+}
   .store_item.mb-4 {
     flex-direction: column;
   }

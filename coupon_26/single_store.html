@@ -17,7 +17,7 @@
     <div class="header_primary py-2">
       <div class="container">
         <div class="primary_header_main flex gap-2">
-          <a href="index.html" class="home_btn flex-center">
+          <a href="index.html" class="home_btn flex-center hide_500">
             <i class="ph-duotone ph-house"></i>
           </a>
           <form class="flex flex-column search">
@@ -25,7 +25,65 @@
               <input type="text" class="flex-1 p-2" placeholder="Search blog & categories" />
               <i class="ph-duotone ph-magnifying-glass"></i>
             </div>
-            <div class="search_result"></div>
+            <div class="search_result">
+              <h3>Enter Keywords To Search</h3>
+              <div class="search_result_ul">
+                <a href="single_store.html">
+                  <div class="web_imagebox">
+                    <img src="images/stores/store_1.webp">
+                  </div>
+                  <div class="li-detail">
+                    <div class="store-name webkit_box">Khaadi Pakistan</div>
+                    <div class="store-info">20 Offers</div>
+                  </div>
+                </a>
+                <a href="single_store.html">
+                  <div class="web_imagebox">
+                    <img src="images/stores/store_2.webp">
+                  </div>
+                  <div class="li-detail">
+                    <div class="store-name webkit_box">Gul Ahmed</div>
+                    <div class="store-info">15 Offers</div>
+                  </div>
+                </a>
+                <a href="single_store.html">
+                  <div class="web_imagebox">
+                    <img src="images/stores/store_3.webp">
+                  </div>
+                  <div class="li-detail">
+                    <div class="store-name webkit_box">Sapphire Pakistan</div>
+                    <div class="store-info">18 Offers</div>
+                  </div>
+                </a>
+                <a href="single_store.html">
+                  <div class="web_imagebox">
+                    <img src="images/stores/store_4.webp">
+                  </div>
+                  <div class="li-detail">
+                    <div class="store-name webkit_box">Amazon</div>
+                    <div class="store-info">50 Offers</div>
+                  </div>
+                </a>
+                <a href="single_store.html">
+                  <div class="web_imagebox">
+                    <img src="images/stores/store_5.webp">
+                  </div>
+                  <div class="li-detail">
+                    <div class="store-name webkit_box">Walmart</div>
+                    <div class="store-info">40 Offers</div>
+                  </div>
+                </a>
+                <a href="single_store.html">
+                  <div class="web_imagebox">
+                    <img src="images/stores/store_6.webp">
+                  </div>
+                  <div class="li-detail">
+                    <div class="store-name webkit_box">Target</div>
+                    <div class="store-info">30 Offers</div>
+                  </div>
+                </a>
+              </div>
+            </div>
           </form>
           <a href="discount.html" class="contact_btn button hide_500">
             <i class="ph-duotone ph-gift"></i>
@@ -482,6 +540,82 @@
       </div>
     </div>
   </footer>
+  
+  <!-- modal -->
+  <div class="modal fade in" id="cpn_modal">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <button type="button" class="btn-close close" data-bs-dismiss="modal">
+          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" stroke-width="1.25" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+            <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+            <path d="M18 6l-12 12m0 -12l12 12"></path>
+          </svg>
+        </button>
+        <div class="modal-header">
+          <div class="modal_title">
+            <div class="web_imagebox">
+              <img src="images/stores/store_5.webp" alt="">
+            </div>
+            <div class="modal_title_content">
+              <h5 class="mb-0">10% Rebate On Every Purchase With Dji Credit</h5>
+              <div class="timing">
+                <div class="cus_badge uses">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="44" height="44" viewBox="0 0 24 24" stroke-width="1.5" stroke="#2c3e50" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                    <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                    <circle cx="12" cy="7" r="4"></circle>
+                    <path d="M6 21v-2a4 4 0 0 1 4 -4h4a4 4 0 0 1 4 4v2"></path>
+                  </svg>
+                  Uses : 354
+                </div>
+                <div class="cus_badge expire">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="44" height="44" viewBox="0 0 24 24" stroke-width="1.5" stroke="#2c3e50" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                    <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                    <circle cx="12" cy="12" r="9"></circle>
+                    <polyline points="12 7 12 12 15 15"></polyline>
+                  </svg>
+                  Expire : 1, sep 2022
+                </div>
+                <div class="cus_badge added">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="44" height="44" viewBox="0 0 24 24" stroke-width="1.5" stroke="#2c3e50" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                    <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                    <circle cx="12" cy="12" r="9"></circle>
+                    <polyline points="12 7 12 12 15 15"></polyline>
+                  </svg>
+                  added : 1, sep 2022
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="modal-body d-flex flex-column gap-3">
+          <span class="badge">White House</span>
+          <!-- /.badge -->
+          <div class="details">
+            <h6 class="fw-bold mb-1 text-capitalize text-black">description :</h6>
+            <p class="modal_desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum numquam, incidunt voluptas, exercitationem rerum voluptatum molestias enim pariatur minima eum!</p>
+          </div>
+          <div class="modal_copy_code">
+            <form>
+              <div class="input-group">
+                <span class="input-group-text copy-btn" id="basic-addon1">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" stroke-width="1.25" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                    <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                    <path d="M8 8m0 2a2 2 0 0 1 2 -2h8a2 2 0 0 1 2 2v8a2 2 0 0 1 -2 2h-8a2 2 0 0 1 -2 -2zm8 -2v-2a2 2 0 0 0 -2 -2h-8a2 2 0 0 0 -2 2v8a2 2 0 0 0 2 2h2"></path>
+                  </svg>
+                  copy code
+                </span>
+                <input type="text" readonly="" class="form-control copy_code" value="154a5d74654">
+              </div>
+            </form>
+            <a href="#" class="modal_visit_str hide_500">visit store</a>
+          </div>
+        </div>
+        <div class="modal-footer">
+          <p>Click The Button Above To Copy Code The Code &amp; Paste It At Checkout</p>
+        </div>
+      </div>
+    </div>
+  </div>
   <!-- All scripts File -->
   <script type="text/javascript" src="./js/jquery.js"></script>
   <script type="text/javascript" src="./js/phosphor-icon.js"></script>
