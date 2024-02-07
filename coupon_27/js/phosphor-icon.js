@@ -7,4 +7,4 @@ for (weight of ["regular", "thin", "light", "bold", "fill", "duotone"]) {
   link.href =
     "./css/icons/" + weight + "/style.css";
   head.appendChild(link);
-}
+}  

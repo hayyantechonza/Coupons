@@ -78,26 +78,55 @@ $(function() {
   }
   generateAlphabates();
 
-  // Store Dropdown
-  $('.store_item header .ph').click(function() {
-    $(this).toggleClass('ph-caret-down').toggleClass('ph-caret-up');
-    var storeBody = $(this).closest('.store_item').find('.store_slide');
-    $(this).closest('.store_item').find('.store_slide').slideToggle();
-  });
-
   // Single store rating
   $('.stars').delegate("a", "click", function(e) {
     e.preventDefault();
     $(this).prevAll().addClass('active');
     $(this).addClass('active');
     $(this).nextAll().removeClass('active');
-    let starId = $(this).attr("id");
-    let emoji = true;
-    $(".emoji_single").hide();
-    $('.emoji_single[id=' + starId + ']').fadeIn();
   });
   $('.verified_filter').click(function() {
     $(this).children('.verified_btn').toggleClass('active')
+  });
+
+  // modal
+  $('.cpn_btn').click(function() {
+    // Find the parent container (.ft_coupon) of the clicked cpn_btn
+    var couponContainer = $(this).closest('.ft_coupon');
+
+    // Retrieve coupon details
+    var title = couponContainer.find('.ft_cpn_title').text();
+    var description = couponContainer.find('.ft_description').text();
+    var users = couponContainer.find('.users span').text();
+    var verified = couponContainer.find('.ft_cpn_detail_item.verified').length > 0;
+    var couponCode = $(this).find('span i').text();
+    var imageUrl = couponContainer.find('.ft_store_img img').attr('src');
+
+    // Set coupon details into the modal
+    $('#cpn_btn .modal_img img').attr('src', imageUrl);
+    if (verified) {
+      $('#cpn_btn .ft_cpn_detail_item.verified').show();
+    } else {
+      $('#cpn_btn .ft_cpn_detail_item.verified').hide();
+    }
+    $('#cpn_btn h5').text(title);
+    $('#cpn_btn .modal_body_content').html('<p>' + description + '</p><p><strong>' + couponCode + '</strong> this code ' + users + ' use</p>');
+  });
+
+  // search result
+  $('.search input').bind('keyup', function() {
+    var value = $(this).val();
+    if (value != '') {
+      $('.search_result').fadeIn(100);
+    } else {
+      $('.search_result').fadeOut(100);
+    }
+  });
+
+  $('.search_result_close').click(function(e) {
+    e.preventDefault();
+    $('.search input').val('');
+    $('.search_result').fadeOut(100);
   });
 
 });

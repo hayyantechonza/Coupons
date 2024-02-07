@@ -80,10 +80,15 @@
 }
 
 @media (max-width: 992px) {
-  .swiper-pagination-bullet{
+  .sngle_str_sidebar {
+    flex: 0 0 auto;
+  }
+
+  .swiper-pagination-bullet {
     height: 4px;
     width: 20px;
   }
+
   .hero {
     height: 350px;
   }
@@ -119,10 +124,13 @@
 
   .hero_slider .swiper-slide:not(.swiper-slide-active) {
     transition: 0.5s ease 0.1s;
-
   }
 
   .single_store_container {
+    flex-direction: column;
+  }
+
+  .single_cate .single_store_container {
     flex-direction: column-reverse;
   }
 
@@ -143,17 +151,6 @@
     border-left: 0;
   }
 
-  .footer_wrpr_item {
-    flex-direction: column;
-    grid-gap: 0;
-  }
-
-  .ftr_profile {
-    flex: 0 0 auto;
-    border-bottom: 1px solid #fff3;
-    padding-right: 0;
-  }
-
   .how_it_works_tab .work_tab_icon:before {
     content: none !important;
   }
@@ -163,8 +160,13 @@
     flex-direction: column;
   }
 
+  .newsletter_image {
+    max-width: 300px;
+  }
+
   .newform_wrapper {
     width: 100%;
+    margin-top: 0;
   }
 
   .newform_wrapper hgroup {
@@ -174,7 +176,6 @@
   .newsletter_content {
     text-align: center;
     align-items: center;
-    grid-gap: 30px;
   }
 
   .newsletter_form_parent {
@@ -280,6 +281,18 @@
 }
 
 @media (max-width: 768px) {
+  .ftr_links{
+    border-right: 0;
+  }
+  .ftr_profile {
+    flex: 0 0 auto;
+    border-bottom: 1px solid var(--primary);
+    padding-left: 0;
+  }
+  .footer_wrpr_item:last-of-type {
+    flex-direction: column;
+    grid-gap: 0;
+  }
   .modal .modal-dialog {
     align-items: center;
   }
@@ -290,11 +303,12 @@
 
   .modal_head {
     flex-direction: row;
+    align-items: flex-start;
   }
 
   .modal_img {
-    height: 100px;
-    width: 100px;
+    height: 60px;
+    width: 60px;
   }
 
   .str_filter {
@@ -362,9 +376,10 @@
 }
 
 @media (max-width: 600px) {
-  .latest_offer_main{
+  .latest_offer_main {
     grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
   }
+
   .hide_600 {
     display: none;
   }
@@ -403,9 +418,6 @@
 }
 
 @media (max-width: 500px) {
-  .contact_wrapper {
-    padding: 15px;
-  }
 
   .hide_500 {
     display: none;
