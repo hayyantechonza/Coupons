@@ -1,16 +1,14 @@
 $(function() {
 
   // Hero slider
-  const heroSlider = new Swiper('.hero_slider', {
+  const categoriesSlider = new Swiper('.popular_categories_slider', {
+    slidesPerView: "auto",
     loop: true,
+    spaceBetween: 20,
     grabCursor: true,
-    effect: "fade",
-    autoplay: {
-      delay: 5000,
-    },
-    pagination: {
-      el: ".swiper-pagination",
-      clickable: true,
+    navigation: {
+      nextEl: '.swiper_category_nav .swiper-button-next',
+      prevEl: '.swiper_category_nav .swiper-button-prev',
     },
   });
 
@@ -18,56 +16,6 @@ $(function() {
   $(".menu_btn").click(function() {
     $(".menu_btn").children('.ph-bold').toggleClass('ph-list').toggleClass('ph-x');
     $(".menu").slideToggle();
-  });
-
-  // Categories slider
-  var categoriesSlider = new Swiper('.popular_cats_slider', {
-    slidesPerView: 1,
-    grabCursor: true,
-    autoplay: {
-      delay: 5000,
-    },
-    rewind: true,
-    grid: {
-      rows: 2,
-    },
-    spaceBetween: 20,
-    breakpoints: {
-      401: {
-        slidesPerView: 2,
-        grid: {
-          rows: 2,
-        },
-      },
-      600: {
-        slidesPerView: 3,
-        grid: {
-          rows: 2,
-        },
-      },
-      768: {
-        slidesPerView: 4,
-        grid: {
-          rows: 2,
-        },
-      },
-      993: {
-        slidesPerView: 3,
-        grid: {
-          rows: 2,
-        },
-      },
-      1200: {
-        slidesPerView: 4,
-        grid: {
-          rows: 2,
-        },
-      },
-    },
-    navigation: {
-      nextEl: '.swiper-button-next',
-      prevEl: '.swiper-button-prev',
-    },
   });
 
   // Store Filter Buttons
